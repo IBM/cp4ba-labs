@@ -1,4 +1,4 @@
-# Cloud Pak for Business Automation Labs
+# IBM Cloud Pak for Business Automation Labs
 
 These labs assume that you have installed the Cloud Pak for Business Automation cluster as described [here](https://github.com/IBM/cp4ba-rapid-deployment) and imported the Client Onboarding scenario as described [here](https://github.com/IBM/cp4ba-client-onboarding-scenario).
 
