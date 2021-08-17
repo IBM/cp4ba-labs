@@ -9,5 +9,5 @@ Process mining is a family of techniques in the field of process management that
 - **[Use Process Mining to Create and Explore Process Models](Lab%20Guide%20-%20Use%20Process%20Mining%20to%20Create%20and%20Explore%20Process%20Models.pdf)**    *Approximate Duration:* 30 Mintues
 - **[Use Process Mining to Improve Procure to Pay Process](Lab%20Guide%20-%20Use%20Process%20Mining%20to%20Improve%20Procure%20to%20Pay%20Process.pdf)** *Approximate Duration:* 1 Hour
 - **[Using BPMN Process Diagrams from IBM Blueworks Live in IBM Process Mining](Lab%20Guide%20-%20Using%20BPMN%20Process%20Diagrams%20from%20IBM%20Blueworks%20Live%20in%20IBM%20Process%20Mining.pdf)** *Approximate Duration:* 1 Hour
-- **[Lab Guide - Using Task Mining for Discovery, Monitoring and Analysis of User Interactions on Desktops Part 1 of 2](Lab Guide - Using Task Mining for Discovery, Monitoring and Analysis of User Interactions on Desktops Part 1 of 2.pdf)** *Approximate Duration:* 1 Hour
+- **[Using Task Mining for Discovery, Monitoring and Analysis of User Interactions on Desktops Part 1 of 2](Lab%20Guide%20-%20Using%20Task%20Mining%20for%20Discovery,%20Monitoring%20and%20Analysis%20of%20User%20Interactions%20on%20Desktops%20Part%201%20of%202.pdf)** *Approximate Duration:* 1 Hour
 
