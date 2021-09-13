@@ -39,6 +39,3 @@ IBM FileNet Content Manager is a flexible, full-featured content management solu
 
   **Approximate Duration**: 1.5 - 2 hours
 
-## Badge
-
-You can get a badge for completing this lab. The badge details and the link to the quiz is available in the [lab overview table](https://github.com/IBM/cp4ba-tech-jam/blob/main/Labs.md).
