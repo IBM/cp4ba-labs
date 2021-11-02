@@ -1,1 +1,2 @@
-Welcome to the Automation Document Processing lab. This lab will introduce you to Document Processing and provide you with an understanding how you can configure it for your customer opportunities. 
+Welcome to the Automation Document Processing (ADP) lab. This lab will introduce you to Document Processing and provide you with an understanding how you can configure it for your customer opportunities. 
+ADP was not architected to handle multiple people doing the same thing at the same time.  Therefore, we have tailored the lab instructions to allow you to continue to conigure ADP, but some of the configuration has already been completed for you.  
