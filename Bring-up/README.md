@@ -10,6 +10,6 @@ Install and configure an Enterprise deployment of IBM Cloud Pak for Business Aut
 
 - **[Bring-up Lab](Lab%20Guide%20-%20Bring-up%20Lab.pdf)**: Learn how to quickly bring-up an Enterprise deployment of IBM CP4BA.
   
-  **Note:** Lab as documented here only can be compleded in the context of a Tech Jam. If you like to bring-up your own CP4BA instance independently of a Tech Jam, simply follow the **[CP4BA rapid deployment project](https://github.com/IBM/cp4ba-rapid-deployment)**
+  **Note:** Lab as documented here only can be compleded in the context of the WW November 2021 Tech Jam. If you like to bring-up your own CP4BA instance independently of a Tech Jam, simply follow the **[CP4BA rapid deployment project](https://github.com/IBM/cp4ba-rapid-deployment)**
   
   **Approximate Duration**: 12 hours
