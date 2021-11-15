@@ -8,6 +8,6 @@ Install and configure an Enterprise deployment of IBM Cloud Pak for Business Aut
 
 **Track 3 - Administrator Role**
 
-- **[Bring-up Lab](Lab Guide - Bring-up Lab.pdf)**: Learn how to quickly bring-up an Enterprise deployment of IBM CP4BA.
+- **[Bring-up Lab](Lab%20Guide%20-%20Bring-up%20Lab.pdf)**: Learn how to quickly bring-up an Enterprise deployment of IBM CP4BA.
 
   **Approximate Duration**: 12 hours
