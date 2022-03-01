@@ -74,3 +74,4 @@ function onEvent(event, subscription) {
         doc2.save(RefreshMode.NO_REFRESH);
     }
 }
+
