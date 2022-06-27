@@ -7,7 +7,7 @@ The table below lists all capabilties that we currently have labs for. A capabil
 | Capability                                                   | Approximate Duration |
 | :----------------------------------------------------------- | :------------------: |
 | [IBM Cloud Pak for Business Automation](IBM%20Cloud%20Pak%20for%20Business%20Automation%20(End-to-End)) (End-to-End) |       2 hours        |
-| [IBM CP4BA - Bring-up Lab](Bring-up)                         |       12 hours       |
+| [IBM CP4BA - Bring-up Lab](Bring-up)                         |       8 hours       |
 | [IBM Business Automation Application](Business%20Automation%20Application) |      2-3 hours       |
 | [IBM Business Automation Insights](Business%20Automation%20Insights) |        1 hour        |
 | [IBM FileNet Content Manager](Content)                       |      2-4 hours       |
