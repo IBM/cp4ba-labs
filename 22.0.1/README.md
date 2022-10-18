@@ -12,7 +12,7 @@ The table below lists all capabilties that we currently have labs for. A capabil
 | [IBM Business Automation Insights](Business%20Automation%20Insights) |        1 hour        |
 | [IBM FileNet Content Manager](Content)                       |      2-4 hours       |
 | [IBM Automation Decision Services](Decisions)                |       3 hours        |
-| [IBM Process Mining](Process%20Mining)                       |       3 hours        |
+| [IBM Process Mining](Process%20Mining)                       |      1-2 hours       |
 | [IBM Robotic Process Automation](Robotic%20Process%20Automation) |      3-4 hours       |
 | [IBM Business Automation Workflow](Workflow)                 |      5-6 hours       |
 
