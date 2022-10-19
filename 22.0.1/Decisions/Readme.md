@@ -8,4 +8,4 @@ IBM Automation Decision Services provides acomprehensive environment for authori
 
 **Track 2 - Developer Role / Solution Implementation**
 
-- **[Manage Decisions and Infuse Machine Learning](Lab%20Guide%20-%20Automation%29Decision%20Services.pdf)**    *Approximate Duration:* 3 hours
+- **[Manage Decisions and Infuse Machine Learning](Lab%20Guide%20-%20Automation%20Decision%20Services.pdf)**    *Approximate Duration:* 3 hours
