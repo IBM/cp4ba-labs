@@ -39,7 +39,7 @@ IBM FileNet Content Manager is a flexible, full-featured content management solu
 
   **Approximate Duration**: 1.5 - 2 hours
 
-- **[Content Navigator on Cloud Pak for Business Automation](CONTENT%20Lab%201%20-%20ICN.pdf)**:
+- **[Content Navigator on Cloud Pak for Business Automation](CONTENT%20Lab%203%20-%20ICN.pdf)**:
   The third lab on IBM Content Navigator builds on top of the first, but not the second one.
   In it you can learn important concepts which allow you to configure IBM Content Navigator for a business application.
   The administration parts of the lab cannot be performed in the context of the shared lab environment of the JAM, and
