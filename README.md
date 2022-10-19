@@ -6,3 +6,4 @@ There are labs available for the following Cloud Pak for Business Automation ver
 
 - [CP4BA v21.0.2](/21.0.2)
 - [CP4BA v21.0.3](/21.0.3)
+- [CP4BA v22.0.1](/22.0.1)
