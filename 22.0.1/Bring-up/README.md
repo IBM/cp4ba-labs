@@ -2,7 +2,7 @@
 
 ## Overview
 
-Install and configure a Production deployment of IBM Cloud Pak for Business Automation (CP4BA, version 21.0.3 IF005) on a RedHat OpenShift cluster from TechZone using the CP4BA rapid deployment scripts.
+Install and configure a **Production** deployment of IBM Cloud Pak for Business Automation (CP4BA, version 21.0.3 IF005) on a RedHat OpenShift cluster from TechZone using the CP4BA rapid deployment scripts.
 
 ## Labs
 
