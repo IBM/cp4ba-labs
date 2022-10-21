@@ -10,7 +10,7 @@ The table below lists all capabilties that we currently have labs for. A capabil
 | [IBM CP4BA - Bring-up Lab](Bring-up)                         |       8 hours       |
 | [IBM Business Automation Application](Business%20Automation%20Application) |      2-3 hours       |
 | [IBM Business Automation Insights](Business%20Automation%20Insights) |        1 hour        |
-| [IBM FileNet Content Manager](Content)                       |      4-8 hours       |
+| [IBM FileNet Content Services](Content)                       |      4-8 hours       |
 | [IBM Automation Decision Services](Decisions)                |       3 hours        |
 | [IBM Process Mining](Process%20Mining)                       |      1-2 hours       |
 | [IBM Robotic Process Automation](Robotic%20Process%20Automation) |      3-4 hours       |
