@@ -7,3 +7,5 @@ Process mining is a family of techniques in the field of process management that
 **Track 2 - Developer Role / Solution Implementation**
 
 - **[Use Process Mining to Get Insights into Client Onboarding Workflow](Lab%20Guide%20-%20Use%20Process%20Mining%20to%20Get%20Insights%20into%20Client%20Onboarding%20Workflow.pdf)**    *Approximate Duration:* 1 hour 30 Minutes
+
+For this lab you can ue Tech Zone Porcess Mining Envrionmnet which can be reserved here.
