@@ -10,7 +10,7 @@ Labs
 Set up a capture solution in minutes. Introduction to IBM Automation Document Processing. In this session, students will configure their own capture project. They will learn how to use machine learning classification for their sample documents, define fields for extraction, create validation rules, and use deep learning* (subject to environment configuration) to automate data extraction
 
 
-Approximate Duration: 1 Hour
+Approximate Duration: 2-3 Hours
 
 
 
