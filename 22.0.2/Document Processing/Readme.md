@@ -12,7 +12,7 @@
 > Introduce the no- or low-code application building capabilities of Application Designer based on your Document Processing project to create a document processing end-user application. This application recognizes your documents, extracts your relevant data, and presents issues to fix before sending the documents to storage and using the data in other system
 
 
-Approximate Duration: 2-3 Hours
+Approximate Duration: 3-4 Hours
 
 
 ## Download
