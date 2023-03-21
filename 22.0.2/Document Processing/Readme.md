@@ -18,4 +18,4 @@ Approximate Duration: 3-4 Hours
 ## Download
 > Lab documentation - needed to run lab.
 >  
-> Download the two Zip files these will used in the lab.  Unzip the files on your laptop
+> Download the three Zip files these will used in the lab.  Unzip the files on your laptop
