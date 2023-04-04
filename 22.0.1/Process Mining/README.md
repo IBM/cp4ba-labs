@@ -10,4 +10,8 @@ Process mining is a family of techniques in the field of process management that
 
 When you perform this lab as part of a Tech Jam event, use the infrastructure provided to you.
 
-When doing this as part of "Jam-in-a-box" please reserve the Process Mining Envrionmnet on the TechZone. The Tech Zone Process Mining Environment can be reserved [here](https://techzone.ibm.com/collection/process-mining-with-task-mining-demo-and-etl). The lab instruction for the Tech Zone environment can be found [here](https://ibm.box.com/s/ds4j1a6xbzy7fqytubq3t71apmktvd27).
+**Jam-in-a-box Envrionmnet**
+
+When doing this as part of "Jam-in-a-box" please reserve the Process Mining Envrionmnet on the TechZone. The Tech Zone Process Mining Environment can be reserved [here](https://techzone.ibm.com/collection/process-mining-with-task-mining-demo-and-etl). When reserving the Tech Zone Environment be sure to select the "IBM Process Mining 1.13.2 with Task Mining and ETL. Includes Insight to Action Lab!" Envrionment.
+
+The lab instruction for the Tech Zone environment can be found [here](https://ibm.box.com/s/ds4j1a6xbzy7fqytubq3t71apmktvd27).
