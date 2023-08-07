@@ -1,4 +1,4 @@
-# IBM Cloud Pak for Business Automation Labs
+# IBM Cloud Pak for Business Automation 21.0.2 Labs
 
 These labs assume that you have installed IBM Cloud Pak for Business Automation v21.0.2 on a ROKS cluster as described [here](https://github.com/IBM/cp4ba-rapid-deployment/tree/main/cp4ba-21-0-2) and imported the Client Onboarding scenario as described [here](https://github.com/IBM/cp4ba-client-onboarding-scenario/tree/main/21.0.2).
 
