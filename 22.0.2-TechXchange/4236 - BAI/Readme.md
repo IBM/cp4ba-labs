@@ -1,1 +1,3 @@
+# Learn how you can use Business Performance Center to monitor the success of your organization [4236]
 
+Discover how IBM Business Automation Insights (BAI) empowers Business Managers with real-time operational visibility through custom or pre-built dashboards. With BAI, IT and business users can create custom dashboards using Kibana or the no-code monitoring application, Business Performance Center. The data collected and stored in the data lake by BAI can be leveraged to inject AI into the CP4A platform, enabling valuable recommendations to business managers and knowledge workers. Join this session to explore the power of BAI in providing actionable insights for enhanced decision-making and optimization of business processes.
