@@ -15,5 +15,5 @@ IBM Cloud Pak® for Business Automation offers design, build, run, and automatio
 **Track 2 - Developer Role / Solution Implementation**
 
 - **[Build Business Performance Center Dashboards](Lab%20Guide%20-%20Operational%20Intelligence%20-%20BAI%20-%20Build%20Business%20Performance%20Center%20Dashboard.pdf)**: In the lab, you will learn how to build and use Business Performance Center dashboards to provide insights into a Client Onboarding workflow solution for line of business users.
-- 
+  
   **Approximate Duration**: 1 Hour
