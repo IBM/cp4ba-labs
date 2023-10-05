@@ -27,7 +27,7 @@ IBM FileNet Content Services is a flexible, full-featured content management sol
   properties. The username prefix is denoted by usrxxx in the script,
   and the xxx part needs to be updated.
 
-  **Approximate Duration**: 4 - 5 hours
+  **Approximate Duration**: 2 hours
 
 - **[Interfacing FileNet Content Platform Engine with GraphQL on Cloud Pak for Business Automation](CONTENT%20Lab%202%20-%20GraphQL.pdf)**:
   The second lab on GraphQL builds on top of the first one, as the
