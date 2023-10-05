@@ -18,4 +18,4 @@ Approximate Duration: 4-6 Hours
 ## Download
 > Lab documentation - needed to run lab.
 >  
-> Download the three Zip files these will used in the lab.  Unzip the files on your laptop
+> Download the three Zip files from github lab data - **[ADP Lab Data](Lab%20Data)** these will used in the lab.  Unzip the files on your laptop
