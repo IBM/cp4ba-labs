@@ -16,9 +16,9 @@ Process mining is a family of techniques in the field of process management that
  
 - **[Using BPMN Process Diagrams from IBM Blueworks Live in IBM Process Mining](Lab%20Guide%20-%20Using%20BPMN%20Process%20Diagrams%20from%20IBM%20Blueworks%20Live%20in%20IBM%20Process%20Mining.pdf)**    *Approximate Duration:* 1 hour 30 Minutes
  
-- **[Use Task Mining for Discovery,Monitoring and Analysis of User Interactions on Desktops Part 1 of 2](Lab%20Guide%20-%20Using%20Task%20Mining%20for%20Get%20Discovery%20Monitoring%20and%20Analysis%20of%20User%20Interactions%20on%20Desktops%20Part1%20of2.pdf)**    *Approximate Duration:* 1 hour 30 Minutes
+- **[Use Task Mining for Discovery,Monitoring and Analysis of User Interactions on Desktops Part 1 of 2](Lab%20Guide%20-%20Using%20Task%20Mining%20for%20Discovery%2C%20Monitoring%20and%20Analysis%20of%20User%20Interactions%20on%20Desktops%20Part%201%20of%202.pdf)**    *Approximate Duration:* 1 hour 30 Minutes
  
-- **[Use Task Mining for Discovery,Monitoring and Analysis of User Interactions on Desktops Part 2 of 2](Lab%20Guide%20-%20Using%20Task%20Mining%20for%20Get%20Discovery%20Monitoring%20and%20Analysis%20of%20User%20Interactions%20on%20Desktops%20Part2%20of2.pdf)**    *Approximate Duration:* 1 hour 30 Minutes
+- **[Use Task Mining for Discovery,Monitoring and Analysis of User Interactions on Desktops Part 2 of 2](Lab%20Guide%20-%20Using%20Task%20Mining%20for%20Discovery%2C%20Monitoring%20and%20Analysis%20of%20User%20Interactions%20on%20Desktops%20Part%202%20of%202.pdf)**    *Approximate Duration:* 1 hour 30 Minutes
 
 
 
