@@ -8,7 +8,7 @@ Process mining is a family of techniques in the field of process management that
 
 - **[Use Process Mining to Get Insights into Client Onboarding Workflow](Lab%20Guide%20-%20Use%20Process%20Mining%20to%20Get%20Insights%20into%20Client%20Onboarding%20Workflow.pdf)**    *Approximate Duration:* 1 hour 30 Minutes
  
-- **[From Insights to Action](Lab%20Guide%20-%20From%20Insights%20to%20to%20Action.pdf)**    *Approximate Duration:* 1 hour 30 Minutes
+- **[From Insights to Action](Lab%20Guide%20-%20From%20Insights%20to%20Action.pdf)**    *Approximate Duration:* 1 hour 30 Minutes
  
 - **[Use Process Mining to Get Insights into Claims Adjudication](Lab%20Guide%20-%20Use%20Process%20Mining%20to%20Get%20Insights%20into%20Claims%20Adjudication.pdf)**    *Approximate Duration:* 1 hour 30 Minutes
  
