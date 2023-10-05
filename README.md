@@ -6,8 +6,8 @@ One way to deploy an IBM Cloud Pak for Business Automation Enterprise pattern cl
 
 There are labs available for the following IBM Cloud Pak for Business Automation versions:
 
-- [CP4BA v22.0.2](/22.0.2)
 
+- [CP4BA v23.0.1](/23.0.1)
 
 
 Archive:
@@ -15,3 +15,5 @@ Archive:
 - [CP4BA v22.0.1](/22.0.1)
 - [CP4BA v21.0.3](/21.0.3)
 - [CP4BA v21.0.2](/21.0.2)
+- [CP4BA v22.0.2](/22.0.2)
+  
