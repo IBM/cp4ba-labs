@@ -22,7 +22,7 @@ IBM FileNet Content Services is a flexible, full-featured content management sol
   On this lab, for triggering the custom actions, a custom javascript is
   used to file a newly uploaded document into a folder, those identity
   is derived from a search. The script is available in the [Lab
-  Data](Lab%20Data) folder. Be aware that in the script, some
+  Data](Lab%20data) folder. Be aware that in the script, some
   replacements need to be made, to make it refer to the right
   properties. The username prefix is denoted by usrxxx in the script,
   and the xxx part needs to be updated.
