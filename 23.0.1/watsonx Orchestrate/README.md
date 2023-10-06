@@ -1,4 +1,4 @@
-# Process Mining
+# IBM watsonx Orchestrate
 ## Overview
 IBM watsonx Orchestrate uses natural language processing to draw from a catalog of basic and advanced skills to execute your requests - in context and the correct order. No specialized training is needed. Get started in minutes using prebuilt skills designed for you and your needs. IT doesn't even have to get involved (unless they want to, of course).
 
