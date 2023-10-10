@@ -15,5 +15,5 @@ The table below lists all capabilties that we currently have labs for. A capabil
 | [IBM Robotic Process Automation](Robotic%20Process%20Automation) |      3-4 hours       | [RPA Survey](https://www.surveymonkey.com/r/cp4ba-tech-jam-rpa) |
 | [IBM Business Automation Workflow](Workflow)                 |      5-6 hours       | [BAW Survey](https://www.surveymonkey.com/r/cp4ba-tech-jam-baw) |
 | [IBM Automation Document Processing](Document%20Processing)  |      2 hours       | [ADP Survey](https://www.surveymonkey.com/r/cp4ba-tech-jam-adp) |
-| [IBM watsonx Orchestrate](watsonx%20Orchestrate)             | 1 hour| watsonx Orchestrate Survey |
+| [IBM watsonx Orchestrate](watsonx%20Orchestrate)             | 1 hour             | [watsonx Orchestrate Survey](https://www.surveymonkey.com/r/cp4ba-tech-jam-wxO) |
 
