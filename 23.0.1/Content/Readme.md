@@ -24,7 +24,7 @@ The three labs offered for Content Services are independent of each other. Its n
   On this lab, for triggering the custom actions, a custom javascript is
   used to file a newly uploaded document into a folder, those identity
   is derived from a search. The script is available in the [Lab
-  Data](lab%20data) folder. 
+  Data](Lab%20Data) folder. 
 
   **Approximate Duration**: 1.5 hours
 
