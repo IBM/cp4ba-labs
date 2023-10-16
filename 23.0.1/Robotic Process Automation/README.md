@@ -9,6 +9,8 @@ Going from simple, back-office task automation to scaled  automation to handle t
 **Track 2 - Developer Role / Solution Implementation**
 
 - **[Application Automation using IBM RPA](Lab%20Guide%20-%20Application%20Automation%20using%20IBM%20RPA.pdf)**: In this lab you will learn how to use IBM RPA Studio to develop a bot to automate a Java swing application and a web application. 
-- **[IBM RPA and Workflow Integration](Lab%20Guide%20-%20IBM%20RPA%20and%20Workflow%20Integration.pdf)**: In this lab you will learn how the bot designed in RPA Studio can easily be integrated into a business process developed with the Workflow capability in IBM Cloud Pak for Business Automation. 
+- **[IBM RPA and Workflow Integration](Lab%20Guide%20-%20IBM%20RPA%20and%20Workflow%20Integration.pdf)**: In this lab you will learn how the bot designed in RPA Studio can easily be integrated into a business process developed with the Workflow capability in IBM Cloud Pak for Business Automation.
+- **[Orchestrating scripts in IBM RPA](Lab%20Guide%20-%20Orchestrating%20scripts%20ibm%20IBM%20RPA.pdf)**: In this lab you will learn how to create and use the orchestration process, message queues capability of serving messages of multiple customers automating the customer and service registration process divided into three steps.
+
 
 The labs requires an IBM RPA environment which can be reserved [here](https://techzone.ibm.com/collection/ibm-business-automation-traditional-and-on-premise). Once you have reserved an environment, you will receive a link to the environment via email. 
