@@ -9,9 +9,9 @@
 
 ## **NOTE**
 If you are participating a TechJam, check with us on the **#cp4ba-tech-jam-adp** slack channel if any pre-provisioned ADP environment is available for you.
-Otherwise, use the self-reservation option with the below TechZone environment URL.
+Otherwise, use the self-reservation option with the below **TechZone Reservation URL**.
 
-## TechZone Reservation URL
+## **TechZone Reservation URL**
 https://techzone.ibm.com/my/reservations/create/6436afcae799c500174ea668
 
 **Note**:- Self-reservation might take minimum 4-5 hours of time for provisioning the environment on IBM TechZone and are ready to use for ADP lab
