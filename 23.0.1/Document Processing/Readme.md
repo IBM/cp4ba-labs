@@ -20,6 +20,6 @@ Approximate Duration: 2 Hours
 
 
 ## Download
-> Lab documentation - needed to run lab.
+> **[Lab documentation](Document%20Processing/Lab%20Guide%20-%20Automation%20Document%20Processing%20(ADP).pdf)** - needed to run lab.
 >  
 > Download the three Zip files from github lab data - **[Lab Data](Lab%20Data)** these will used in the lab.  Unzip the files on your laptop
