@@ -1,8 +1,10 @@
 # IBM Cloud Pak for Business Automation 23.0.1 Labs
 
-These labs assume that you have installed IBM Cloud Pak for Business Automation v23.0.1 on a ROKS cluster as described [here](https://github.com/IBM/cp4ba-rapid-deployment/) and imported the Client Onboarding scenario as described [here](https://github.com/IBM/cp4ba-client-onboarding-scenario/tree/main/23.0.1).
+To be able to perform labs listed below, you need to have IBM Cloud Pak for Business Automation (either Enterprise or Starter deployment) installed and have imported the Client Onboarding scenario as described [here](https://github.com/IBM/cp4ba-client-onboarding-scenario).
 
-The table below lists all capabilties that we currently have labs for. A capability may contain one or more labs depending on the complexity.
+A fast way for Business Partners and IBMers with access to IBM TechZone, is to utilize [Jam-in-a-Box](http://ibm.biz/Jam-in-a-Box) with its associated environment. Another way is to deploy an IBM Cloud Pak for Business Automation Enterprise pattern cluster using the rapid deployment scripts as describes [here](https://github.com/IBM/cp4ba-rapid-deployment). 
+
+The table below lists all capabilities that we currently have labs for. A capability may contain one or more labs depending on the complexity.
 
 | Capability                                                   | Approximate Duration | Survey |
 | :----------------------------------------------------------- | :------------------: | :-----: |
