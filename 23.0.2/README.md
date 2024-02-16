@@ -2,7 +2,7 @@
 
 > [!NOTE]
 >
-> Support for CP4BA 23.0.2 is work in progress. If you are looking for the full set of labs and easy to provision environments, have a look at the [CP4BA 23.0.1 version](../23.0.1).
+> Support for CP4BA 23.0.2 is work in progress. If you are looking for the full set of labs and easy to provision environments, have a look at the [CP4BA 23.0.1 version](../23.0.1/README.md).
 
 To be able to perform labs listed below, you need to have IBM Cloud Pak for Business Automation (either Enterprise or Starter deployment) installed and have imported the Client Onboarding scenario as described [here](https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/23.0.2).
 
