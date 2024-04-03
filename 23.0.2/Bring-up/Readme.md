@@ -4,21 +4,23 @@
 
 Install and configure a **Production** deployment of IBM Cloud Pak for Business Automation (CP4BA, version 23.0.2 IF002) on a RedHat OpenShift cluster from TechZone using the CP4BA rapid deployment scripts, or the product scripts.
 
-## Labs
-
-**Track 3 - Administrator Role**
-
-Bring-up Lab #1:
+## Bring-up Lab #1:
 
 Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **rapid deployment scripts**. **[TODO: Click here to get to the Lab Guide](TODO)**.
 
 **Approximate Lab Duration**: 6 hours
 
-Bring-up Lab #2:
+**Track 3 - Administrator Role**
+
+## Bring-up Lab #2:
 
 Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **product scripts**. **[TODO: Click here to get to the Lab Guide](TODO)**.
 
 **Approximate Lab Duration**: 8 hours
+
+**Track 3 - Administrator Role**
+
+
 
 **Note:** Labs as documented here only require an environment created from **[TechZone](https://techzone.ibm.com/collection/ibm-cloud-pak-for-business-automation-demos-and-labs-bring-up-lab)**. It requires to be separately created, see the Lab Guides for all needed details. You also need a CP4BA License which will get accessed from the **[IBM Container Library](https://myibm.ibm.com/products-services/containerlibrary)**, see also the Lab Guide for all needed details.
 
