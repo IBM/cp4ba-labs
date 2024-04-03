@@ -10,13 +10,13 @@ Install and configure a **Production** deployment of IBM Cloud Pak for Business 
 
 Bring-up Lab #1:
 
-Learn how to quickly bring-up a Production deployment of IBM CP4BA using the rapid deployment scripts. **[TODO: Click here to get to the Lab Guide](TODO)**.
+Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **rapid deployment scripts**. **[TODO: Click here to get to the Lab Guide](TODO)**.
 
 **Approximate Lab Duration**: 6 hours
 
 Bring-up Lab #2:
 
-Learn how to quickly bring-up a Production deployment of IBM CP4BA using the product scripts. **[TODO: Click here to get to the Lab Guide](TODO)**.
+Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **product scripts**. **[TODO: Click here to get to the Lab Guide](TODO)**.
 
 **Approximate Lab Duration**: 8 hours
 
