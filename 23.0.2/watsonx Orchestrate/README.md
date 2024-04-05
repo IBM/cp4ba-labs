@@ -12,5 +12,5 @@ In this lab, you will build an IBM watsonx Orchestrate solution that re-imagines
 
 #### **Lab 2. Author Automation with IBM watsonx Orchestrate Automation Builder.** 
 
-In this lab, you will build the Sales Campaign Approval Workflow, a component of the end user-facing quarterly promotions solution: **[Introduction to IBM watsonx Orchestrate](Lab%20Guide%20-%20Introduction%20to%20IBM%20watsonx%20Orchestrate.pdf)**    
+In this lab, you will build the Sales Campaign Approval Workflow, a component of the end user-facing quarterly promotions solution: **[Author Automation with IBM watsonx Orchestrate Automation Builder](Lab%20Guide%20-%20Author%20Automation%20with%20IBM%20watsonx%20Orchestrate%20Automation%20Builder.pdf)**    
 *Approximate Duration:* 2-3 hours.
