@@ -25,12 +25,12 @@ importClass(Packages.com.filenet.api.collection.IndependentObjectSet);
 
 function onEvent(event, subscription) {
     // customize these according to the symbolic names used for the properties of the ClientDocument class
-    var keyDocReferenceIdentifierName = "usrxxxReferenceID";
-    var keyDocClientName = "usrxxxClientName";
+    var keyDocReferenceIdentifierName = "SWAT_Reference_ID";
+    var keyDocClientName = "SWAT_Client_Name";
 
     // No need to customize these according to the symbolic name used for the reference id and client name in the Case Folders
-    var keyCaseFolderIdentifierName = "Case_Reference_ID";
-    var keyCaseFolderClientName = "Client_Name";
+    var keyCaseFolderIdentifierName = "SWAT_Reference_ID";
+    var keyCaseFolderClientName = "SWAT_Client_Name";
     
     var os = event.getObjectStore();
     var id = event.get_SourceObjectId();
