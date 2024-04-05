@@ -5,6 +5,7 @@ IBM watsonx Orchestrate uses natural language processing to draw from a catalog 
 ## Labs
 
 ### **Track 2 - Developer Role / Solution Implementation** 
+### **Lab 1. Introduction to IBM watsonx Orchestrate.** 
 
 In this lab, you will build an IBM watsonx Orchestrate solution that re-imagines the quarterly promotions process. You will be re-using the existing IT assets to author an intelligent, AI-driven solution that pulls customer data from the system of records and creates targeted emails: **[Introduction to IBM watsonx Orchestrate](Lab%20Guide%20-%20Introduction%20to%20IBM%20watsonx%20Orchestrate.pdf)**    
 
