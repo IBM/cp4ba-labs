@@ -147,7 +147,7 @@ info:
     preserveAspectRatio="none"/></svg>
 servers:
   - url: >-
-      https://cpd-ibm-cp4ba.tech-jam-amer-01-464887bc828751e1b00625ca9211fbca-0000.us-south.containers.appdomain.cloud/bas/automationservices/rest/WXCSERV/WXC%20Skills
+      https://cpd-ibm-cp4ba.tech-jam-amer-02-464887bc828751e1b00625ca9211fbca-0000.us-south.containers.appdomain.cloud/bas/automationservices/rest/WXCSERV/WXC%20Skills
 security:
   - basic_auth: []
 paths:
