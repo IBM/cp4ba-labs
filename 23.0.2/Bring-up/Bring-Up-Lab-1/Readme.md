@@ -1,6 +1,6 @@
 # Bring-up Lab - Lab 1 – Using Rapid Deployment Scripts
 
-Version 0.1
+Version 1.0
 
 ## Authors
 
