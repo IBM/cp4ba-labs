@@ -1,0 +1,83 @@
+ˆJdefVar --name onboardingInfo --type String --value " {\"servicesInfo\":{\"servicesRequested\":\"Fibre Internet,Tieline Solution\",\"servicesFee\":25000,\"industry\":\"Telecom\"},\"approvalStatus\":\"Approved\",\"segment\":\"Segment 1\",\"client\":{\"additionalInformation\":{\"defaultedPayment\":false,\"companyAge\":10,\"annualRevenue\":50000000,\"numberOfEmployees\":1200},\"address\":{\"zipCode\":\"48911\",\"country\":\"United States of America\",\"unit\":\"1A\",\"city\":\"Lansing\",\"street\":\"3974 Carson St\",\"state\":\"MI\"},\"primaryContact\":{\"firstName\":\"June Marie\",\"lastName\":\"Sample\",\"phoneNumber\":\"517-555-0000\",\"email\":\"jmarie@example.com\"},\"name\":\"Automation Elite Inc.\"}}" --parameter 
+defVar --name botExecutionStatus --type String --value success --output 
+defVar --name errorMessage --type String --value "N/A" --output 
+defVar --name vIndustry --type String
+defVar --name vSignedServices --type String
+defVar --name vServiceFees --type String
+defVar --name vSegment --type String
+defVar --name vApprovalStatus --type String
+defVar --name vClientName --type String
+defVar --name vPrimaryContactPhone --type String
+defVar --name vPrimaryContactEmail --type String
+defVar --name vClientAddressStreet --type String
+defVar --name vClientAddressUnit --type String
+defVar --name vClientAddressCity --type String
+defVar --name vClientAddressState --type String
+defVar --name vClientAddressZipCode --type String
+defVar --name vClientAddressCountry --type String
+defVar --name vCompanyAge --type String
+defVar --name vNumberOfEmployee --type String
+defVar --name vAnnualRevenue --type String
+defVar --name vDefaultedPayment --type String
+defVar --name vIndividualService --type String
+defVar --name vMessage --type String
+defVar --name vWindow --type Window
+defVar --name vPID --type Numeric
+defVar --name vSuccess --type Boolean
+defVar --name vClientID --type Numeric
+defVar --name vSignedServicesList --type List --innertype String
+defVar --name vClientFirstName --type String
+defVar --name vClientLastName --type String
+mapJson --json "${onboardingInfo}" --mappings "client.name=${vClientName},client.primaryContact.phoneNumber=${vPrimaryContactPhone},client.primaryContact.email=${vPrimaryContactEmail},client.address.street=${vClientAddressStreet},client.address.unit=${vClientAddressUnit},client.address.city=${vClientAddressCity},client.address.state=${vClientAddressState},client.address.zipCode=${vClientAddressZipCode},client.address.country=${vClientAddressCountry},client.primaryContact.firstName=${vClientFirstName},client.primaryContact.lastName=${vClientLastName},client.additionalInformation.companyAge=${vCompanyAge},client.additionalInformation.numberOfEmployees=${vNumberOfEmployee},client.additionalInformation.annualRevenue=${vAnnualRevenue},client.additionalInformation.defaultedPayment=${vDefaultedPayment},segment=${vSegment},servicesInfo.industry=${vIndustry},servicesInfo.servicesRequested=${vSignedServices},servicesInfo.servicesFee=${vServiceFees},approvalStatus=${vApprovalStatus}"
+launchWindow --executablepath "C:\\CP4AutoDemo\\ClientManagement.jar" vWindow=value vPID=processId vSuccess=success
+setValue --value admin --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[1]"
+setValue --value passw0rd --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/password_text[1]"
+click --selector "XPath" --controlsimilarity 100 --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/push_button[2]"
+waitWindow --title "Client Management System" vWindow=value vPID=processId vSuccess=success
+attachWindow --window ${vWindow}
+setValue --value "${vClientName}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[1]"
+setValue --value "${vApprovalStatus}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[4]"
+setValue --value "${vClientFirstName} ${vClientLastName}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[1]/text[1]"
+setValue --value "${vPrimaryContactPhone}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[1]/text[3]"
+setValue --value "${vPrimaryContactEmail}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[1]/text[2]"
+setValue --value "${vClientAddressStreet}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[2]/text[1]"
+setValue --value "${vClientAddressUnit}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[2]/text[2]"
+setValue --value "${vClientAddressCity}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[2]/text[3]"
+setValue --value "${vClientAddressState}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[2]/text[4]"
+setValue --value "${vClientAddressZipCode}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[2]/text[5]"
+setValue --value "${vClientAddressCountry}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[2]/text[6]"
+setValue --value "${vCompanyAge}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[2]"
+setValue --value "${vNumberOfEmployee}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[3]"
+setValue --value "${vAnnualRevenue}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[3]/text[1]"
+if --left "${vDefaultedPayment}" --operator "Equal_To" --right true
+	click --selector "XPath" --controlsimilarity 100 --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[3]/check_box[1]"
+endIf
+if --left "${vSegment}" --operator "Equal_To" --right "Segment 1"
+	click --selector "XPath" --controlsimilarity 100 --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[4]/radio_button[1]"
+else
+	click --selector "XPath" --controlsimilarity 100 --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[4]/radio_button[2]"
+endIf
+click --selector "XPath" --controlsimilarity 100 --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/push_button[1]"
+getValue --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[5]" vMessage=value
+delay --timeout "00:00:03"
+click --selector "XPath" --controlsimilarity 100 --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/push_button[2]"
+extractNumber --culture "en-US" --text "${vMessage}" vClientID=first
+truncateNumber --value ${vClientID} --type "IntegerPart" vClientID=value
+logMessage --message "Client ID = ${vClientID}" --type "Info"
+webStart --name vWeb01 --type "Firefox"
+webNavigate --url "http://localhost/ServicesManagement"
+webSet --value admin --selector "XPath" --xpath "/html/body/form/table/tbody/tr[1]/td[2]/input" --simulatehuman 
+webSet --value passw0rd --selector "XPath" --xpath "/html/body/form/table/tbody/tr[2]/td[2]/input" --simulatehuman 
+webClick --selector "XPath" --xpath "/html/body/table/tbody/tr/td[1]/input" --simulatehuman 
+webWaitElement --selector "XPath" --xpath "/html/body/form/table/tbody/tr[1]/td[2]/input" --simulatehuman 
+webSet --value "${vClientID}" --selector "XPath" --xpath "/html/body/form/table/tbody/tr[1]/td[2]/input" --simulatehuman 
+webSet --value "${vClientName}" --selector "XPath" --xpath "/html/body/form/table/tbody/tr[1]/td[4]/input" --simulatehuman 
+webSetComboBox --selectoptionby "Value" --value "${vIndustry}" --selector "XPath" --xpath "/html/body/form/table/tbody/tr[2]/td[2]/select" vSuccess=value
+splitString --text "${vSignedServices}" --delimiteroption "CustomDelimiter" --customdelimiter "," --count 4 vSignedServicesList=value
+foreach --collection "${vSignedServicesList}" --variable "${vIndividualService}"
+	webSetComboBox --selectoptionby "Value" --value "${vIndividualService}" --selector "CssSelector" --css "body > form:nth-child(4) > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(4) > select:nth-child(1)" vSuccess=value
+endFor
+webSet --value "${vServiceFees}" --selector "XPath" --xpath "/html/body/form/table/tbody/tr[3]/td[2]/input" --simulatehuman 
+webClick --selector "XPath" --xpath "/html/body/table/tbody/tr/td[1]/input" --simulatehuman 
+delay --timeout "00:00:03"
+webClose --name vWeb01*21.0.6.0
