@@ -1,0 +1,38 @@
+¸defVar --name currentDatetime --type DateTime
+defVar --name successQueueConnect --type Boolean
+defVar --name providerQueueConnection --type QueueConnection
+defVar --name successToObtainTheQueue --type Boolean
+defVar --name obtainedQueue --type MessageQueue
+defVar --name itemToQueueInsert --type String
+defVar --name csvTable --type DataTable
+defVar --name counter --type Numeric
+defVar --name companyName --type String
+defVar --name country --type String
+defVar --name city --type String
+defVar --name state --type String
+defVar --name street --type String
+defVar --name unit --type String
+defVar --name zipcode --type String
+defVar --name contactName --type String
+defVar --name phoneNumber --type String
+defVar --name email --type String
+defVar --name defaultedPayment --type String
+defVar --name companyAge --type String
+defVar --name annualRevenue --type String
+defVar --name numberOfEmployees --type String
+defVar --name segment --type String
+defVar --name approvalStatus --type String
+defVar --name requestedService --type String
+defVar --name serviceFee --type String
+defVar --name industry --type String
+defVar --name messageToInsert --type String
+defVar --name testTable --type DataTable
+defVar --name table --type DataTable
+defVar --name success --type Boolean
+defVar --name conn --type QueueConnection
+getCurrentDateAndTime --localorutc "LocalTime" currentDatetime=value
+readCSV --filepath "C:\\CP4AutoDemo\\Lab 3 - Oschestrating Scripts in IBM RPA\\data.csv" --delimiter "," --hasheaders  --missingfieldaction "ParseError" csvTable=value
+for --variable ${counter} --from 1 --to ${csvTable.Rows} --step 1
+	mapTableRow --dataTable ${csvTable} --row ${counter} --mappings "[{\"Name\":null,\"Number\":\"1\",\"Output\":\"${companyName}\"},{\"Name\":null,\"Number\":\"2\",\"Output\":\"${country}\"},{\"Name\":null,\"Number\":\"3\",\"Output\":\"${city}\"},{\"Name\":null,\"Number\":\"4\",\"Output\":\"${state}\"},{\"Name\":null,\"Number\":\"5\",\"Output\":\"${street}\"},{\"Name\":null,\"Number\":\"6\",\"Output\":\"${unit}\"},{\"Name\":null,\"Number\":\"7\",\"Output\":\"${zipcode}\"},{\"Name\":null,\"Number\":\"8\",\"Output\":\"${contactName}\"},{\"Name\":null,\"Number\":\"9\",\"Output\":\"${phoneNumber}\"},{\"Name\":null,\"Number\":\"10\",\"Output\":\"${email}\"},{\"Name\":null,\"Number\":\"11\",\"Output\":\"${defaultedPayment}\"},{\"Name\":null,\"Number\":\"12\",\"Output\":\"${companyAge}\"},{\"Name\":null,\"Number\":\"13\",\"Output\":\"${annualRevenue}\"},{\"Name\":null,\"Number\":\"14\",\"Output\":\"${numberOfEmployees}\"},{\"Name\":null,\"Number\":\"15\",\"Output\":\"${segment}\"},{\"Name\":null,\"Number\":\"16\",\"Output\":\"${approvalStatus}\"},{\"Name\":null,\"Number\":\"17\",\"Output\":\"${requestedService}\"},{\"Name\":null,\"Number\":\"18\",\"Output\":\"${serviceFee}\"},{\"Name\":null,\"Number\":\"19\",\"Output\":\"${industry}\"}]"
+	setVar --name "${messageToInsert}" --value "[\r\n  {\r\n    \"Company Name\": \"${companyName}\",\r\n    \"Country\": \"${country}\",\r\n    \"City\": \"${city}\",\r\n    \"State\": \"${state}\",\r\n    \"Street\": \"${street}\",\r\n    \"Unit\": \"${unit}\",\r\n    \"Zip Code\": \"${zipcode}\",\r\n    \"Contact Name\": \"${contactName}\",\r\n    \"Phone Number\": \"${phoneNumber}\",\r\n    \"E-mail\": \"${email}\",\r\n    \"Defaulted Payment\": \"${defaultedPayment}\",\r\n    \"Company Age\": \"${companyAge}\",\r\n    \"Annual Revenue\": \"${annualRevenue}\",\r\n    \"Number Of Employees\": \"${numberOfEmployees}\",\r\n    \"Segment\": \"${segment}\",\r\n    \"Approval Status\": \"${approvalStatus}\",\r\n    \"Requested Service\": \"${requestedService}\",\r\n    \"Service Fee\": \"${serviceFee}\",\r\n    \"Industry\": \"${industry}\"\r\n  }\r\n]"
+next*	23.0.10.0

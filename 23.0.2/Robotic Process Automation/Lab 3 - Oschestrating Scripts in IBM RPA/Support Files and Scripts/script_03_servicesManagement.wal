@@ -1,0 +1,64 @@
+€#defVar --name desktop --type String
+defVar --name currentDatetime --type DateTime
+defVar --name success --type Boolean
+defVar --name queueConnection --type QueueConnection
+defVar --name obtainedQueue --type MessageQueue
+defVar --name companyCode --type Numeric
+defVar --name companyName --type String
+defVar --name country --type String
+defVar --name city --type String
+defVar --name state --type String
+defVar --name street --type String
+defVar --name unit --type String
+defVar --name zipcode --type String
+defVar --name contactName --type String
+defVar --name phoneNumber --type String
+defVar --name email --type String
+defVar --name defaultedPayment --type String
+defVar --name companyAge --type String
+defVar --name annualRevenueNumber --type Numeric
+defVar --name numberOfEmployees --type String
+defVar --name segment --type String
+defVar --name approvalStatus --type String
+defVar --name requestedService --type String
+defVar --name serviceFeeNumber --type Numeric
+defVar --name industry --type String
+defVar --name registerStatus --type String
+defVar --name counter --type Numeric
+defVar --name optionValue --type String
+defVar --name registerStatusText --type String
+getSpecialFolder --folder "Desktop" desktop=value
+bindProcessVariables --mappings "{\"companyCode\":\"${companyCode}\",\"companyName\":\"${companyName}\",\"industry\":\"${industry}\",\"requestedService\":\"${requestedService}\",\"serviceFeeNumber\":\"${serviceFeeNumber}\"}"
+getCurrentDateAndTime --localorutc "LocalTime" currentDatetime=value
+webStart --name web01 --type "Chrome" --userprofilepreferences "AutomationOptimized" --downloadpath "C:\\Users\\AldoJustiniano\\AppData\\Local\\IBM Robotic Process Automation\\downloads"
+goSub --label Login
+goSub --label Service_Management
+beginSub --name Service_Management
+webWaitElement --selector "CssSelector" --css "body > form > table > tbody > tr:nth-child(1) > td:nth-child(2) > input[type=text]" --simulatehuman 
+webSet --value "${companyCode}" --selector "CssSelector" --css "body > form > table > tbody > tr:nth-child(1) > td:nth-child(2) > input[type=text]" --simulatehuman 
+webSet --value "${companyName}" --selector "CssSelector" --css "body > form > table > tbody > tr:nth-child(1) > td:nth-child(4) > input[type=text]" --simulatehuman 
+webSet --value "${serviceFeeNumber}" --selector "CssSelector" --css "body > form > table > tbody > tr:nth-child(3) > td:nth-child(2) > input[type=text]" --simulatehuman 
+webSetComboBox --selectoptionby "Value" --value "${industry}" --selector "CssSelector" --css "body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > select" --simulatehuman 
+for --variable ${counter} --from 1 --to 4 --step 1
+	webGet --selector "CssSelector" --css "body > form > table > tbody > tr:nth-child(2) > td:nth-child(4) > select > option:nth-child(${counter})" --simulatehuman  optionValue=value
+	if --left "${optionValue}" --operator "Equal_To" --right "${requestedService}"
+		webClick --selector "CssSelector" --css "body > form > table > tbody > tr:nth-child(2) > td:nth-child(4) > select > option:nth-child(${counter})" --simulatehuman 
+		break
+	endIf
+next
+webClick --selector "CssSelector" --css "body > table > tbody > tr > td:nth-child(1) > input[type=button]" --simulatehuman 
+webWaitElement --selector "CssSelector" --css "#StatusOfAddingServices" --simulatehuman  --timeout "00:00:20" success=value
+webGet --selector "CssSelector" --css "#StatusOfAddingServices" registerStatusText=value
+if --left "${registerStatus}" --operator "Equal_To" --right "Signed services have been added or updated successfully."
+	setVar --name "${registerStatus}" --value true
+endIf
+webClose --name web01
+powerShell --handleerror  --apartmentState "MTA" --script "taskkill /F /IM chrome.exe"
+endSub
+beginSub --name Login
+webNavigate --url "file:///C:/CP4AutoDemo/ServicesManagement/login.html"
+webWaitElement --selector "XPath" --xpath "/html/body/form/table/tbody/tr[1]/td[2]/input" --simulatehuman  --timeout "00:00:50"
+webSet --value admin --selector "CssSelector" --css "body > form > table > tbody > tr:nth-child(1) > td:nth-child(2) > input[type=text]" --simulatehuman 
+webSet --value passw0rd --selector "CssSelector" --css "body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=password]" --simulatehuman 
+webClick --selector "CssSelector" --css "body > table > tbody > tr > td:nth-child(1) > input[type=button]" --simulatehuman 
+endSub*	23.0.10.0
