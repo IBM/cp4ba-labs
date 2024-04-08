@@ -1,6 +1,6 @@
 # Bring-up Lab - Lab 2 – Using Regular Deployment Scripts
 
-Version 0.2
+Version 1.0
 
 ## Authors
 
