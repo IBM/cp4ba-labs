@@ -15,6 +15,7 @@ Other services are also deployed on this specific bastion host. The most importa
 ### 1.1.2 Red Hat OpenShift Container Platform (OCP) Cluster VMs 
 
 The OpenShift cluster was configured using OCP version 4.12.53. It will host the DB2 and CP4BA containers which you will install later in this Lab. You can access your OCP cluster from the bastion host either by command line (oc command) or the OpenShift Web Console by Browser.
+In addition, a storage class supporting mode read/write many (RWX), that is required by CP4BA, is already available on the cluster.
 
 ## 1.2 Exercise Instructions
 
