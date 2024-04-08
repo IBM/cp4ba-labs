@@ -6,16 +6,26 @@
 >
 >  Labor-intensive manual processing of documents is instead handled by the document processing application. The document processing user can quickly catch and correct issues on documents or batches of documents that have already been categorized and extracted. And when the processing completes, your documents and your data are stored and ready for use by downstream applications.
 
+
+## **NOTE**
+If you are participating a TechJam, check with us on the **#cp4ba-tech-jam-adp** slack channel if any pre-provisioned ADP environment is available for you.
+Otherwise, use the self-reservation option with the below **TechZone Reservation URL**.
+
+## **TechZone Reservation URL**
+https://techzone.ibm.com/my/reservations/create/6436afcae799c500174ea668
+
+**Note**:- Self-reservation might take minimum 4-5 hours of time for provisioning the environment on IBM TechZone and are ready to use for ADP lab
+
 ## Labs
 > Set up a capture solution in minutes with IBM Automation Document Processing. In this session, students will configure their own capture project. They will learn how to use machine learning classification for their sample documents, define fields for extraction, create validation rules, and use deep learning* (subject to environment configuration) to automate data extraction. 
 > 
 > Introduce the no- or low-code application building capabilities of Application Designer based on your Document Processing project to create a document processing end-user application. This application recognizes your documents, extracts your relevant data, and presents issues to fix before sending the documents to storage and using the data in other system
 
 
-Approximate Duration: 4-6 Hours
+Approximate Duration: 3-4 Hours
 
 
 ## Download
-> Lab documentation - needed to run lab.
+> **[Lab documentation](Lab%20Guide%20-%20Automation%20Document%20Processing%20(ADP).pdf)** - needed to run lab.
 >  
-> Download the three Zip files these will used in the lab.  Unzip the files on your laptop
+> Download the three Zip files from github lab data - **[Lab Data](Lab%20Data)** these will used in the lab.  Unzip the files on your laptop
