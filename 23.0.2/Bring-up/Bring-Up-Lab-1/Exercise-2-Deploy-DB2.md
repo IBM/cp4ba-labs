@@ -68,7 +68,7 @@ In this exercise, you will run scripts to install DB2 Operator, and run the Oper
      
    - db2AdminUserPassword – Password that will be assigned to the db2 instance user.
      
-     set the value to **passw0rd**
+     set the value to **passw0rd** (where the third-last character is a zero)
      
    - db2StandardLicenseKey – A DB2 Standard License key to assign to DB2 to allow for larger use of CPU and memory
      
