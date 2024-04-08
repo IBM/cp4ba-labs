@@ -1,0 +1,20 @@
+Ï
+defVar --name firstValue --type Numeric
+defVar --name secondValue --type Numeric
+defVar --name result --type Numeric
+defVar --name wndNotepad --type Window
+defVar --name success --type Boolean
+defVar --name processId --type Numeric
+defVar --name wndWord --type Window
+launchWindow --executablepath "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.exe" --safesearch  --timeout "00:00:10" wndWord=value processId=processId success=success
+// Handle an expected exception in the script. In this case, it advances to the next command.
+delay --timeout "00:00:02"
+click --selector "IdAndName" --controlsimilarity 100 --forcerefresh  --id msotcidPlaceOfficeStart --name New
+delay --timeout "00:00:02"
+click --selector "IdAndName" --controlsimilarity 100 --forcerefresh  --id AIOStartDocument --name "Blank document" --timeout "00:00:02"
+delay --timeout "00:00:02"
+typeText --text "This is to test the attach function. After failing of attach function, the error will be thrown and ignored and process carried on."
+delay --timeout "00:00:03"
+click --selector "IdAndName" --controlsimilarity 100 --forcerefresh  --id msotcidPlaceOfficeStart --name New
+//Perform some steps here. After this, you need to attach window to ensure next command runs.
+logMessage --message "The exception of attaching word again has been handled" --type "Info"*	23.0.13.0
