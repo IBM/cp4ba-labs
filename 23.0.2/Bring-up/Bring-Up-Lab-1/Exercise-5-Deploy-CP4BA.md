@@ -194,7 +194,7 @@ This particular deployment is complete, when you see pod **icp4adeploy-navigator
    
    ![OCP Web Console Project ibm-cp4ba](images/5.2.2-ocpwebconsoleprojectibm-cp4ba.png)
    
-2. Once the deployment has finished, you should see 40 Running and Ready pods, and 13 Completed pods, but no Pending / CrashLoopBackOff pods.
+2. Once the deployment has finished, you should see 40 Running and Ready pods, and about 12 or 13 Completed pods, but **no Pending / CrashLoopBackOff pods**.
    
    ![CP4BA Pods After Deployment](images/5.2.2-cp4bapodsafterdeployment.png)
    
