@@ -19,10 +19,10 @@ The OpenShift cluster was configured using OCP version 4.12.53. It will host the
 ## 1.2 Exercise Instructions
 
 Before you can start this Lab, you need the following prerequisites:
-- an entitlement key, and
-- an environment with a bastion host and OpenShift cluster from TechZone.
+- an **entitlement key**, and
+- an environment with a **bastion host** and **OpenShift cluster** from TechZone.
 
-**Note:** All the tools such as podman and OpenShift command-line interface needed while the lab are already available on the provided bastion host.
+>**Note:** All the tools such as podman and OpenShift command-line interface needed while the lab are already available on the provided bastion host.
 
 ### 1.2.1 Get the Entitlement Key
 
@@ -163,16 +163,16 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
 
     ![Paste In Terminal](images/1.2.3-terminal.png)
     
-22. Next, run this command
+22. Next, **run** this command:
     
     ```sh
     oc version
     ```
-
-    Expected output:
-
+    
+    Expected output, make sure to see the `Server Version:` line:
+    
     ![oc version output](images/1.2.3-oc-version.png)
-
+    
 23. For easier Copy&Paste of such commands, you now can open these lab instructions with Firefox inside your bastion host.
 
 You have now successfully accessed and updated your environment and are ready to start with the lab.
