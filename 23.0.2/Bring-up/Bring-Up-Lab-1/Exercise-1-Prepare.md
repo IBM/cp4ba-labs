@@ -86,33 +86,33 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
    ![Start RDP](images/1.2.3-rdp-start.png)
    
 4. Log-in to the desktop of the bastion host using **cp4badmin / passw0rd** (where the third-last character is a zero).
-
+   
    ![Login Screen](images/1.2.3-login.png)
    
    **Note:** If you see the current time and date after login, **press the Space key**. If the screen is blank, **move the mouse**.
    
-Now that you have your demo and lab environment available learn how to work with your environment before you start with the Lab.
-
+   Now that you have your demo and lab environment available learn how to work with your environment before you start with the Lab.
+   
 5. Once you logged in, you see the **Red Hat Enterprise Linux (RHEL) Server desktop** of your bastion host.
    
 6. Next, ensure the **VM is connected** to the network before proceeding. Check that the network icon in the top right corner shows connected. The environment is not usable if the VM is not correctly connected to the network.
-
+   
    Connected: ![Connected](images/1.2.3-connected.png) (if not connected that icon will not be shown)
    
 7. Change the size and resolution of the desktop to your liking. Some RDP tools provide intelligent size change, means when you change the size of your RDP window the desktop size is changed automatically.
-
+   
    ![Resize](images/1.2.3-intelligentresize.png)
-
+   
    Alternatively open **Applications → System Tools → Settings**. Scroll down and click **Devices**. Change the **Display settings** to your liking.
-
+   
    ![Device Resize](images/1.2.3-displaysettings.png)
    
 8. Finally, to change the keyboard to your liking, click the **en** icon **in the top right corner of the desktop** and select your preferred keyboard layout.
-
+   
    ![Keyboard Layout](images/1.2.3-languages.png)
-
+   
    To check that your keyboard works as expected, open Firefox and enter some special language characters in the URL field.
-
+   
    ![Check Special Characters](images/1.2.3-checkspecialcharacters.png)
    
 9. Depending on the RDP tool selected, you should be able to **Copy&Paste text between your local machine and the bastion host**. As part of this lab this will be needed here and there, so please test that this works for you. In case not, try a different RDP tool. Sometimes, it is also only needed to logout, and login again.
@@ -124,14 +124,18 @@ Now that you have your demo and lab environment available learn how to work with
 11. Log in with **ocpadmin / passw0rd** (where the third-last character is a zero).
     
 12. Once logged in, verify that the OpenShift Web Console opens and that you have Administrator access.
-
+    
     ![Admin Access](images/1.2.3-adminaccess.png)
     
-13. Check that the Status of Cluster, Control Plane and Operators is green, that should happen automatically after a while.
+13. Next, in the OCP Web Console on the left hand side, expand **Compute** and select **MachineConfigPools**. For **both entries**, resume the updates.
+    
+    ![Resume Updates](images/1.2.3-resumeupdates.png)
+    
+14. On the left hand side, go back to **Home -> Overview**. Check that the Status of Cluster, Control Plane and Operators is green, that should happen automatically after a while.
     
     ![Control Pane](images/1.2.3-checkstatus.png)
     
-14. On the Overview page, the main page, scroll down and verify that the Cluster inventory shows no errors.
+15. Still on the Overview page, the main page, scroll down and verify that the Cluster inventory shows no errors.
     
     ![Inventory](images/1.2.3-clusterinventory.png)
     
@@ -139,18 +143,14 @@ Now that you have your demo and lab environment available learn how to work with
     
     The progressing pods should disappear automatically after a while.
     
-15. To get rid of the pods in error **click on the red icon** behind Pods. You’ll now see a list of pods that are in error.
-
-    For each pod in error, click the three dots at the end of the row and delete that pod.
-
-16. In case of **errors, warnings, or pending indicators** that you can't resolve, reach out to your hosting staff to get help.
+16. To get rid of the pods in error **click on the red icon** behind Pods. You’ll now see a list of pods that are in error.
     
-17. Next, in the OCP Web Console on the left hand side, expand **Compute** and select **MachineConfigPools**. For **both entries**, resume the updates.
-
-    ![Resume Updates](images/1.2.3-resumeupdates.png)
+    For each pod in error, click the three dots at the end of the row and delete that pod.
+    
+17. In case of **errors, warnings, or pending indicators** that you can't resolve, reach out to your hosting staff to get help.
     
 18. To log in through the oc command line interface, expand ocpadmin in the top right corner and select Copy login command.
-
+    
     ![Generate Login Command](images/1.2.3-logincommand.png)
     
 19. A new tab opens. Log in again with **ocpadmin / passw0rd** (where the third-last character is a zero) and click **Display Token**.
