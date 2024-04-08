@@ -88,6 +88,8 @@ Follow these step-by-step instructions to deploy CP4BA using the rapid deploymen
      
    - Leave all other properties at their default values
      
+     > The storage class **nfs-client** available on your OpenShift cluster from TechZone is already referenced under properties named **cp4baScXXX** and **cp4baBlockScFast** as default value.
+     
    - Save your changes and close the editor
    
 7. Run script **07-createCp4baDeployment.sh**. This script will now deploy CP4BA using the parameters you previously provided in 01-parametersForDb2OnOCP.sh and 05-parametersForCp4ba.sh.
