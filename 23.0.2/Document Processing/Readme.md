@@ -14,7 +14,7 @@ Use the self-reservation option with the below **TechZone Reservation URL**.
 https://techzone.ibm.com/my/reservations/create/660feb2822ee44001eabadc5
 
 
-**Note**:- Self-reservation might take minimum 4-5 hours of time for provisioning the environment on IBM TechZone and are ready to use for ADP lab
+**Note**:- Self-reservation might take minimum 2-3 hours of time for provisioning the environment on IBM TechZone and are ready to use for ADP lab
 
 ## Labs
 > Set up a capture solution in minutes with IBM Automation Document Processing. In this session, students will configure their own capture project. They will learn how to use machine learning classification for their sample documents, define fields for extraction, create validation rules, and use deep learning* (subject to environment configuration) to automate data extraction. 
