@@ -90,6 +90,8 @@ In this exercise, you will run scripts to install DB2 Operator, and run the Oper
      
    - Leave all other parameters at their default values
      
+     > The storage class **nfs-client** available on your OpenShift cluster from TechZone is already referenced under property **db2OnOcpStorageClassName** as default value.
+     
    - Finally, save your changes and close the editor.
    
 5. Run script **02-createDb2OnOCP.sh**. This script will now install and configure DB2 for you based on the parameters previously specified in 01-parametersForDb2OnOCP.sh.
