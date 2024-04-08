@@ -22,7 +22,7 @@ Before you can start this Lab, you need the following prerequisites:
 - an **entitlement key**, and
 - an environment with a **bastion host** and **OpenShift cluster** from TechZone.
 
->**Note:** All the tools such as podman and OpenShift command-line interface needed while the lab are already available on the provided bastion host.
+> All the tools such as podman and OpenShift command-line interface needed while the lab are already available on the provided bastion host.
 
 ### 1.2.1 Get the Entitlement Key
 
@@ -35,7 +35,7 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
    ![Container Library](images/1.2.1-containerswlibrary.png)
    
    **Business Partners** that do not see **all** here, before proceeding, **must verify that CP4BA is listed on the Container software library page**.
-   If you don’t see a CP4BA license listed, you cannot perform this bring-up Lab.
+   If you don’t see a CP4BA license listed, you **cannot** perform this bring-up Lab.
    
 ### 1.2.2 Reserve the OpenShift Tech Zone Envrioment
 
@@ -43,7 +43,7 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
    
 2. To sign-in, either use your IBM ID or your company credentials if SSO is set up between your company and IBM. For example, if you have an IBM W3 or IBM Partnerworld ID, you should use this ID.
    
-   Note: Dependent on the IBM ID used to sign in, you may or may not be able to reserve an OpenShift cluster. If you can't reserve a cluster with the current IBM ID, check if you have another IBM ID that is enabled for IBM Technology Zone reservations.
+   > Dependent on the IBM ID used to sign in, you may or may not be able to reserve an OpenShift cluster. If you can't reserve a cluster with the current IBM ID, check if you have another IBM ID that is enabled for IBM Technology Zone reservations.
    
 3. Once signed in, open the lab resource page: **https://techzone.ibm.com/collection/ibm-cloud-pak-for-business-automation-demos-and-labs-bring-up-lab**
    
@@ -51,13 +51,13 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
    
    ![Reservation](images/1.2.2-reservation.png)
    
-   Note: If you don't see the tile, go back to step 1 and sign in with a different ID.
+   > If you don't see the tile, go back to step 1 and sign in with a different ID.
    
 5. Select **Reserve now**.
 
    ![Reserve Now Option](images/1.2.2-reserve-now.png)
    
-6. On the next page, provide the necessary information: Provide the **Purpose**, e.g., "Practice / Self-Education", a description, select the **geography** closest to your location and select the end time and date for the reservation. Plan for at least 8 hours, maybe more. Then click **Submit**.
+6. On the next page, provide the necessary information: Provide the **Purpose**, e.g., "Practice / Self-Education", a description, select the **geography** closest to your location and select the end time and date for the reservation. Plan for at least 6 hours, maybe more. Then click **Submit**.
    
    ![Reservation Details 1](images/1.2.2-reservationdetails1.png)
    
