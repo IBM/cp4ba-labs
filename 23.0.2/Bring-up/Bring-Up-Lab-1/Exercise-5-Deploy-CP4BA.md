@@ -18,7 +18,7 @@ Finally, there are some **post-deployment and verification steps** to verify tha
 
 Follow these step-by-step instructions to deploy CP4BA using the rapid deployment scripts:
 
-1. Connect to your bastion host using RDP, as documented in **[Exercise 1: Prepare yourself for this Bring-Up Lab](Exercise-1-Prepare.md#123-access-the-openshift-tech-zone-envrioment)**. Login as the **cp4badmin** user, if needed, the password is **passw0rd**, with a zero.
+1. Connect to your bastion host using RDP, as documented in **[Exercise 1: Prepare yourself for this Bring-Up Lab](Exercise-1-Prepare.md#123-access-the-openshift-tech-zone-envrioment)**. Login as the **cp4badmin** user, if needed, the password is **passw0rd** (where the third-last character is a zero).
    
 2. Open a Terminal, by clicking the link on the desktop. Then, check that the Security Directory Server is running fine.
    
@@ -72,11 +72,11 @@ Follow these step-by-step instructions to deploy CP4BA using the rapid deploymen
      
    - cp4baAdminPassword – Use the password for user cp4badmin (this user was for you created in the LDAP server).
      
-     set the value to **passw0rd**
+     set the value to **passw0rd** (where the third-last character is a zero)
      
    - ldapAdminPassword – Use the password that was specified for cn=root when setting up LDAP
      
-     set the value to **passw0rd123**
+     set the value to **passw0rd123** (where the sixth character is a zero)
      
    - ldapServer – The hostname or IP of the LDAP server
      
@@ -273,7 +273,7 @@ In different CP4BA versions, you may see more pods.
    
 2.	As **Log in with** option, select this time **Enterprise LDAP**.
    
-3.	Log in with **cp4badmin**, a user from LDAP. The password is **passw0rd**, where the third last character is a zero.
+3.	Log in with **cp4badmin**, a user from LDAP. The password is **passw0rd** (where the third-last character is a zero).
    
 4.	Verify that cp4badmin now has full administrative access to zen - cp4badmin should also see the **Manage users** option, and in the **hamburger menu** the entry **Administration**.
    
@@ -317,7 +317,7 @@ In this chapter you will gather the cluster's URLs from config map **icp4adeploy
     
 11. Similarly, verify the following two URL pages open correctly.
     
-    - Content Management Interoperability Services for CP4BA (log in with cp4badmin / passw0rd)
+    - Content Management Interoperability Services for CP4BA (log in with cp4badmin / passw0rd, where the third-last character is a zero)
       
     - Content Services GraphQL
 
