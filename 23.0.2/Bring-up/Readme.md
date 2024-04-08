@@ -19,6 +19,6 @@ Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **r
 
 ## Bring-up Lab #2:
 
-Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **product scripts**. **[TODO: Click here to get to the Lab Guide](TODO)**.
+Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **product scripts**. **[Click here to get to the Lab Guide](Bring-Up-Lab-2/Readme.md)**.
 
 **Approximate Lab Duration**: 8 hours

@@ -1,0 +1,71 @@
+apiVersion: postgresql.cnpg.io/v1
+kind: Cluster
+metadata:
+  name: postgres
+spec:
+  instances: 1
+  imageName: ghcr.io/cloudnative-pg/postgresql:15.5
+  tablespaces:
+    - name: gcddb_tbs
+      owner:
+        name: cp4badbuser
+      storage:
+        size: 2Gi
+        storageClass: nfs-client
+    - name: icndb_tbs
+      owner:
+        name: cp4badbuser
+      storage:
+        size: 2Gi
+        storageClass: nfs-client 
+    - name: os1db_tbs
+      owner:
+        name: cp4badbuser
+      storage:
+        size: 3Gi
+        storageClass: nfs-client 
+    - name: os2db_tbs
+      owner:
+        name: cp4badbuser
+      storage:
+        size: 3Gi
+        storageClass: nfs-client 
+
+  bootstrap:
+    initdb:
+      database: cp4ba
+      owner: cp4badbuser
+      secret:
+        name: cp4badbuser-secret
+
+  enableSuperuserAccess: true
+  superuserSecret:
+    name: postgres-secret
+
+  storage:
+    size: 1Gi
+    storageClass: nfs-client 
+
+  postgresql:
+    parameters:
+      timezone: "Europe/Rome"
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: cp4badbuser-secret
+type: kubernetes.io/basic-auth
+stringData:
+  # app
+  username: cp4badbuser
+  password: passw0rd
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: postgres-secret
+type: kubernetes.io/basic-auth
+stringData:
+  # postgres
+  username: postgres
+  password: passw0rd
