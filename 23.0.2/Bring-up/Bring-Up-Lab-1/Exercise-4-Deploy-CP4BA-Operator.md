@@ -16,7 +16,7 @@ The exercise instructions in the following paragraph will guide you through the 
 
 ## 4.2 Exercise Instructions
 
-1. Connect to your bastion host using RDP, as documented in **[Exercise 1: Prepare yourself for this Bring-Up Lab](Exercise-1-Prepare.md#123-access-the-openshift-tech-zone-envrioment)**. Login as the **cp4badmin** user, if needed, the password is **passw0rd**, with a zero.
+1. Connect to your bastion host using RDP, as documented in **[Exercise 1: Prepare yourself for this Bring-Up Lab](Exercise-1-Prepare.md#123-access-the-openshift-tech-zone-envrioment)**. Login as the **cp4badmin** user, if needed, the password is **passw0rd** (where the third-last character is a zero).
    
 2. Open a Terminal, by clicking the link on the desktop. Switch to the Labfiles directory to host there the product deployment scripts.
    
@@ -120,7 +120,7 @@ The exercise instructions in the following paragraph will guide you through the 
 
 When the script finishes successfully, it should have installed the CP4BA Operators.
 
-1. Change to Firefox, and login to the Openshift Web Console as **ocpadmin**, using password **passw0rd**, with a zero. To verify the operators' deployment, select the menu entry **Installed Operators** on the left-hand side within Operators, and change the project scope to ibm-cp4ba. Verify that the following seven operators show Status **Succeeded**.
+1. Change to Firefox, and login to the Openshift Web Console as **ocpadmin**, using password **passw0rd** (where the third-last character is a zero). To verify the operators' deployment, select the menu entry **Installed Operators** on the left-hand side within Operators, and change the project scope to ibm-cp4ba. Verify that the following seven operators show Status **Succeeded**.
    
    ![Installed CP4BA Operators](images/4.3-installedoperators.png)
 
