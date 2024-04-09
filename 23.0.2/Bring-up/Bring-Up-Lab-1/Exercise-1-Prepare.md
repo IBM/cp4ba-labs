@@ -104,25 +104,25 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
    
    ![Full Screen](images/1.2.3-fullscreen.png)
    
-8. To access your OpenShift cluster through a Browser, **open another tab in Firefox**. Open bookmark **OpenShift Web Console**
+7. To access your OpenShift cluster through a Browser, **open another tab in Firefox**. Open bookmark **OpenShift Web Console**
    
    Note: In case you get the Warning: Potential Security Risk Ahead, click **Advanced…** and then click **Accept the Risk and Continue**. This is needed two times to finally get to the OCP log-in screen.
    
-9. Log in with **ocpadmin / passw0rd** (where the third-last character is a zero).
+8. Log in with **ocpadmin / passw0rd** (where the third-last character is a zero).
    
-10. Once logged in, verify that the OpenShift Web Console opens and that you have Administrator access.
+9. Once logged in, verify that the OpenShift Web Console opens and that you have Administrator access.
    
    ![Admin Access](images/1.2.3-adminaccess.png)
    
-11. Next, in the OCP Web Console on the left hand side, expand **Compute** and select **MachineConfigPools**. For **both entries**, resume the updates.
+10. Next, in the OCP Web Console on the left hand side, expand **Compute** and select **MachineConfigPools**. For **both entries**, resume the updates.
     
     ![Resume Updates](images/1.2.3-resumeupdates.png)
     
-12. On the left hand side, go back to **Home -> Overview**. Check that the Status of Cluster, Control Plane and Operators is green, that should happen automatically after a while.
+11. On the left hand side, go back to **Home -> Overview**. Check that the Status of Cluster, Control Plane and Operators is green, that should happen automatically after a while.
     
     ![Control Pane](images/1.2.3-checkstatus.png)
     
-13. Still on the Overview page, the main page, scroll down and verify that the Cluster inventory shows no errors.
+12. Still on the Overview page, the main page, scroll down and verify that the Cluster inventory shows no errors.
     
     ![Inventory](images/1.2.3-clusterinventory.png)
     
@@ -130,27 +130,27 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
     
     The progressing pods should disappear automatically after a while.
     
-14. To get rid of the pods in error **click on the red icon** behind Pods. You’ll now see a list of pods that are in error.
+13. To get rid of the pods in error **click on the red icon** behind Pods. You’ll now see a list of pods that are in error.
     
     For each pod in error, click the three dots at the end of the row and delete that pod.
     
-15. In case of **errors, warnings, or pending indicators** that you can't resolve, reach out to your hosting staff to get help.
+14. In case of **errors, warnings, or pending indicators** that you can't resolve, reach out to your hosting staff to get help.
     
-16. To log in through the oc command line interface, expand ocpadmin in the top right corner and select Copy login command.
+15. To log in through the oc command line interface, expand ocpadmin in the top right corner and select Copy login command.
     
     ![Generate Login Command](images/1.2.3-logincommand.png)
     
-17. A new tab opens. Log in again with **ocpadmin / passw0rd** (where the third-last character is a zero) and click **Display Token**.
+16. A new tab opens. Log in again with **ocpadmin / passw0rd** (where the third-last character is a zero) and click **Display Token**.
 
-18. Copy the entire oc login command to the clipboard.
+17. Copy the entire oc login command to the clipboard.
 
     ![Copy the Token](images/1.2.3-copytoken.png)
     
-19. Open a Terminal window, paste the clipboard's content, and hit Enter.
+18. Open a Terminal window, paste the clipboard's content, and hit Enter.
 
     ![Paste In Terminal](images/1.2.3-terminal.png)
     
-20. Next, **run** this command:
+19. Finally, **run** this command:
     
     ```sh
     oc version
