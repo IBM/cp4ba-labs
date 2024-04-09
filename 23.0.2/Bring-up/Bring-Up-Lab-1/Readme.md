@@ -37,6 +37,8 @@ During the first exercise, you will reserve an environment on TechZone, access i
 
 The following exercises will guide you through configuring and installing DB2 containerized and CP4BA version 23.0.2 IF002 on OCP using the rapid deployment scripts.
 
+Complete this Lab to be able to earn a badge.
+
 ## Notation
 
 Paragraphs formatted like the below contain excerpts from configuration files, or commands to enter in a Terminal window. The paragraph can be copied to the clipboard by using an icon available on the right edge of the grey area.
@@ -72,6 +74,8 @@ Paragraphs like the below contain additional information, which would help to un
 - **[Exercise 5: Deploy CP4BA](Exercise-5-Deploy-CP4BA.md)**
 
   Last but not least, let's deploy a CP4BA instance.
+  
+- Once you completed all these exercises, you can do the Quiz to earn a Badge.
   
 # Notices
 
