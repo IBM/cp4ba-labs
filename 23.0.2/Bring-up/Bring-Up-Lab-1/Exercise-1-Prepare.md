@@ -96,11 +96,7 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
    
    Connected: ![Connected](images/1.2.3-connected.png) (if not connected that icon will not be shown)
    
-6. Change the size and resolution of the desktop to your liking. Some RDP tools provide intelligent size change, means when you change the size of your RDP window the desktop size is changed automatically.
-   
-   ![Resize](images/1.2.3-intelligentresize.png)
-   
-   Alternatively open **Applications → System Tools → Settings**. Scroll down and click **Devices**. Change the **Display settings** to your liking.
+6. Change the size and resolution of the desktop to your liking. Open **Applications → System Tools → Settings**. The **Displays** page already opens. Change the **Resolution** to your liking.
    
    ![Device Resize](images/1.2.3-displaysettings.png)
    
