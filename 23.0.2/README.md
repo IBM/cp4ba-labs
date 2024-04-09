@@ -13,7 +13,7 @@ The table below lists all capabilities that we currently have labs for. A capabi
 | [IBM Cloud Pak for Business Automation](IBM%20Cloud%20Pak%20for%20Business%20Automation%20(End-to-End)) (End-to-End) |       2 hours        | [E2E Survey](https://www.surveymonkey.com/r/cp4ba-tech-jam-e2e) |
 | IBM Business Automation Application (to be added) |      2-3 hours       | [BAA Survey](https://www.surveymonkey.com/r/cp4ba-tech-jam-baa) |
 | IBM Business Automation Insights (to be added) |        1 hour        | [BAI Survey](https://www.surveymonkey.com/r/cp4ba-tech-jam-bai) |
-| [IBM FileNet Content Services](Content)        |      4-5 hours       | [FNCM Survey](https://www.surveymonkey.com/r/cp4ba-tech-jam-fncm) |
+| [IBM FileNet Content Services](Content/Readme.md)        |      4-5 hours       | [FNCM Survey](https://www.surveymonkey.com/r/cp4ba-tech-jam-fncm) |
 | IBM Automation Decision Services (to be added)  |       3 hours        | [ADS Survey](https://www.surveymonkey.com/r/cp4ba-tech-jam-ads) |
 | IBM Process Mining (to be added)         |      1-2 hours       | [PM Survey](https://www.surveymonkey.com/r/cp4ba-tech-jam-pm) |
 | IBM Robotic Process Automation (to be added) |      3-4 hours       | [RPA Survey](https://www.surveymonkey.com/r/cp4ba-tech-jam-rpa) |

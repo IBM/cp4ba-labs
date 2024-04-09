@@ -15,6 +15,7 @@ Other services are also deployed on this specific bastion host. The most importa
 ### 1.1.2 Red Hat OpenShift Container Platform (OCP) Cluster VMs 
 
 The OpenShift cluster was configured using OCP version 4.12.53. It will host the DB2 and CP4BA containers which you will install later in this Lab. You can access your OCP cluster from the bastion host either by command line (oc command) or the OpenShift Web Console by Browser.
+In addition, a storage class supporting mode read/write many (RWX), that is required by CP4BA, is already available on the cluster.
 
 ## 1.2 Exercise Instructions
 
@@ -77,65 +78,51 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
 
 1. On your local machine, open the  **[TechZone My reservations](https://techzone.ibm.com/my/reservations)** page. In the browser window, select the reservation for the Bring Up lab.
    
-2. At the top you find the section **Published services** with the link for Remote Desktop:
+2. Scroll down to the **VM Remote Console** section at the bottom. Click on the bastion VM. This will open the desktop of the bastion host in the Browser.
    
-   ![Published Services](images/1.2.3-published-services.png)
+   ![Remote Console](images/1.2.3-remoteconsole.png)
    
-3. Copy the value of the **Remote Desktop** and open it with your RDP tool to access the **desktop of the bastion host**.
+3. If you see the current time and date, **press the Space key**. Log-in to the desktop of the bastion host using **cp4badmin / passw0rd** (where the third-last character is a zero).
    
-   ![Start RDP](images/1.2.3-rdp-start.png)
+   ![Login Screen](images/1.2.3-login-new.png)
    
-4. Log-in to the desktop of the bastion host using **cp4badmin / passw0rd** (where the third-last character is a zero).
-   
-   ![Login Screen](images/1.2.3-login.png)
-   
-   **Note:** If you see the current time and date after login, **press the Space key**. If the screen is blank, **move the mouse**.
+   **Note:** If the screen is blank, **move the mouse**.
    
    Now that you have your demo and lab environment available learn how to work with your environment before you start with the Lab.
    
-5. Once you logged in, you see the **Red Hat Enterprise Linux (RHEL) Server desktop** of your bastion host.
+4. Once you logged in, you see the **Red Hat Enterprise Linux (RHEL) Server desktop** of your bastion host.
    
-6. Next, ensure the **VM is connected** to the network before proceeding. Check that the network icon in the top right corner shows connected. The environment is not usable if the VM is not correctly connected to the network.
+5. Next, ensure the **VM is connected** to the network before proceeding. Check that the network icon in the top right corner shows connected. The environment is not usable if the VM is not correctly connected to the network.
    
    Connected: ![Connected](images/1.2.3-connected.png) (if not connected that icon will not be shown)
    
-7. Change the size and resolution of the desktop to your liking. Some RDP tools provide intelligent size change, means when you change the size of your RDP window the desktop size is changed automatically.
-   
-   ![Resize](images/1.2.3-intelligentresize.png)
-   
-   Alternatively open **Applications → System Tools → Settings**. Scroll down and click **Devices**. Change the **Display settings** to your liking.
+6. Change the size and resolution of the desktop to your liking. Open **Applications → System Tools → Settings**. The **Displays** page already opens. Change the **Resolution** to your liking.
    
    ![Device Resize](images/1.2.3-displaysettings.png)
    
-8. Finally, to change the keyboard to your liking, click the **en** icon **in the top right corner of the desktop** and select your preferred keyboard layout.
+   In addition, you can switch to Full screen mode. Before you do that, **open these lab instructions in Firefox browser (shortcut on the desktop) of the bastion host**. Within the bastion host, open Firefox, and click the **Tech Jam Labs** bookmark. This brings you to an older github, but the link to the moved one is available on that page. Click **here**. That now brings you to the **ba-dl-tech-jam** github, from there open the **Labs.md** page and navigate to these lab instructions from within the bastion host. Once you have the lab instructions open there, you can switch to Full screen mode:
    
-   ![Keyboard Layout](images/1.2.3-languages.png)
+   ![Full Screen](images/1.2.3-fullscreen.png)
    
-   To check that your keyboard works as expected, open Firefox and enter some special language characters in the URL field.
+7. To access your OpenShift cluster through a Browser, **open another tab in Firefox**. Open bookmark **OpenShift Web Console**
    
-   ![Check Special Characters](images/1.2.3-checkspecialcharacters.png)
+   Note: In case you get the Warning: Potential Security Risk Ahead, click **Advanced…** and then click **Accept the Risk and Continue**. This is needed two times to finally get to the OCP log-in screen.
    
-9. Depending on the RDP tool selected, you should be able to **Copy&Paste text between your local machine and the bastion host**. As part of this lab this will be needed here and there, so please test that this works for you. In case not, try a different RDP tool. Sometimes, it is also only needed to logout, and login again.
+8. Log in with **ocpadmin / passw0rd** (where the third-last character is a zero).
    
-10. To access your OpenShift cluster through a Browser, **open Firefox** (shortcut on the desktop). In Firefox, open bookmark **OpenShift Web Console**
-    
-    Note: In case you get the Warning: Potential Security Risk Ahead, click **Advanced…** and then click **Accept the Risk and Continue**. This is needed two times to finally get to the OCP log-in screen.
-    
-11. Log in with **ocpadmin / passw0rd** (where the third-last character is a zero).
-    
-12. Once logged in, verify that the OpenShift Web Console opens and that you have Administrator access.
-    
-    ![Admin Access](images/1.2.3-adminaccess.png)
-    
-13. Next, in the OCP Web Console on the left hand side, expand **Compute** and select **MachineConfigPools**. For **both entries**, resume the updates.
+9. Once logged in, verify that the OpenShift Web Console opens and that you have Administrator access.
+   
+   ![Admin Access](images/1.2.3-adminaccess.png)
+   
+10. Next, in the OCP Web Console on the left hand side, expand **Compute** and select **MachineConfigPools**. For **both entries**, resume the updates.
     
     ![Resume Updates](images/1.2.3-resumeupdates.png)
     
-14. On the left hand side, go back to **Home -> Overview**. Check that the Status of Cluster, Control Plane and Operators is green, that should happen automatically after a while.
+11. On the left hand side, go back to **Home -> Overview**. Check that the Status of Cluster, Control Plane and Operators is green, that should happen automatically after a while.
     
     ![Control Pane](images/1.2.3-checkstatus.png)
     
-15. Still on the Overview page, the main page, scroll down and verify that the Cluster inventory shows no errors.
+12. Still on the Overview page, the main page, scroll down and verify that the Cluster inventory shows no errors.
     
     ![Inventory](images/1.2.3-clusterinventory.png)
     
@@ -143,27 +130,27 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
     
     The progressing pods should disappear automatically after a while.
     
-16. To get rid of the pods in error **click on the red icon** behind Pods. You’ll now see a list of pods that are in error.
+13. To get rid of the pods in error **click on the red icon** behind Pods. You’ll now see a list of pods that are in error.
     
     For each pod in error, click the three dots at the end of the row and delete that pod.
     
-17. In case of **errors, warnings, or pending indicators** that you can't resolve, reach out to your hosting staff to get help.
+14. In case of **errors, warnings, or pending indicators** that you can't resolve, reach out to your hosting staff to get help.
     
-18. To log in through the oc command line interface, expand ocpadmin in the top right corner and select Copy login command.
+15. To log in through the oc command line interface, expand ocpadmin in the top right corner and select Copy login command.
     
     ![Generate Login Command](images/1.2.3-logincommand.png)
     
-19. A new tab opens. Log in again with **ocpadmin / passw0rd** (where the third-last character is a zero) and click **Display Token**.
+16. A new tab opens. Log in again with **ocpadmin / passw0rd** (where the third-last character is a zero) and click **Display Token**.
 
-20. Copy the entire oc login command to the clipboard.
+17. Copy the entire oc login command to the clipboard.
 
     ![Copy the Token](images/1.2.3-copytoken.png)
     
-21. Open a Terminal window, paste the clipboard's content, and hit Enter.
+18. Open a Terminal window, paste the clipboard's content, and hit Enter.
 
     ![Paste In Terminal](images/1.2.3-terminal.png)
     
-22. Next, **run** this command:
+19. Finally, **run** this command:
     
     ```sh
     oc version
@@ -172,8 +159,6 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
     Expected output, make sure to see the `Server Version:` line:
     
     ![oc version output](images/1.2.3-oc-version.png)
-    
-23. For easier Copy&Paste of such commands, you now can open these lab instructions with Firefox inside your bastion host.
 
 You have now successfully accessed and updated your environment and are ready to start with the lab.
 
