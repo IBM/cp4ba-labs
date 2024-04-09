@@ -82,11 +82,11 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
    
    ![Remote Console](images/1.2.3-remoteconsole.png)
    
-3. Log-in to the desktop of the bastion host using **cp4badmin / passw0rd** (where the third-last character is a zero).
+3. If you see the current time and date, **press the Space key**. Log-in to the desktop of the bastion host using **cp4badmin / passw0rd** (where the third-last character is a zero).
    
-   ![Login Screen](images/1.2.3-login.png)
+   ![Login Screen](images/1.2.3-login-new.png)
    
-   **Note:** If you see the current time and date after login, **press the Space key**. If the screen is blank, **move the mouse**.
+   **Note:** If the screen is blank, **move the mouse**.
    
    Now that you have your demo and lab environment available learn how to work with your environment before you start with the Lab.
    
