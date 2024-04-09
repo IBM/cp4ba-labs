@@ -100,11 +100,11 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
    
    ![Device Resize](images/1.2.3-displaysettings.png)
    
-   In addition, you can switch to Full screen mode. Before you do that, **open these lab instructions in Firefox browser of the bastion host**. Within the bastion host, open Firefox, and click the **Tech Jam Labs** bookmark. This brings you to an older github, but the link to the moved one is available on that page. Click **here**. That now brings you to the **ba-dl-tech-jam** github, from there open the **Labs.md** page and navigate to these lab instructions from within the bastion host. Once you have the lab instructions open there, you can switch to Full screen mode:
+   In addition, you can switch to Full screen mode. Before you do that, **open these lab instructions in Firefox browser (shortcut on the desktop) of the bastion host**. Within the bastion host, open Firefox, and click the **Tech Jam Labs** bookmark. This brings you to an older github, but the link to the moved one is available on that page. Click **here**. That now brings you to the **ba-dl-tech-jam** github, from there open the **Labs.md** page and navigate to these lab instructions from within the bastion host. Once you have the lab instructions open there, you can switch to Full screen mode:
    
    ![Full Screen](images/1.2.3-fullscreen.png)
    
-8. To access your OpenShift cluster through a Browser, **open Firefox** (shortcut on the desktop). In Firefox, open bookmark **OpenShift Web Console**
+8. To access your OpenShift cluster through a Browser, **open another tab in Firefox**. Open bookmark **OpenShift Web Console**
    
    Note: In case you get the Warning: Potential Security Risk Ahead, click **Advanced…** and then click **Accept the Risk and Continue**. This is needed two times to finally get to the OCP log-in screen.
    
