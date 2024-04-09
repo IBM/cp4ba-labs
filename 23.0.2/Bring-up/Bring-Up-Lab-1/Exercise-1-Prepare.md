@@ -100,25 +100,29 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
    
    ![Device Resize](images/1.2.3-displaysettings.png)
    
-7. To access your OpenShift cluster through a Browser, **open Firefox** (shortcut on the desktop). In Firefox, open bookmark **OpenShift Web Console**
+   In addition, you can switch to Full screen mode. Before you do that, **open these lab instructions in Firefox browser of the bastion host**. Within the bastion host, open Firefox, and click the **Tech Jam Labs** bookmark. This brings you to an older github, but the link to the moved one is available on that page. Click **here**. That now brings you to the **ba-dl-tech-jam** github, from there open the **Labs.md** page and navigate to these lab instructions from within the bastion host. Once you have the lab instructions open there, you can switch to Full screen mode:
+   
+   ![Full Screen](images/1.2.3-fullscreen.png)
+   
+8. To access your OpenShift cluster through a Browser, **open Firefox** (shortcut on the desktop). In Firefox, open bookmark **OpenShift Web Console**
    
    Note: In case you get the Warning: Potential Security Risk Ahead, click **Advanced…** and then click **Accept the Risk and Continue**. This is needed two times to finally get to the OCP log-in screen.
    
-8. Log in with **ocpadmin / passw0rd** (where the third-last character is a zero).
+9. Log in with **ocpadmin / passw0rd** (where the third-last character is a zero).
    
-9. Once logged in, verify that the OpenShift Web Console opens and that you have Administrator access.
+10. Once logged in, verify that the OpenShift Web Console opens and that you have Administrator access.
    
    ![Admin Access](images/1.2.3-adminaccess.png)
    
-10. Next, in the OCP Web Console on the left hand side, expand **Compute** and select **MachineConfigPools**. For **both entries**, resume the updates.
+11. Next, in the OCP Web Console on the left hand side, expand **Compute** and select **MachineConfigPools**. For **both entries**, resume the updates.
     
     ![Resume Updates](images/1.2.3-resumeupdates.png)
     
-11. On the left hand side, go back to **Home -> Overview**. Check that the Status of Cluster, Control Plane and Operators is green, that should happen automatically after a while.
+12. On the left hand side, go back to **Home -> Overview**. Check that the Status of Cluster, Control Plane and Operators is green, that should happen automatically after a while.
     
     ![Control Pane](images/1.2.3-checkstatus.png)
     
-12. Still on the Overview page, the main page, scroll down and verify that the Cluster inventory shows no errors.
+13. Still on the Overview page, the main page, scroll down and verify that the Cluster inventory shows no errors.
     
     ![Inventory](images/1.2.3-clusterinventory.png)
     
@@ -126,27 +130,27 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
     
     The progressing pods should disappear automatically after a while.
     
-13. To get rid of the pods in error **click on the red icon** behind Pods. You’ll now see a list of pods that are in error.
+14. To get rid of the pods in error **click on the red icon** behind Pods. You’ll now see a list of pods that are in error.
     
     For each pod in error, click the three dots at the end of the row and delete that pod.
     
-14. In case of **errors, warnings, or pending indicators** that you can't resolve, reach out to your hosting staff to get help.
+15. In case of **errors, warnings, or pending indicators** that you can't resolve, reach out to your hosting staff to get help.
     
-15. To log in through the oc command line interface, expand ocpadmin in the top right corner and select Copy login command.
+16. To log in through the oc command line interface, expand ocpadmin in the top right corner and select Copy login command.
     
     ![Generate Login Command](images/1.2.3-logincommand.png)
     
-16. A new tab opens. Log in again with **ocpadmin / passw0rd** (where the third-last character is a zero) and click **Display Token**.
+17. A new tab opens. Log in again with **ocpadmin / passw0rd** (where the third-last character is a zero) and click **Display Token**.
 
-17. Copy the entire oc login command to the clipboard.
+18. Copy the entire oc login command to the clipboard.
 
     ![Copy the Token](images/1.2.3-copytoken.png)
     
-18. Open a Terminal window, paste the clipboard's content, and hit Enter.
+19. Open a Terminal window, paste the clipboard's content, and hit Enter.
 
     ![Paste In Terminal](images/1.2.3-terminal.png)
     
-19. Next, **run** this command:
+20. Next, **run** this command:
     
     ```sh
     oc version
@@ -155,8 +159,6 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
     Expected output, make sure to see the `Server Version:` line:
     
     ![oc version output](images/1.2.3-oc-version.png)
-    
-20. For easier Copy&Paste of such commands, you now can open these lab instructions with Firefox inside your bastion host.
 
 You have now successfully accessed and updated your environment and are ready to start with the lab.
 
