@@ -14,7 +14,7 @@ If you like to bring-up your own CP4BA instance independently of a Tech Jam, sim
 
 Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **rapid deployment scripts**. **[Click here to get to the Lab Guide](Bring-Up-Lab-1/Readme.md)**.
 
-Complet this Lab to earn a Badge.
+**Note:** Complete this Lab to earn a Badge.
 
 **Approximate Lab Duration**: 6 hours
 
@@ -23,6 +23,6 @@ Complet this Lab to earn a Badge.
 
 Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **product scripts**. **[Click here to get to the Lab Guide](Bring-Up-Lab-2/Readme.md)**.
 
-No badge available yet for this Lab.
+**Note:** No Badge available yet for this Lab.
 
 **Approximate Lab Duration**: 8 hours
