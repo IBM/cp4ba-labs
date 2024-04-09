@@ -11,7 +11,8 @@
 Use the self-reservation option with the below **TechZone Reservation URL**.
 
 ## **TechZone Reservation URL**
-https://techzone.ibm.com/my/reservations/create/66145f5bfe9b3e001e74576c
+https://techzone.ibm.com/collection/ibm-cloud-pak-for-business-automation-and-digital-labor-jam-in-a-box/environments
+
 
 
 **Note**:- Self-reservation might take minimum 2-3 hours of time for provisioning the environment on IBM TechZone and are ready to use for ADP lab
