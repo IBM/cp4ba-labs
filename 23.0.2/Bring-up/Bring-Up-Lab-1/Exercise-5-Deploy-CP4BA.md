@@ -323,26 +323,16 @@ In this chapter you will gather the cluster's URLs from config map **icp4adeploy
       
     - Content Services GraphQL
 
-5.3 Summary
+## 5.3 Summary
 
 You have completed this exercise and learned how to leverage the CP4BA rapid deployment scripts to install CP4BA on an OCP cluster.
 
-Congratulations on completing this Lab!
+### 5.3.1 About CP4BA Rapid Deployment Scripts
 
-5.1 About CP4BA Rapid Deployment Scripts
 The CP4BA rapid deployment scripts (https://github.com/IBM/cp4ba-rapid-deployment) are accessible by customers, business partners, and IBMers. The IBM Automation SWAT team continuously maintains them. Feel free to use them.
 
-If you like to deploy one of the larger templates on your cluster, the differences from what you have just done are:
--	Planning: Check out Step 0 (https://github.com/IBM/cp4ba-rapid-deployment/blob/main/cp4ba-21-0-3/00selectTemplate.md) to understand which templates are available and what their requirements in terms of the number of workers and resources are. Larger templates will require a larger OpenShift cluster with more worker nodes, CPU, and memory. Creating your template is also possible.
--	If you want to create a cluster on IBM Cloud, make sure you have or create an account there (https://github.com/IBM/cp4ba-rapid-deployment/blob/main/cp4ba-21-0-3/01createIBMCloudAccount.md).
--	You will need your own Red Hat OpenShift cluster, for example, on IBM Cloud, with funding for hosting the infrastructure. Check out how easy it is to create a new ROKS cluster on IBM Cloud here: https://github.com/IBM/cp4ba-rapid-deployment/blob/main/cp4ba-21-0-3/02createRedHatOpenShiftCluster.md.
--	You need your LDAP. If there is no existing one, to set up your own LDAP on IBM Cloud is documented here: https://github.com/IBM/cp4ba-rapid-deployment/blob/main/cp4ba-21-0-3/03createVMForLDAP.md.
--	If required, you will need to get for DB2 the DB2 Standard Edition license key (PPA or XL SW, search for part number CC36WML), and you need to assign more resources to your DB2 deployment (see additional parameters in 01-parametersForDb2OnOCP.sh).
--	After the CP4BA deployment, there are more post-deployment steps to be applied. Also, you might want to install other components like IBM Process Mining and the ADS ML Service… and scale up your deployment for High Availability. All this is documented in the rapid deployment GitHub.
--	Once the installation is complete and you have selected the ClientOnboarding template, you might want to import the Client Onboarding Solution. See also https://github.com/IBM/cp4ba-client-onboarding-scenario
-
-
-
-
+At the moment, only one template is available for CP4BA version 23.0.2, the one you used while this lab. Moving forward, more templates will get added to the rapid deployment scripts that allow you to rapidly install more CP4BA patterns.
 
 Congratulations! You have now successfully installed IBM Cloud Pak for Business Autiomation version 23.0.2 IF002 on your OpenShift cluster using the rapid deployment scripts. With that, this lab is complete.
+
+Now that you completed all exercises of this lab, you can do the [Quiz for Bring-up Lab 1](https://learn.ibm.com/course/view.php?id=11286) to earn the [Badge for Lab 1](https://www.credly.com/org/ibm/badge/ibm-cloud-pak-for-business-automation-installation-tech-jam).
