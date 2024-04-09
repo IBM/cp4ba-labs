@@ -93,10 +93,19 @@ Once you get the email informing you that your environment is Ready, you can sta
 2.	Copy the value of the **Remote Desktop** and open it with your RDP tool to access the **desktop of the bastion host**.
     
 	![Start RDP](Images/2.2.3-RDP-start.png)
+	
+	In case the RDP connection cannot be used, scroll down on the reservation, until you find the section with the title "VM Remote Console". 
+	In the upper left corner you can find a blue tile. The first two lines contain the name of the machine. For the bastion host, it ends in "bastion".
+	Click on it to open the remote console of the bastion host. 
+	
+	![Bastion-Tile](Images/1.bastion-tile.png)
+	
+	A window opens with the console window. On the window, click "Full Screen" in upper right corner.
  
 3.	Log-in to the desktop of the bastion host using **cp4badmin / passw0rd** (where the third-last character is a zero).
 
     ![Login Screen](Images/2.2.3-Login.png)
+	
 
 4.	**Note:** If you see the current time and date after login, **press the Space key**. If the screen is blank, **move the mouse**. 
 
@@ -113,11 +122,11 @@ Now that you have your demo and lab environment available learn how to work with
 
     ![Resize](Images/2.2.3-Resize.png)
 
-    Alternatively open **Applications → System Tools → Settings**. Scroll down and click **Devices**. Change the **Display settings** to your liking.
+    Alternatively open **Applications → System Tools → Settings**. Scroll down and click **Devices**. Change the **Display settings** to your liking. In case you are using the "VM Remote Console" instead of RDP, you might choose the resolution of your native screen.
  
     ![Device Resize](Images/2.2.3-Devices.png)
  
-8.	Finally, to change the keyboard to your liking, click the **en** icon **in the top right corner of the desktop** and select your preferred keyboard layout.
+8.	Finally, to change the keyboard to your liking, in case you are using RDP, click the **en** icon **in the top right corner of the desktop** and select your preferred keyboard layout. In case you use the "VM Remote Console", we recommend to leave the keyboard configured to **en**. If possible, install on your local machine the US keyboard layout, switch to it, and use the US keyboard layout.
 
     ![Keyboard Layout](Images/2.2.3-Languages.png)
 
@@ -125,6 +134,8 @@ Now that you have your demo and lab environment available learn how to work with
 
 9.	Depending on the RDP tool selected, you should be able to **Copy&Paste text between your local machine and the bastion host**. As part of this lab 
     this will be needed multiple times, so please test that this works for you. In case not, try a different RDP tool. Sometimes, it is also only needed to logout, and login again.
+	
+	In case you use the "VM Remote Console", or Copy&Paste is not working with your RDP tool, we recommend to open all resources locally, i.e. open Firefox and open these lab instructions from inside the Bastion host, using the link "Tech Jam Labs" in the browser toolbar.
 
 10.	To access your OpenShift cluster through a Browser, **open Firefox** first (shortcut on the desktop).In Firefox, open bookmark **OpenShift Web Console**
 
