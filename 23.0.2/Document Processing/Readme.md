@@ -11,7 +11,7 @@
 Use the self-reservation option with the below **TechZone Reservation URL**.
 
 ## **TechZone Reservation URL**
-https://techzone.ibm.com/my/reservations/create/660feb2822ee44001eabadc5
+https://techzone.ibm.com/my/reservations/create/66145f5bfe9b3e001e74576c
 
 
 **Note**:- Self-reservation might take minimum 2-3 hours of time for provisioning the environment on IBM TechZone and are ready to use for ADP lab
