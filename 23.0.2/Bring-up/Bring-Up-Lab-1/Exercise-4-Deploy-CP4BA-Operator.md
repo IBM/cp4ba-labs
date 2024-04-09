@@ -16,7 +16,7 @@ The exercise instructions in the following paragraph will guide you through the 
 
 ## 4.2 Exercise Instructions
 
-1. Connect to your bastion host using RDP, as documented in **[Exercise 1: Prepare yourself for this Bring-Up Lab](Exercise-1-Prepare.md#123-access-the-openshift-tech-zone-envrioment)**. Login as the **cp4badmin** user, if needed, the password is **passw0rd** (where the third-last character is a zero).
+1. Connect to your bastion host as documented in **[Exercise 1: Prepare yourself for this Bring-Up Lab](Exercise-1-Prepare.md#123-access-the-openshift-tech-zone-envrioment)**. Login as the **cp4badmin** user, if needed, the password is **passw0rd** (where the third-last character is a zero).
    
 2. Open a Terminal, by clicking the link on the desktop. Switch to the Labfiles directory to host there the product deployment scripts.
    

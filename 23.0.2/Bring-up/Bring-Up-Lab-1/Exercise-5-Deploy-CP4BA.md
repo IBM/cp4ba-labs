@@ -18,7 +18,7 @@ Finally, there are some **post-deployment and verification steps** to verify tha
 
 Follow these step-by-step instructions to deploy CP4BA using the rapid deployment scripts:
 
-1. Connect to your bastion host using RDP, as documented in **[Exercise 1: Prepare yourself for this Bring-Up Lab](Exercise-1-Prepare.md#123-access-the-openshift-tech-zone-envrioment)**. Login as the **cp4badmin** user, if needed, the password is **passw0rd** (where the third-last character is a zero).
+1. Connect to your bastion host as documented in **[Exercise 1: Prepare yourself for this Bring-Up Lab](Exercise-1-Prepare.md#123-access-the-openshift-tech-zone-envrioment)**. Login as the **cp4badmin** user, if needed, the password is **passw0rd** (where the third-last character is a zero).
    
 2. Open a Terminal, by clicking the link on the desktop. Then, check that the Security Directory Server is running fine.
    
