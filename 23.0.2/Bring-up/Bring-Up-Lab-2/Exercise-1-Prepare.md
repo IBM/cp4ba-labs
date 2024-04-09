@@ -94,7 +94,7 @@ Once you get the email informing you that your environment is Ready, you can sta
     
 	![Start RDP](Images/2.2.3-RDP-start.png)
 	
-	In case the RDP connection cannot be used, scroll down on the reservation, until you find the section with the title "VM Remote Console". 
+3.  In case the RDP connection cannot be used, scroll down on the reservation, until you find the section with the title "VM Remote Console". 
 	In the upper left corner you can find a blue tile. The first two lines contain the name of the machine. For the bastion host, it ends in "bastion".
 	Click on it to open the remote console of the bastion host. 
 	
@@ -102,16 +102,16 @@ Once you get the email informing you that your environment is Ready, you can sta
 	
 	A window opens with the console window. On the window, click "Full Screen" in upper right corner.
  
-3.	Log-in to the desktop of the bastion host using **cp4badmin / passw0rd** (where the third-last character is a zero).
+4.	Log-in to the desktop of the bastion host using **cp4badmin / passw0rd** (where the third-last character is a zero).
 
     ![Login Screen](Images/2.2.3-Login.png)
 	
 
-4.	**Note:** If you see the current time and date after login, **press the Space key**. If the screen is blank, **move the mouse**. 
+5.	**Note:** If you see the current time and date after login, **press the Space key**. If the screen is blank, **move the mouse**. 
 
 Now that you have your demo and lab environment available learn how to work with your environment before you start with the Lab.
 
-5.	Once you logged in, you see the **Red Hat Enterprise Linux (RHEL) Server desktop** of your bastion host.
+6.	Once you logged in, you see the **Red Hat Enterprise Linux (RHEL) Server desktop** of your bastion host.
 
 6.	Next, ensure the **VM is connected** to the network before proceeding. Check that the network icon in the top right corner shows connected. 
     The environment is not usable if the VM is not correctly connected to the network. 
