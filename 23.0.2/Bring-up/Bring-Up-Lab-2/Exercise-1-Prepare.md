@@ -95,9 +95,9 @@ Once you get the email informing you that your environment is Ready, you can sta
 	
 	A window opens with the console window.
  
-4.	Log-in to the desktop of the bastion host using **cp4badmin / passw0rd** (where the third-last character is a zero).
+4.	Log-in to the desktop of the bastion host, by clicking on the **cp4badmin** user and using password  using **passw0rd** (where the third-last character is a zero).
 
-    ![Login Screen](Images/2.2.3-Login.png)
+    ![Login Screen](Images/1.login.png)
 	
 5.	**Note:** If you see the current time and date after login, **press the Space key**. If the screen is blank, **move the mouse**. 
 
