@@ -85,10 +85,7 @@ Once you get the email informing you that your environment is Ready, you can sta
 
 ### 1.2.3 Access the OpenShift Tech Zone Envrioment
 
-1.	On your local machine, click on **View My Reservations**. In the browser window, select the reservation for the Bring Up lab. At the top you find the 
-    section “Published Services” with the link for Remote Desktop:
-	
-	![Published Services](Images/2.2.3-published-services.png)
+1.	On your local machine, click on **View My Reservations**. In the browser window, select the reservation for the Bring Up lab. 
  
 2.	Scroll down on the reservation, until you find the section with the title "VM Remote Console". 
 	In the upper left corner you can find a blue tile. The first two lines contain the name of the machine. For the bastion host, it ends in "bastion".
