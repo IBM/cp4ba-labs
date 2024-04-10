@@ -57,7 +57,7 @@ Filling out the property values will be done in the next two exercises, step by 
 	
 12.	Supply the name of the Openshift Project / Namespace to deploy into, the value is **ibm-cp4ba**
 
-13.	On the question weather to restrict outbound communication to unknown destinations, select "No". 
+13.	On the question whether to restrict outbound communication to unknown destinations, select "No". 
 
     ![Restrict outbound communication](Images/4.1-restrict-outbound-communication.png)
  
