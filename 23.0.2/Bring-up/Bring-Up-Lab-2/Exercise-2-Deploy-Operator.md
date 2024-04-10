@@ -89,9 +89,9 @@ The exercise instructions in the following paragraph will guide you through the 
 
     ![Production Deployment](Images/3.1-Production.png)
  
-19.	For the question weather to check the nodes if they are FIPS compliant, select **no**.
+19.	For the question whether to check the nodes if they are FIPS compliant, select **no**.
 
-20.	For the question weather to use a private catalog to support air-gap deployments select **no** as well.
+20.	For the question whether to use a private catalog to support air-gap deployments select **no** as well.
 
 21.	For the question, into which Openshift project the CP4BA should be deployed, answer **ibm-cp4ba**.
 
@@ -105,7 +105,7 @@ The exercise instructions in the following paragraph will guide you through the 
 
 24.	After logging in to your IBM account, please verify that you have access to "Cloud Pak 4 Business Automation" software, by clicking the "Container software library" entry on the left side. Then select the "Entitlement keys" entry on the left side, and copy one of the still valid entitlement keys to the clipboard.
 
-25.	Back on the Terminal window answer **Yes** to the question weather you have an entitlement registry key. Then paste the key from the clipboard, when prompted.
+25.	Back on the Terminal window answer **Yes** to the question whether you have an entitlement registry key. Then paste the key from the clipboard, when prompted.
 
     ![Check Entitlement](Images/3.1-CheckEntitlement.png)
  
