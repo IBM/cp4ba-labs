@@ -136,7 +136,7 @@ Review the generated output. It checks not only the storage class, ldap settings
  
     ![Checking Storage Classes](Images/7.1-checking-storage-classes.png)
 
-    With errors in this step, check if the right storage class names were provided, and weather the storage class is defined, by running `oc get storageclass`. With any updates, it needed to update the configuration, by re-running the prerequisite script in generate mode, see beginning of this chapter for reference.
+    With errors in this step, check if the right storage class names were provided, and whether the storage class is defined, by running `oc get storageclass`. With any updates, it needed to update the configuration, by re-running the prerequisite script in generate mode, see beginning of this chapter for reference.
 
 4. Expected output of secret checking
 
@@ -148,7 +148,7 @@ Review the generated output. It checks not only the storage class, ldap settings
  
     ![Checking LDAP Server Connectivity](Images/7.1-checking-ldap.png)
 	
-	With errors in this step, check if the SDS is running, and weather the correct IP address and port number were configured in the properties files. If SDS is not running, or not responding correctly, it can be restarted by running `sudo systemctl restart sds`. If configuration files need to be updated, generate the configuration again, apply the secrets, and rerun these verification steps. If *only* the latency is bad, this can be ignored in this sample environment. In a production environment of a customer, this would need to be investigated properly.
+	With errors in this step, check if the SDS is running, and whether the correct IP address and port number were configured in the properties files. If SDS is not running, or not responding correctly, it can be restarted by running `sudo systemctl restart sds`. If configuration files need to be updated, generate the configuration again, apply the secrets, and rerun these verification steps. If *only* the latency is bad, this can be ignored in this sample environment. In a production environment of a customer, this would need to be investigated properly.
 	
 6. Expected output of Database configuration and connection speed checking
  
