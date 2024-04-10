@@ -36,7 +36,7 @@ With successful execution of the validation, the Case Package script `cp4a-deplo
  
 7.	The deployment goes into an OCP environment on private cloud, so select 2.
  
-8.	The next output indicates, that the CP4BA deployment will use an internal administration account named "cpadmin". Luckily this is different from the one in our LDAP, which is cp4badmin, and also not any of the users in the LDAP. So answer "Yes" to the question weather to use this name.
+8.	The next output indicates, that the CP4BA deployment will use an internal administration account named "cpadmin". Luckily this is different from the one in our LDAP, which is cp4badmin, and also not any of the users in the LDAP. So answer "Yes" to the question whether to use this name.
 
  
 9.	In the next question, the script offers to use customized JDBC drivers. If that would be needed, the drivers need to be made available on a URL. In case of an Air-Gapped environment, this would mean that a webserver needs to be configured as a separate pod. As we can use the provided drivers, we can bypass the question by pressing Return.
