@@ -84,9 +84,9 @@ The exercise instructions in the following paragraph will guide you through the 
    
    ![Production Deployment](images/4.2-production.png)
    
-10. For the question weather to check the nodes if they are FIPS compliant, select **No**, and hit the Enter key.
+10. For the question whether to check the nodes if they are FIPS compliant, select **No**, and hit the Enter key.
     
-11. For the question weather to use a private catalog select **No** as well, and hit the Enter key.
+11. For the question whether to use a private catalog select **No** as well, and hit the Enter key.
     
     ![Private Catalog](images/4.2-privatecatalog.png)
     
