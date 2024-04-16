@@ -83,11 +83,24 @@ In case there was an issue provisioning the environment, delete the reservation 
 
 Once you get the email informing you that your environment is Ready, you can start your Lab.
 
-### 1.2.3 Access the OpenShift Tech Zone Envrioment
+### 1.2.3 Access the OpenShift Tech Zone Envrioment 
 
 1.	On your local machine, click on **View My Reservations**. In the browser window, select the reservation for the Bring Up lab. 
  
-2.	Scroll down on the reservation, until you find the section with the title "VM Remote Console". 
+2.  At the top of the reservation, you see a link to a Remote Desktop Service (RDP). Copy the link provided to the clipboard, and try running your 
+    favorite Remote Desktop client with the RDP link. If that is working, its the preferred way to connect to the Bastion host of the Openshift environment.
+	Should that not be possible, please skip to step xx.
+	
+	![RDPLink](Images/2.2.2-RDP.png)
+	
+3.  If the Remote Desktop connection can be used, the RDP login screen is shown. Login to the Bastion machine using the user account **cp4badmin** 
+    and password **passw0rd** (where the third-last character is a zero). Skip to step 6.
+	
+	![RDPLogin](Images/2.2.2-LoginRDP.png)
+	
+	**Note:** Login is only possible either through RDP, or through the VM Remote Console (see below). You cannot use both methods at the same time, with the same user account.
+	
+4.	Should it not be possible to connect through RDP, then scroll down on the reservation, until you find the section with the title "VM Remote Console". 
 	In the upper left corner you can find a blue tile. The first two lines contain the name of the machine. For the bastion host, it ends in "bastion".
 	Click on it to open the remote console of the bastion host. 
 	
@@ -95,26 +108,37 @@ Once you get the email informing you that your environment is Ready, you can sta
 	
 	A window opens with the console window.
  
-4.	Log-in to the desktop of the bastion host, by clicking on the **cp4badmin** user and using password  using **passw0rd** (where the third-last character is a zero).
+5.	Log-in to the desktop of the bastion host, by clicking on the **cp4badmin** user and using password  using **passw0rd** (where the third-last character is a zero).
 
     ![Login Screen](Images/1.login.png)
 	
-5.	**Note:** If you see the current time and date after login, **press the Space key**. If the screen is blank, **move the mouse**. 
+	**Note:** If you see the current time and date after login, **press the Space key**. If the screen is blank, **move the mouse**. 
 
-6.	Once you logged in, you see the **Red Hat Enterprise Linux (RHEL) Server desktop** of your bastion host. Ensure the **VM is connected** to the network before proceeding. Check that the network icon in the top right corner shows connected. The environment is not usable if the VM is not correctly connected to the network. 
+6.	Once you logged in, you see the **Red Hat Enterprise Linux (RHEL) Server desktop** of your bastion host. Ensure the **VM is connected** to the network 
+    before proceeding. Check that the network icon in the top right corner shows connected. The environment is not usable if the VM is not correctly connected to the network. 
 
     Connected: ![Connected](Images/2.2.3-Connected.png) (if not connected that icon will not be shown)
 
-7.  On the "VM Remote Console" window, click "Full Screen" in upper right corner. Before you do that, open Firefox and open these lab instructions from inside the Bastion host, using the link "Tech Jam Labs" in the browser toolbar. Notice that you can still switch to other windows using the Alt-Tab keyboard combination from Windows clients.
+7.  Open the Firefox by double clicking on the Firefox icon on the desktop. Use the link in the browser toolbar to navigate to the **Tech Jam Labs**. Open the lab instructions
+	from inside the bastion host. This will allow you to copy&paste from the lab instructions much easier.
+	
+8.  If you are logged on using the "VM Remote Console" window, click **Full Screen** button in upper right corner. Notice that you can still switch to other windows using the 
+    Alt-Tab keyboard combination from Windows clients.
 
-7.	Change the size and resolution of the desktop to your liking. Open **Applications → System Tools → Settings**. Scroll down and click **Devices**. Change the **Display settings** to your liking. 
-    If using Full screen, you might choose the resolution of your native screen.
+	![FullScreen](Images/2.2.2-FullScreen.png)
+
+9.	Change the size and resolution of the desktop to your liking. Open **Applications → System Tools → Settings**. Scroll down and click **Devices**. Change the **Display settings** to your liking. 
  
     ![Device Resize](Images/2.2.3-Devices.png)
  
-8.	Finally, to change the keyboard to your liking, we recommend to leave the keyboard configured to **en**. If possible, install on your local machine the US keyboard layout, switch to it, and use the US keyboard layout, while working with the Bastion host.
-
-    To check that your keyboard works as expected, open Firefox and enter some special language characters in the URL field, using US keyboard layout. 
+10.	Finally, to change the keyboard to your liking, this depends on weather you use RDP or VM Remote Console. On **VM Remote Console**, we recommend to leave the keyboard configured to **en**. 
+    If possible, install on your local machine the US keyboard layout, switch to it, and use the US keyboard layout, while working with the Bastion host. When using **RDP**, it should be possible to adapt the keyboard layout of the Bastion host to the one you use on your your local machine instead.
+	
+	In any case, you can change the keyboard layout of the bastion host on the pull down menu in upper right corner. From there, you can also bring up a window showing you the current keyboard layout.
+	
+	![Kbd](Images/2.2.2-Keyboard.png)
+	
+    To check that your keyboard works as expected, open Firefox and enter some special language characters in the URL field. 
 
 10.	To access your OpenShift cluster through a Browser, **open Firefox** first (shortcut on the desktop).In Firefox, open bookmark **OpenShift Web Console**
 
