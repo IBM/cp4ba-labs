@@ -12,7 +12,7 @@ IBM Business Automation Workflow is software that combines business process mana
 
   **Approximate Duration**: 3-4 hours
 
-- **Consume & Publish Automation Services in Workflow (coming soon)**: This lab showcases how you can consume capabilities from the IBM Automation platform using Automation Services. You will also create an external service to invoke a Java app that sends out emails. Finally, you will learn how an automation service can be published for others to consume.
+- **[Consume & Publish Automation Services in Workflow](Lab%20Guide%20-%20Consume%20%26%20Publish%20Automation%20Services%20in%20Workflow.pdf)**: This lab showcases how you can consume capabilities from the IBM Automation platform using Automation Services. You will also create an external service to invoke a Java app that sends out emails. Finally, you will learn how an automation service can be published for others to consume.
 
   **Approximate Duration**: 2 hours
 
