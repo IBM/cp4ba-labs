@@ -1,4 +1,4 @@
-# IBM FileNet Content Services
+# IBM FileNet Content Manager
 
 ## Overview
 
