@@ -16,7 +16,7 @@ The table below lists all capabilities for which currently labs are offered. Not
 | [IBM Business Automation Workflow](Workflow) |      2      |      5-6 hours       | [BAW Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-baw) |
 | IBM Automation Document Processing (coming soon) |      2      |      3-4 hours       | [ADP Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-adp) |
 | [IBM watsonx Orchestrate](https://github.com/IBM/cp4ba-labs/tree/main/23.0.2/watsonx%20Orchestrate) | 2            | 2-3 hours             | [wxO Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-wxo) |
-| IBM CP4BA - Bring-up Lab (coming soon) | 3 | 6-14 hours | [Bring-up Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-bring-up) |
+| [IBM CP4BA - Bring-up Lab](Bring-Up) | 3 | 6-14 hours | [Bring-up Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-bring-up) |
 
 ## Track descriptions
 
