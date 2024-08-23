@@ -88,7 +88,7 @@ Once you get the email informing you that your environment is Ready, you can sta
  
 2.  At the top of the reservation, you see a link to a Remote Desktop Service (RDP). Copy the link provided to the clipboard, and try running your 
     favorite Remote Desktop client with the RDP link. If that is working, its the preferred way to connect to the Bastion host of the Openshift environment.
-	Should that not be possible, please skip to step xx.
+	Should that not be possible, please skip to step 4.
 	
 	![RDPLink](Images/2.2.2-RDP.png)
 	
@@ -98,6 +98,7 @@ Once you get the email informing you that your environment is Ready, you can sta
 	![RDPLogin](Images/2.2.2-LoginRDP.png)
 	
 	**Note:** Login is only possible either through RDP, or through the VM Remote Console (see below). You cannot use both methods at the same time, with the same user account.
+	So, you can skip to step 9 now.
 	
 4.	Should it not be possible to connect through RDP, then scroll down on the reservation, until you find the section with the title "VM Remote Console". 
 	In the upper left corner you can find a blue tile. The first two lines contain the name of the machine. For the bastion host, it ends in "bastion".
