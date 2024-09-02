@@ -58,7 +58,7 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
 
    ![Reserve Now Option](images/1.2.2-reserve-now.png)
    
-6. On the next page, provide the necessary information: Provide the **Purpose**, e.g., **"Practice / Self-Education"**, a **Purpose description**, select the **Preferred Geography** closest to your location and select the **End time and date** for the reservation. Plan for at least 6 hours, maybe more.
+6. On the next page, provide the necessary information: Select the **Purpose**, for example **Education**, a **Purpose description**, select the **Preferred Geography** closest to your location and select the **End time and date** for the reservation. Plan for at least 6 hours, maybe more.
    
    ![Reservation Details 1](images/1.2.2-reservationdetails1.png)
    
