@@ -58,15 +58,17 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
 
    ![Reserve Now Option](images/1.2.2-reserve-now.png)
    
-6. On the next page, provide the necessary information: Provide the **Purpose**, e.g., "Practice / Self-Education", a description, select the **geography** closest to your location and select the end time and date for the reservation. Plan for at least 6 hours, maybe more. Then click **Submit**.
+6. On the next page, provide the necessary information: Provide the **Purpose**, e.g., **"Practice / Self-Education"**, a **Purpose description**, select the **Preferred Geography** closest to your location and select the **End time and date** for the reservation. Plan for at least 6 hours, maybe more.
    
    ![Reservation Details 1](images/1.2.2-reservationdetails1.png)
    
    ![Reservation Details 2](images/1.2.2-reservationdetails2.png)
    
+   On the right hand side, click the checkbox to **Accept the Terms and Conditions**. Then click **Submit** to request your environment from TechZone.
+   
    ![Reservation Details 3](images/1.2.2-reservationdetails3.png)
    
-7. After you click Submit, you'll get some emails from IBM Technology Zone. Provisioning the environment will take about one hour, then you should get a second email informing you that your environment is **Ready**.
+6. After you click Submit, you'll get some emails from IBM Technology Zone. Provisioning the environment will take about one hour, then you should get a second email informing you that your environment is **Ready**.
    
    ![Reservation Ready](images/1.2.2-reservationready.png)
    
