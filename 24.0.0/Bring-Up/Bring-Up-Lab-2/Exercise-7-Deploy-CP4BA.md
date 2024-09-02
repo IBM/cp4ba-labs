@@ -59,7 +59,7 @@ With successful execution of the validation, the Case Package script `cp4a-deplo
 13. Review, if any required fields are left to be filled out in the custom resource. The first command prints a version of the custom resource, which does not have any comments anymore. The grep command then searches for the required keyword, and lists two lines before and after it for a context.
 
     ```
-    sed 's/#.*$//g' xxx | grep -A2 -E2 -i '<required>'
+    sed 's/#.*$//g' ibm_content_cr_final.yaml | grep -A2 -E2 -i '<required>'
     ```
     
 14. Run an editor with the custom resource. Locate any sections above and provide a value. The required value for the `oc_cpe_obj_store_admin_user_groups` field is `cp4badmins`, it case it occurs.
