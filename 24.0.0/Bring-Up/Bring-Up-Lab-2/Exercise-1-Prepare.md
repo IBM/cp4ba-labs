@@ -55,11 +55,11 @@ You cannot perform this bring-up Lab without a license and entitlement key.
     Note: Dependent on the IBM ID used to sign in, you may or may not be able to reserve a demo. If you can't reserve a demo with the current IBM ID, 
 	check if you have another IBM ID that is enabled for IBM Technology Zone reservations. 
 
-3.	Once signed in, open the lab resource page: https://techzone.ibm.com/collection/ibm-cloud-pak-for-business-automation-demos-and-labs-bring-up-lab
+3.	Once signed in, open the lab resource page: https://techzone.ibm.com/collection/ibm-cloud-pak-for-business-automation-and-digital-labor-jam-in-a-box/environments
 
-4.	Scroll down to the **Environments** section. Choose an environment with the highest version number. If you have multiple with the highest number, choose the one in the nearest geo. Then click on **Reserve**.
+4.	Scroll down to the **Environments** section. Choose an environment "CP4BA 24.0.0 Bring-Up Lab Environment" with the highest version number. If you have multiple with the highest number, choose the one in the nearest geo. Then click on **Reserve**.
 
-    ![Reservation](Images/2.2.2-reservation.png)
+    ![Reservation](Images/2.2.2-reservation2.png)
 
     Note: If you don't see the tile, go back to step 1 and sign in with a different ID.
 
