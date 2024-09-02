@@ -46,9 +46,9 @@ To complete this Lab, you must have an entitlement key with access to pull CP4BA
    
    > Dependent on the IBM ID used to sign in, you may or may not be able to reserve an OpenShift cluster. If you can't reserve a cluster with the current IBM ID, check if you have another IBM ID that is enabled for IBM Technology Zone reservations.
    
-3. Once signed in, open the lab resource page: **https://techzone.ibm.com/collection/ibm-cloud-pak-for-business-automation-demos-and-labs-bring-up-lab**
+3. Once signed in, open the lab resource page: **https://techzone.ibm.com/collection/ibm-cloud-pak-for-business-automation-and-digital-labor-jam-in-a-box**
    
-4. On the left hand side select the **Environments** tab. There you should find environment **CP4BA Bring-Up Lab Environment v1.0**, for that environment click on **Reserve**.
+4. On the left hand side select the **Environments** tab. There you should find an environment named **3. CP4BA 23.0.2 Bring-Up Lab Environment (OpenShift 4.12)**, for that environment click on **Reserve**.
    
    ![Reservation](images/1.2.2-reservation.png)
    
