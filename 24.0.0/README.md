@@ -7,15 +7,15 @@ The table below lists all capabilities for which currently labs are offered. Not
 | Capability                                                   | Track | Approximate Duration | Survey |
 | :----------------------------------------------------------- | :------------------: | :-----: | :-----: |
 | [IBM Cloud Pak for Business Automation](IBM%20Cloud%20Pak%20for%20Business%20Automation%20(End-to-End)) (End-to-End Demo) |       1       |       2 hours        | [E2E Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-e2e) |
-| IBM Business Automation Application (coming soon) |      2      |      2 hours       | [BAA Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-baa) |
-| IBM Business Automation Insights (coming soon) |        2        |        1 hour        | [BAI Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-bai) |
-| IBM FileNet Content Services (coming soon) |      2      |      4-5 hours       | [FNCM Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-fncm) |
-| IBM Automation Decision Services (coming soon) |       2       |       3 hours        | [ADS Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-ads) |
+| [IBM Business Automation Application](Business%20Automation%20Application)) |      2      |      2 hours       | [BAA Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-baa) |
+| [IBM Business Automation Insights](Business%20Automation%20Insights) |        2        |        1 hour        | [BAI Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-bai) |
+| [IBM FileNet Content Services](Content) |      2      |      4-5 hours       | [FNCM Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-fncm) |
+| [IBM Automation Decision Services](Decisions) |       2       |       3 hours        | [ADS Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-ads) |
 | IBM Process Mining (coming soon) |      2      |      1-2 hours per lab      | [PM Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-pm) |
 | [IBM Robotic Process Automation](Robotic%20Process%20Automation) |      2      |      3-4 hours       | [RPA Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-rpa) |
 | [IBM Business Automation Workflow](Workflow) |      2      |      5-6 hours       | [BAW Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-baw) |
-| IBM Automation Document Processing (coming soon) |      2      |      3-4 hours       | [ADP Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-adp) |
-| [IBM watsonx Orchestrate](https://github.com/IBM/cp4ba-labs/tree/main/23.0.2/watsonx%20Orchestrate) | 2            | 2-3 hours             | [wxO Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-wxo) |
+| [IBM Automation Document Processing](Document%20Processing) |      2      |      3-4 hours       | [ADP Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-adp) |
+| [IBM watsonx Orchestrate](watsonx%20Orchestrate) | 2            | 2-3 hours             | [wxO Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-wxo) |
 | [IBM CP4BA - Bring-up Lab](Bring-Up) | 3 | 6-14 hours | [Bring-up Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-bring-up) |
 
 ## Track descriptions
