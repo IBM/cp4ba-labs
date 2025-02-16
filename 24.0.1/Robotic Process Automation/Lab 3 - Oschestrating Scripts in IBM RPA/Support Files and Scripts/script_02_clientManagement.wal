@@ -1,0 +1,87 @@
+‚FdefVar --name success --type Boolean
+defVar --name queueConnection --type QueueConnection
+defVar --name obtainedQueue --type MessageQueue
+defVar --name itemFromQueue --type String
+defVar --name table --type DataTable
+defVar --name jsonTable --type DataTable
+defVar --name counter --type Numeric
+defVar --name companyName --type String
+defVar --name country --type String
+defVar --name city --type String
+defVar --name state --type String
+defVar --name street --type String
+defVar --name unit --type String
+defVar --name zipcode --type String
+defVar --name contactName --type String
+defVar --name phoneNumber --type String
+defVar --name email --type String
+defVar --name defaultedPayment --type String
+defVar --name companyAge --type String
+defVar --name annualRevenue --type String
+defVar --name numberOfEmployees --type String
+defVar --name segment --type String
+defVar --name approvalStatus --type String
+defVar --name requestedService --type String
+defVar --name serviceFee --type String
+defVar --name industry --type String
+defVar --name w --type Window
+defVar --name w2 --type Window
+defVar --name value --type String
+defVar --name counter2 --type Numeric
+defVar --name clientId --type String
+defVar --name companyCode --type Numeric
+defVar --name desktop --type String
+defVar --name annualRevenueNumber --type Numeric
+defVar --name serviceFeeNumber --type Numeric
+defVar --name currentDatetime --type DateTime
+defVar --name registerStatus --type String
+defVar --name qualquer --type Numeric
+onError --label Error
+getSpecialFolder --folder "Desktop" desktop=value
+bindProcessVariables --mappings "{\"companyCode\":\"${companyCode}\",\"companyName\":\"${companyName}\",\"industry\":\"${industry}\",\"requestedService\":\"${requestedService}\",\"serviceFeeNumber\":\"${serviceFeeNumber}\"}"
+getCurrentDateAndTime --localorutc "LocalTime" currentDatetime=value
+jsonToTable --json "${itemFromQueue}" --jsonPath "$" jsonTable=value
+mapTableRow --dataTable ${jsonTable} --row 1 --mappings "[{\"Name\":\"Company Name\",\"Number\":\"\",\"Output\":\"${companyName}\"},{\"Name\":\"Country\",\"Number\":\"\",\"Output\":\"${country}\"},{\"Name\":\"City\",\"Number\":\"\",\"Output\":\"${city}\"},{\"Name\":\"State\",\"Number\":\"\",\"Output\":\"${state}\"},{\"Name\":\"Street\",\"Number\":\"\",\"Output\":\"${street}\"},{\"Name\":\"Unit\",\"Number\":\"\",\"Output\":\"${unit}\"},{\"Name\":\"Zip Code\",\"Number\":\"\",\"Output\":\"${zipcode}\"},{\"Name\":\"Contact Name\",\"Number\":\"\",\"Output\":\"${contactName}\"},{\"Name\":\"Phone Number\",\"Number\":\"\",\"Output\":\"${phoneNumber}\"},{\"Name\":\"E-mail\",\"Number\":\"\",\"Output\":\"${email}\"},{\"Name\":\"Defaulted Payment\",\"Number\":\"\",\"Output\":\"${defaultedPayment}\"},{\"Name\":\"Company Age\",\"Number\":\"\",\"Output\":\"${companyAge}\"},{\"Name\":\"Annual Revenue\",\"Number\":\"\",\"Output\":\"${annualRevenue}\"},{\"Name\":\"Number Of Employees\",\"Number\":\"\",\"Output\":\"${numberOfEmployees}\"},{\"Name\":\"Segment\",\"Number\":\"\",\"Output\":\"${segment}\"},{\"Name\":\"Approval Status\",\"Number\":\"\",\"Output\":\"${approvalStatus}\"},{\"Name\":\"Requested Service\",\"Number\":\"\",\"Output\":\"${requestedService}\"},{\"Name\":\"Service Fee\",\"Number\":\"\",\"Output\":\"${serviceFee}\"},{\"Name\":\"Industry\",\"Number\":\"\",\"Output\":\"${industry}\"}]"
+logMessage --message "Teste Mensagem" --type "Info"
+launchOrAttach --executablepath "C:\\CP4AutoDemo\\ClientManagement.jar" --useregex  --regexPattern Login --regexOptions "0" --safesearch  w=value
+goSub --label Login
+goSub --label Client_Management
+click --selector "XPath" --controlsimilarity 100 --simulatehuman  --forcerefresh  --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/push_button[1]"
+getValue --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[5]" value=value
+click --selector "XPath" --controlsimilarity 100 --simulatehuman  --forcerefresh  --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/push_button[2]"
+getRegex --text "${value}" --regexPattern "ID: (\\d+)" --regexOptions "0" --groupnumber 1 clientId=value
+convertStringToNumber --culture "en-US" --text "${clientId}" companyCode=value
+setVar --name "${qualquer}" --value "${companyCode}"
+convertStringToNumber --culture "en-US" --text "${annualRevenue}" annualRevenueNumber=value
+convertStringToNumber --culture "en-US" --text "${serviceFee}" serviceFeeNumber=value
+beginSub --name Error
+logMessage --message "Error\r\n${rpa:error.Message}\r\n${rpa:errorLineNumber}\r\n${rpa:errorMessage}\r\n" --type "Info"
+endSub
+beginSub --name Login
+waitWindow --useregex  --regexPattern Login --regexOptions "0" --safesearch  w=value
+focusWindow --window ${w}
+focus --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[1]"
+setValue --value admin --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[1]"
+setValue --value passw0rd --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/password_text[1]"
+focus --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/push_button[2]"
+click --selector "XPath" --controlsimilarity 100 --simulatehuman  --forcerefresh  --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/push_button[2]"
+endSub
+beginSub --name Client_Management
+waitWindow --useregex  --regexPattern "Client Management System" --regexOptions "0" --safesearch  w2=value
+focusWindow --window ${w2}
+focus --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[1]"
+setValue --value "${companyName}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[1]"
+setValue --value "${approvalStatus}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[4]"
+setValue --value "${contactName}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[1]/text[1]"
+setValue --value "${email}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[1]/text[2]"
+setValue --value "${phoneNumber}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[1]/text[3]"
+setValue --value "${street}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[2]/text[1]"
+setValue --value "${unit}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[2]/text[2]"
+setValue --value "${city}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[2]/text[3]"
+setValue --value "${state}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[2]/text[4]"
+setValue --value "${zipcode}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[2]/text[5]"
+setValue --value "${country}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[2]/text[6]"
+setValue --value "${companyAge}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[2]"
+setValue --value "${numberOfEmployees}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/text[3]"
+setValue --value "${annualRevenue}" --setValueType "Automatic" --algorithm "Default" --matchcondition "Equals" --simulatehuman  --forcerefresh  --selector "XPath" --xpath "/root/root_pane[1]/layered_pane[1]/panel[1]/panel[3]/text[1]"
+endSub*	23.0.10.0

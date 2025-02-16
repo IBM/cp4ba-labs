@@ -1,0 +1,31 @@
+ñdefVar --name onboardingInfo --type String --value " {\"servicesInfo\":{\"servicesRequested\":\"Fibre Internet\",\"servicesFee\":25000,\"industry\":\"Telecom\"},\"approvalStatus\":\"Approved\",\"segment\":\"Segment 1\",\"client\":{\"additionalInformation\":{\"defaultedPayment\":true,\"companyAge\":10,\"annualRevenue\":50000000,\"numberOfEmployees\":1200},\"address\":{\"zipCode\":\"48911\",\"country\":\"United States of America\",\"unit\":\"1A\",\"city\":\"Lansing\",\"street\":\"3974 Carson St\",\"state\":\"MI\"},\"primaryContact\":{\"firstName\":\"June Marie\",\"lastName\":\"Sample\",\"phoneNumber\":\"517-555-0000\",\"email\":\"jmarie@example.com\"},\"name\":\"Automation Elite Inc.\"}}" --parameter 
+defVar --name botExecutionStatus --type String --value success --output 
+defVar --name errorMessage --type String --value "N/A" --output 
+defVar --name vIndustry --type String
+defVar --name vSignedServices --type String
+defVar --name vServiceFees --type String
+defVar --name vSegment --type String
+defVar --name vApprovalStatus --type String
+defVar --name vClientName --type String
+defVar --name vPrimaryContactPhone --type String
+defVar --name vPrimaryContactEmail --type String
+defVar --name vClientAddressStreet --type String
+defVar --name vClientAddressUnit --type String
+defVar --name vClientAddressCity --type String
+defVar --name vClientAddressState --type String
+defVar --name vClientAddressZipCode --type String
+defVar --name vClientAddressCountry --type String
+defVar --name vCompanyAge --type String
+defVar --name vNumberOfEmployee --type String
+defVar --name vAnnualRevenue --type String
+defVar --name vDefaultedPayment --type String
+defVar --name vMessage --type String
+defVar --name vWindow --type Window
+defVar --name vPID --type Numeric
+defVar --name vSuccess --type Boolean
+defVar --name vClientID --type Numeric
+defVar --name vClientFirstName --type String
+defVar --name vClientLastName --type String
+defVar --name vSignedServicesList --type List --innertype String
+defVar --name vIndividualService --type String
+mapJson --json "${onboardingInfo}" --mappings "client.name=${vClientName},client.primaryContact.phoneNumber=${vPrimaryContactPhone},client.primaryContact.email=${vPrimaryContactEmail},client.address.street=${vClientAddressStreet},client.address.unit=${vClientAddressUnit},client.address.city=${vClientAddressCity},client.address.state=${vClientAddressState},client.address.zipCode=${vClientAddressZipCode},client.address.country=${vClientAddressCountry},client.primaryContact.firstName=${vClientFirstName},client.primaryContact.lastName=${vClientLastName},client.additionalInformation.companyAge=${vCompanyAge},client.additionalInformation.numberOfEmployees=${vNumberOfEmployee},client.additionalInformation.annualRevenue=${vAnnualRevenue},client.additionalInformation.defaultedPayment=${vDefaultedPayment},segment=${vSegment},servicesInfo.industry=${vIndustry},servicesInfo.servicesRequested=${vSignedServices},servicesInfo.servicesFee=${vServiceFees},approvalStatus=${vApprovalStatus}"*21.0.6.0
