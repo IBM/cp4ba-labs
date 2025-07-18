@@ -14,7 +14,7 @@ The table below lists all capabilities for which currently labs are offered. A c
 | [IBM Robotic Process Automation](Robotic%20Process%20Automation) (independent of CP4BA version) |      2      |      3-4 hours       | [RPA Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-rpa) |
 | [IBM Business Automation Workflow](Workflow) |      2      |      5-6 hours       | [BAW Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-baw) |
 | [IBM watsonx Orchestrate](watsonx%20Orchestrate) (independent of CP4BA version) | 2            | 2-3 hours             | [wxO Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-wxo) |
-| IBM CP4BA - Bring-up Lab<br />[Bring-Up Lab-1](../23.0.2/Bring-Up) (based on CP4BA 23.0.2)<br />[Bring-Up Lab-2](../24.0.0/Bring-Up) (based on CP4BA 24.0.0) | 3 | 6-14 hours | [Bring-up Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-bring-up) |
+| IBM CP4BA - Bring-up Lab<br />[Bring-Up Lab-1](../23.0.2/Bring-up) (based on CP4BA 23.0.2)<br />[Bring-Up Lab-2](../24.0.0/Bring-Up) (based on CP4BA 24.0.0) | 3 | 6-14 hours | [Bring-up Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-bring-up) |
 
 ## Track descriptions
 
