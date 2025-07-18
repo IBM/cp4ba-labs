@@ -2,7 +2,7 @@
 
 To be able to perform labs listed below, you need to have IBM Cloud Pak for Business Automation 24.0.0 (either Starter or Starter deployment) installed and have imported the Client Onboarding scenario as described [here](https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/24.0.0). For performing the watsonx Orchestrate lab, a watsonx Orchestrate instance is required as an additional  prerequisite.
 
-The table below lists all capabilities for which currently labs are offered. Not all labs have been updated for CP4BA 24.0.0. More will come shortly. A capability may contain one or more labs.
+The table below lists all capabilities for which currently labs are offered. A capability may contain one or more labs.
 
 | Capability                                                   | Track | Approximate Duration | Survey |
 | :----------------------------------------------------------- | :------------------: | :-----: | :-----: |
@@ -11,7 +11,6 @@ The table below lists all capabilities for which currently labs are offered. Not
 | [IBM Business Automation Insights](Business%20Automation%20Insights) |        2        |        1 hour        | [BAI Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-bai) |
 | [IBM FileNet Content Services](Content) |      2      |      4-5 hours       | [FNCM Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-fncm) |
 | [IBM Automation Decision Services](Decisions) |       2       |       3 hours        | [ADS Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-ads) |
-| IBM Process Mining (coming soon) |      2      |      1-2 hours per lab      | [PM Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-pm) |
 | [IBM Robotic Process Automation](Robotic%20Process%20Automation) |      2      |      3-4 hours       | [RPA Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-rpa) |
 | [IBM Business Automation Workflow](Workflow) |      2      |      5-6 hours       | [BAW Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-baw) |
 | [IBM Automation Document Processing](Document%20Processing) |      2      |      3-4 hours       | [ADP Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-adp) |

@@ -13,7 +13,7 @@ If you like to bring-up your own CP4BA instance independently of a Tech Jam, sim
 
 ## Bring-up Lab #1:
 
-Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **rapid deployment scripts**. The lab is being ported to CP4BA 24.0.0 and will soon be available.
+Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **rapid deployment scripts**. The lab is based on CP4BA 23.0.2 and can be found [here](../../23.0.2/Bring-Up).
 
 ## Bring-up Lab #2:
 
