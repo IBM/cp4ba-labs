@@ -7,7 +7,7 @@ A fast way for Business Partners and IBMers with access to IBM TechZone, is to u
 There are labs available for the following IBM Cloud Pak for Business Automation versions:
 
 
-- [CP4BA v25.0.0]
+- [CP4BA v25.0.0](/25.0.0)
 - [CP4BA v23.0.2](/23.0.2)
 
 
