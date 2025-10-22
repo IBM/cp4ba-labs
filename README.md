@@ -8,12 +8,11 @@ There are labs available for the following IBM Cloud Pak for Business Automation
 
 
 - [CP4BA v25.0.0](/25.0.0)
+- [CP4BA v24.0.0](/24.0.0) 
 - [CP4BA v23.0.2](/23.0.2)
 
 
 Archive:
-
-- [CP4BA v24.0.0](/24.0.0) 
 - [CP4BA v23.0.1](/23.0.1)
 - [CP4BA v22.0.1](/22.0.1)
 - [CP4BA v21.0.3](/21.0.3)
