@@ -1,0 +1,413 @@
+openapi: 3.0.1
+info:
+  title: UsrXXX Client Onboarding App Core
+  version: tipSnapshot
+  description: UsrXXX Client Onboarding Skills Core
+  x-ibm-application-id: CP4BACoreUsrXXX
+  x-ibm-application-name: UsrXXX Client Onboarding App Core
+  x-ibm-application-icon: >-
+    <svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="103" height="113"><image
+    xlink:href="data:image/png;base64,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
+    Dr32qwAAAABJRU5ErkJggg==" width="103" height="113"
+    preserveAspectRatio="none"/></svg>
+servers:
+  - url: >-
+      https://cpd-ibm-cp4ba.tech-jam-apac-01-464887bc828751e1b00625ca9211fbca-0000.jp-tok.containers.appdomain.cloud/bas/automationservices/rest/WXCSERV/WXC%20Skills
+security:
+  - basic_auth: []
+paths:
+  /findTopValueClients:
+    summary: findTopValueClients
+    post:
+      operationId: findTopValueClients
+      x-ibm-nl-intent-examples:
+        - Find top value clients
+        - Find the top value clients by industry.
+        - Find the top value clients by the country.
+        - Show me the client list with top value.
+        - Find highest value clients
+        - Can you help me find the top value clients?
+        - Please help me retrieve top value clients.
+        - Can you please help me retrieve top value clients
+        - please find top 5 clients with highest value
+        - Where can I get top value clients?
+        - How can I find top value clients
+      x-ibm-next-actions:
+        - skill_id: UsrXXX-Client-Onboarding-App-Core__tipSnapshot__queryUpsellServices
+          utterance: UsrXXX Query Upsell Recommendation Services
+      summary: UsrXXX Find Top Value Clients
+      description: Find top value clients based on the category of Industry.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/findTopValueClients_input'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/findTopValueClients_output'
+        '400':
+          description: The request contains invalid parameters, or they are missing.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WXC_SkillsException'
+        '404':
+          description: The requested resource does not exist.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WXC_SkillsException'
+        '409':
+          description: >-
+            The request cannot be processed because of one or more conflicts in
+            the request.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WXC_SkillsException'
+        '500':
+          description: Internal server error.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WXC_SkillsException'
+  /queryUpsellServices:
+    summary: queryUpsellServices
+    post:
+      operationId: queryUpsellServices
+      x-ibm-nl-intent-examples:
+        - Get the list of Upsell Recommendation Services
+        - I want to know the upsell recommendation services, please?
+        - Find all Upsell Recommendation Services
+        - >-
+          Get recommended upsell services based on the services that client have
+          signed.
+        - How do I query the available Upsell Recommendation Services?
+        - i want to know all of the upsell recommendation services
+        - Give me upsell Recommendation Services
+        - please help me retreive upsell recommendation services
+        - >-
+          Can you help me find the upsell services that I can recommend to
+          client?
+        - please help me get the list of recommended upsell services
+        - where can I get the upsell recommendation services?
+      x-ibm-next-actions:
+        - skill_id: UsrXXX-Client-Onboarding-App__tipSnapshot__startUpsellRequest
+          utterance: UsrXXX Start Upsell Approval Request
+      summary: UsrXXX Query Upsell Recommendation Services
+      description: >-
+        Query recommended upsell services based on the services that client have
+        signed.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/queryUpsellServices_input'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/queryUpsellServices_output'
+        '400':
+          description: The request contains invalid parameters, or they are missing.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WXC_SkillsException'
+        '404':
+          description: The requested resource does not exist.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WXC_SkillsException'
+        '409':
+          description: >-
+            The request cannot be processed because of one or more conflicts in
+            the request.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WXC_SkillsException'
+        '500':
+          description: Internal server error.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WXC_SkillsException'
+components:
+  schemas:
+    Client:
+      type: object
+      properties:
+        Client_Name:
+          type: string
+        Client_Email:
+          type: string
+        Country:
+          type: string
+        Industry:
+          type: string
+        Annual_Revenue:
+          type: integer
+          format: int32
+        Services_Requested:
+          type: string
+    ClientInfo:
+      type: object
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        country:
+          type: string
+        industry:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        annualRevenue:
+          type: integer
+          format: int32
+        employeeNumber:
+          type: integer
+          format: int32
+        companyAge:
+          type: integer
+          format: int32
+        segment:
+          type: string
+        servicesRequested:
+          type: array
+          items:
+            type: string
+        serviceFee:
+          type: integer
+          format: int32
+        defaultPayment:
+          type: boolean
+    WXC_SkillsException:
+      title: Exception
+      required:
+        - message
+      type: object
+      properties:
+        code:
+          type: string
+          description: Exception code or Message ID of the exception.
+        message:
+          type: string
+          description: Message text of the exception.
+        message_parameters:
+          type: array
+          description: Message text parameters of the exception.
+          items:
+            type: string
+            description: >-
+              An array of parameter strings that were inserted into the error
+              message.
+        cause:
+          $ref: '#/components/schemas/WXC_SkillsException'
+      description: Exception object describing error details.
+    findTopValueClients_input:
+      type: object
+      properties:
+        industry:
+          type: string
+          enum:
+            - Finance
+            - Insurance
+            - Federal
+            - Telecom
+            - Healthcare
+          description: >-
+            The industry could be Finance, Telecom, Healthcare, Federal or
+            Insurance
+        number_of_customers_returned:
+          type: integer
+          description: How many top value clients you want to retrieve
+          format: int32
+      description: Input schema for the operation findTopValueClients
+      x-ibm-parameter-wrapper: true
+    findTopValueClients_output:
+      type: object
+      properties:
+        Clients:
+          type: array
+          title: Top value client list that you can consider to have sales campaign
+          description: Top value client that you can consider for sales campaign.
+          items:
+            $ref: '#/components/schemas/Client'
+      description: Response schema of operation findTopValueClients
+      x-ibm-parameter-wrapper: true
+    queryUpsellServices_input:
+      type: object
+      properties:
+        ClientName:
+          type: string
+          title: ClientName
+          description: Client name you want to query upsell services.
+      description: Input schema for the operation queryUpsellServices
+      x-ibm-parameter-wrapper: true
+    queryUpsellServices_output:
+      type: object
+      properties:
+        Client_Name:
+          type: string
+          title: ClientName
+        Industry:
+          type: string
+        UpsellServices:
+          type: array
+          items:
+            type: string
+      description: Response schema of operation queryUpsellServices
+      x-ibm-parameter-wrapper: true
+  securitySchemes:
+    basic_auth:
+      type: http
+      scheme: basic
