@@ -5,10 +5,10 @@
 >  The integration between IBM Datacap and watsonx.ai enables organizations to apply AI-powered capabilities to document capture workflows. This pairing is designed to improve automation, accuracy, and flexibility in handling complex documents.
 >
 > **Capabilities Enabled by watsonx.ai**
-> **Natural language understanding:** Extracts meaning from unstructured text.
-     **Semantic classification:** Identifies document types based on context, not just layout.
-     **Prompt-based extraction:** Developers can craft prompts to extract specific data points (e.g., invoice totals, contract terms).
-     **Model flexibility:** Choose from IBM-hosted models or bring your own via watsonx.ai
+      - **Natural language understanding:** Extracts meaning from unstructured text.
+    - **Semantic classification:** Identifies document types based on context, not just layout.
+    - **Model flexibility:** Choose from IBM-hosted models or bring your own via watsonx.ai
+    - **Prompt-based extraction:** Developers can craft prompts to extract specific data points (e.g., invoice totals, contract terms).
 >
 > **Benefits of the Integration**
     * Improved accuracy in data extraction from complex or variable documents.
