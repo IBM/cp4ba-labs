@@ -6,16 +6,17 @@
 >
 > 
 >**Capabilities Enabled by watsonx.ai**
-      - **Natural language understanding:** Extracts meaning from unstructured text.
-    - **Semantic classification:** Identifies document types based on context, not just layout.
-    - **Model flexibility:** Choose from IBM-hosted models or bring your own via watsonx.ai
-    - **Prompt-based extraction:** Developers can craft prompts to extract specific data points (e.g., invoice totals, contract terms).
+>- *Natural language understanding*: Extracts meaning from unstructured text using foundation models.
+>- *Semantic classification*: Identifies document types based on context, not just layout or structure.
+>- *Model flexibility*: Choose from IBM-hosted models or bring your own via watsonx.ai.
+>- *Prompt-based extraction*: Craft prompts to extract specific data points such as invoice totals, contract terms, or custom metadata.
 >
 > **Benefits of the Integration**
-    * Improved accuracy in data extraction from complex or variable documents.
-    * Reduced template dependency, thanks to AI-driven understanding.
-    * Faster deployment of new document types using prompt engineering.
-    * Scalable intelligence across high-volume capture environments.
+>- *Improved accuracy in data extraction from complex or variable documents.*
+>- *Reduced template dependency, thanks to AI-driven understanding.*
+>- *Faster deployment of new document types using prompt engineering.*
+>- *Scalable intelligence across high-volume capture environments.*
+
 ## Labs
 > Build a capture solution using IBM Datacap integrated with watsonx.ai.. In this hands-on session, you will configure your own intelligent document processing project. You’ll define fields for data extraction, create rules, and—where supported—leverage watsonx.ai foundational large language models (LLMs) to automate complex data classification and data extraction.
 > 
