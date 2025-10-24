@@ -11,9 +11,9 @@ It requires to be separately created, see the Lab Guides for all needed details.
 
 If you like to bring-up your own CP4BA instance independently of a Tech Jam, simply follow the instructions in our **[CP4BA rapid deployment project](https://github.com/IBM/cp4ba-rapid-deployment)**
 
-## Bring-up Lab #1:
+<!--## Bring-up Lab #1:
 
-Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **rapid deployment scripts**. The lab is based on CP4BA 23.0.2 and can be found [here](../../23.0.2/Bring-up).
+Learn how to quickly bring-up a Production deployment of IBM CP4BA using the **rapid deployment scripts**. The lab is based on CP4BA 23.0.2 and can be found [here](../../23.0.2/Bring-up). -->
 
 ## Bring-up Lab #2:
 
