@@ -1,12 +1,12 @@
 # IBM watsonx Orchestrate
 ## Overview
-IBM watsonx Orchestrate uses natural language processing to draw from a catalog of basic and advanced skills to execute your requests - in context and the correct order. No specialized training is needed. Get started in minutes using prebuilt skills designed for you and your needs. IT doesn't even have to get involved (unless they want to, of course).
+Building on the lab’s core objective of developing an upsell campaign solution, attendees will learn how to leverage the watsonx Orchestrate Agent Development Kit (ADK) to create intelligent agents capable of dynamic user interaction and seamless integration with external systems. These agents will be designed to autonomously execute tasks within a broader workflow, demonstrating how AI-powered automation can streamline business operations through orchestration and system interoperability. 
 
 ## Labs
 
 ### **Track 2 - Developer Role / Solution Implementation** 
-- **[Introduction to IBM watsonx Orchestrate](Lab%20Guide%20-%20Introduction%20to%20IBM%20watsonx%20Orchestrate.pdf):** In this lab, you will build an IBM watsonx Orchestrate solution that re-imagines the quarterly promotions process. You will be re-using the existing IT assets to author an intelligent, AI-driven solution that pulls customer data from the system of records and creates targeted emails:     
-**Approximate Duration:** 2-3 hours
 
-- **[Author Automation with IBM watsonx Orchestrate Automation Builder](Lab%20Guide%20-%20Author%20Automation%20with%20IBM%20watsonx%20Orchestrate%20Automation%20Builder.pdf):** In this lab, you will build the Sales Campaign Approval Workflow, a component of the end user-facing quarterly promotions solution:     
-**Approximate Duration:** 2-3 hours
+- **[Build Upsell Services Campaign AI Agent with IBM watsonx Orchestrate.](Build%20Upsell%20Services%20Campaign%20AI%20Agent%20with%20IBM%20watsonx%20Orchestrate.pdf):** In this lab, you will build an IBM watsonx Orchestrate solution that re-imagines the quarterly promotions process. You will reuse the existing IT assets implemented with IBM Business Automation Workflow to author an Agent that automates the Upsell Campaign. The Services Upsell Campaign Agent (CSU Agent, for short) will guide sales representatives through the upsell campaign steps, pull customer data from the system of record, and create targeted emails.
+<img width="3915" height="41" alt="image" src="https://github.com/user-attachments/assets/90c33f0c-afbc-48a8-b58d-a87f7caec42b" />
+ 
+**Approximate Duration:** 1-2 hours
