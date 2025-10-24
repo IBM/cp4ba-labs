@@ -9,6 +9,7 @@ The table below lists all capabilities for which currently labs are offered. Not
 | [IBM Cloud Pak for Business Automation](IBM%20Cloud%20Pak%20for%20Business%20Automation%20(End-to-End)) (End-to-End Demo) |       1       |       2 hours        | [E2E Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-e2e) |
 | [IBM Business Automation Application](Business%20Automation%20Application) |      2      |      2 hours       | [BAA Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-baa) |
 | [IBM Business Automation Insights](Business%20Automation%20Insights) |        2        |        1 hour        | [BAI Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-bai) |
+| [IBM Process Mining](Process%20Mining) |        2        |        1 hour        | [Process Mining Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-ProcessMining) |
 | [IBM FileNet Content Services](Content) |      2      |      4-5 hours       | [FNCM Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-fncm) |
 | [IBM Datacap+Watsonx.ai](Datacap+Watsonx.ai) |      2      |      4-5 hours       | [Datacap+Watsonx.ai Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-fncm) |
 | [IBM Automation Decision Services](Decisions) |       2       |       3 hours        | [ADS Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-ads) |
