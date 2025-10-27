@@ -6,17 +6,17 @@ The table below lists all capabilities for which currently labs are offered. Not
 
 | Capability                                                   | Track | Approximate Duration | Survey |
 | :----------------------------------------------------------- | :------------------: | :-----: | :-----: |
-| [IBM Cloud Pak for Business Automation](IBM%20Cloud%20Pak%20for%20Business%20Automation%20(End-to-End)) (End-to-End Demo) |       1       |       2 hours        | [E2E Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-e2e) |
-| [IBM Business Automation Application](Business%20Automation%20Application) |      2      |      2 hours       | [BAA Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-baa) |
-| [IBM Business Automation Insights](Business%20Automation%20Insights) |        2        |        1 hour        | [BAI Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-bai) |
-| [IBM Process Mining](Process%20Mining) |        2        |        1 hour        | [Process Mining Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-ProcessMining) |
-| [IBM Robotic Process Automation](Robotic%20Process%20Automation) | 2 |      3-4 hours       | [RPA Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-rpa) |
-| [IBM watsonx Orchestrate](watsonx%20Orchestrate) | 2 | 2-3 hours |[wxO Survey]( https://www.surveymonkey.com/r/ba-dl-tech-jam-wxo) |
-| [IBM FileNet Content Services](Content) |      2      |      4-5 hours       | [FNCM Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-fncm) |
-| [IBM Datacap+Watsonx.ai](Datacap+Watsonx.ai) |      2      |      4-5 hours       | [Datacap+Watsonx.ai Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-fncm) |
-| [IBM Automation Decision Services](Decisions) |       2       |       3 hours        | [ADS Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-ads) |
-| [IBM Business Automation Workflow](Workflow) |      2      |      5-6 hours       | [BAW Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-baw) |
-| <!--IBM CP4BA - Bring-up Lab<br />[Bring-Up Lab-1](../23.0.2/Bring-up) (based on CP4BA 23.0.2)<br /> --> [Bring-Up Lab-2](../24.0.0/Bring-Up) (based on CP4BA 24.0.0) | 3 | 6-14 hours | [Bring-up Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-bring-up) |
+| [IBM Cloud Pak for Business Automation](IBM%20Cloud%20Pak%20for%20Business%20Automation%20(End-to-End)) (End-to-End Demo) |       1       |       2 hours        | [E2E Survey](https://ibm.biz/ba-wxo-tech-jam-e2e-survey) |
+| [IBM Business Automation Application](Business%20Automation%20Application) |      2      |      2 hours       | [BAA Survey](https://ibm.biz/ba-wxo-tech-jam-baa-survey) |
+| [IBM Business Automation Insights](Business%20Automation%20Insights) |        2        |        1 hour        | [BAI Survey](https://ibm.biz/ba-wxo-tech-jam-bai-survey) |
+| [IBM Process Mining](Process%20Mining) |        2        |        1 hour        | [Process Mining Survey](https://ibm.biz/ba-wxo-tech-jam-pm-survey) |
+| [IBM Robotic Process Automation](Robotic%20Process%20Automation) | 2 |      3-4 hours       | [RPA Survey](https://ibm.biz/ba-wxo-tech-jam-rpa-survey) |
+| [IBM watsonx Orchestrate](watsonx%20Orchestrate) | 2 | 2-3 hours |[wxO Survey]( https://ibm.biz/ba-wxo-tech-jam-wxo-survey) |
+| [IBM FileNet Content Services](Content) |      2      |      4-5 hours       | [FNCM Survey](https://ibm.biz/ba-wxo-tech-jam-content-survey) |
+| [IBM Datacap+Watsonx.ai](Datacap+Watsonx.ai) |      2      |      4-5 hours       | [Datacap+Watsonx.ai Survey](https://ibm.biz/ba-wxo-tech-jam-datacap-survey)) |
+| [IBM Automation Decision Services](Decisions) |       2       |       3 hours        | [ADS Survey](https://ibm.biz/ba-wxo-tech-jam-decisions-survey) |
+| [IBM Business Automation Workflow](Workflow) |      2      |      5-6 hours       | [BAW Survey](https://ibm.biz/ba-wxo-tech-jam-baw-survey) |
+| <!--IBM CP4BA - Bring-up Lab<br />[Bring-Up Lab-1](../23.0.2/Bring-up) (based on CP4BA 23.0.2)<br /> --> [Bring-Up Lab-2](../24.0.0/Bring-Up) (based on CP4BA 24.0.0) | 3 | 6-14 hours | [Bring-up Survey](https://ibm.biz/ba-wxo-tech-jam-bring-up-survey) |
 
 ## Track descriptions
 
