@@ -22,5 +22,16 @@
 > 
 > Discover how to enhance your capture workflow by integrating prompt-driven AI from watsonx.ai directly into Datacap. This lab shows you how LLMs can improve accuracy, reduce reliance on templates, and streamline document classification and data extraction for real-world applications.
 
-Approximate Duration: 4-5 Hours
+## Lab Environment Details – TechJam Event
+>As part of the TechJam event, we’re offering pre-provisioned lab environments on a first-come, first-served basis. A total of 30 instances have been reserved. These environments may be reused by other participants depending on availability.
+>
+>If you're planning to work through the lab exercises and need assistance or have questions, please join us on the Slack channel [#ba-wxo-tech-jam-datacap](https://ibm.enterprise.slack.com/archives/C09N92L6C1Z) for support and guidance.
+>
+## To reserve your own environment and complete the lab exercises, use the following TechZone links:
+>- *Datacap VM* (v9.1.9 IFIX 7): https://techzone.ibm.com/my/reservations/create/66e0561e97f3a6001e7dc86b
+>- *Watsonx.ai environment*: https://techzone.ibm.com/my/reservations/create/6696a8ada7b42e001ef21b52
+>  
+>All steps for reserving and provisioning the environments are fully documented in the lab guide.
 
+
+Approximate Duration: 4-5 Hours
