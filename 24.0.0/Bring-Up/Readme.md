@@ -6,7 +6,7 @@ Install and configure a **Production** deployment of IBM Cloud Pak for Business 
 
 **Track 3 - Administrator Role**
 
-**Note:** Labs as documented here only require an environment created from **[TechZone](https://techzone.ibm.com/collection/internal-ibm-cloud-pak-for-business-automation-demos-and-labs/environments)**. 
+**Note:** Labs as documented here only require an environment created from **[TechZone](https://techzone.ibm.com/collection/ibm-cloud-pak-for-business-automation-and-digital-labor-jam-in-a-box/environments)**. 
 It requires to be separately created, see the Lab Guides for all needed details. You also need a CP4BA License which will get accessed from the **[IBM Container Library](https://myibm.ibm.com/products-services/containerlibrary)**, see also the Lab Guide for all needed details.
 
 If you like to bring-up your own CP4BA instance independently of a Tech Jam, simply follow the instructions in our **[CP4BA rapid deployment project](https://github.com/IBM/cp4ba-rapid-deployment)**
