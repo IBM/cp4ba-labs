@@ -5,7 +5,15 @@
 When you finish the previous exercise, you are ready with the deployment of Cloud Pak For Business Automation. However, you might have run into troubles or might be interested in how to 
 further troubleshooting can be made for the deployment of a Cloud Pak For Business Automation deployment. Also, during the exercises above, you might have been referred to one or more of the sections in this chapter for troubleshooting problems, or checking the availability of components. 
 
-## A.2 Determining Deployment Status of the CP4BA Cluster
+## A.2 Login problems on OCP environment 
+
+You might observe errors when trying to access OCP Web Console or trying to login on OCP Web Console. 
+
+These errors usually only happen when the environment is relatively newly built on Techzone, and is not yet running long enough for the OCP operators to renew the certificates of the different components, foremost the Authentication pods. This results in errors from authentication.
+
+If your environment is Ready for an hour or more, and you still can't access the OCP Web console or log-in to OCP Web Console, the environment is possibly corrupted, which sometimes can happen on TechZone. In this case, please delete your reservation on TechZone and request a new environment.
+
+## A.3 Determining Deployment Status of the CP4BA Cluster
 
 This section shows how you can check the correct installation of the various parts of the CP4A deployment steps. Use it as a guide to check where you are with the deployment and whether anything failed to install.
 
