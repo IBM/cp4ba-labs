@@ -142,8 +142,10 @@ Once you get the email informing you that your environment is Ready, you can sta
 
 10.	To access your OpenShift cluster through a Browser, **open Firefox** first (shortcut on the desktop).In Firefox, open bookmark **OpenShift Web Console**
 
-    Note: In case you get the Warning: Potential Security Risk Ahead, click Advanced… and then click Accept the Risk and Continue. This is needed two times to finally get to the OCP log-in screen.
-	
+    Note:
+    - In case you get the Warning: Potential Security Risk Ahead, click Advanced… and then click Accept the Risk and Continue. This is needed two times to finally get to the OCP log-in screen.
+    - In case of other problems accessing OCP web console or logging in, please refer to the [Troubleshooting](Appendinx-A-Troubleshooting.md) section.
+      
 11.	Log in with **ocpadmin / passw0rd** (where the third-last character is a zero).
 
 12.	Once logged in, verify that the OpenShift Web Console opens and that you have Administrator access.
