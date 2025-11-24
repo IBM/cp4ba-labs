@@ -48,7 +48,7 @@ IBM FileNet Content Manager is a flexible, full-featured content management solu
   **Approximate Duration**: 1.5 - 2 hours
 
 
-- **[AI-Powered Insights from FileNet Documents](https://github.com/IBM/cp4ba-labs/blob/main/25.0.0/Content/CONTENT20Lab%204%20-%20Content%20Assistant.pdf)**:
+- **[AI-Powered Insights from FileNet Documents](https://github.com/IBM/cp4ba-labs/blob/main/25.0.0/Content/CONTENT%20Lab%204%20-%20Content%20Assistant.pdf)**:
   The fourth lab demonstrates how IBM Content Assistant leverages Artificial Intelligence to extract information and insights from documents
   stored in an IBM FileNet Content Engine Object Store. It ensures secure access by restricting query results to documents the user is authorized
   to view.
