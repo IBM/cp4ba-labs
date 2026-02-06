@@ -1,6 +1,6 @@
-# IBM Cloud Pak for Business Automation (CP4BA) 24.0.0 / watsonX Orchestrate Labs
+# IBM Cloud Pak for Business Automation (CP4BA) 24.0.0 Labs
 
-To be able to perform labs listed below, you need to have IBM Cloud Pak for Business Automation 24.0.0 (either Starter or Starter deployment) installed and have imported the Client Onboarding scenario as described [here](https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/24.0.0). For performing the watsonx Orchestrate lab, a watsonx Orchestrate instance is required as an additional  prerequisite.
+To be able to perform labs listed below, you need to have IBM Cloud Pak for Business Automation 24.0.0 (either Starter or Enterprise deployment) installed and have imported the Client Onboarding scenario as described [here](https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/24.0.0).
 
 The table below lists all capabilities for which currently labs are offered. A capability may contain one or more labs.
 
@@ -14,12 +14,11 @@ The table below lists all capabilities for which currently labs are offered. A c
 | [IBM Robotic Process Automation](Robotic%20Process%20Automation) |      2      |      3-4 hours       | [RPA Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-rpa) |
 | [IBM Business Automation Workflow](Workflow) |      2      |      5-6 hours       | [BAW Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-baw) |
 | [IBM Automation Document Processing](Document%20Processing) |      2      |      3-4 hours       | [ADP Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-adp) |
-| [IBM watsonx Orchestrate](watsonx%20Orchestrate) | 2            | 2-3 hours             | [wxO Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-wxo) |
 | [IBM CP4BA - Bring-up Lab](Bring-Up) | 3 | 6-14 hours | [Bring-up Survey](https://www.surveymonkey.com/r/ba-dl-tech-jam-bring-up) |
 
 ## Track descriptions
 
-The different tracks cater for different target groups and previous levels of exposure to Cloud Pack for Business Automation/watsonX Orchestrate.
+The different tracks cater for different target groups and previous levels of exposure to Cloud Pack for Business Automation.
 
 **Track 1 – Foundation**
 
@@ -29,9 +28,9 @@ The different tracks cater for different target groups and previous levels of ex
 
 **Track 2 – Developer Role / Solution Implementation**
 
-- **Audience**: Base understanding of Cloud Pak for Business Automation (CP4BA) /watsonX Orchestrate
+- **Audience**: Base understanding of Cloud Pak for Business Automation (CP4BA)
 
-- **Learning**: Overview of the Cloud Pak/watsonX Orchestrate from developer and partly user perspective
+- **Learning**: Overview of the Cloud Pak from developer and partly user perspective
 
   ​		   Ability to develop pieces of the solution areas
 
