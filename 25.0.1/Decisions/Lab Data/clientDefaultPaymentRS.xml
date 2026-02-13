@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<PMML version="4.2" xmlns="http://www.dmg.org/PMML-4_2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Header copyright="(C) Copyright IBM Corp. 1994, 2021">
+    <Application name="IBM SPSS Modeler" version="18.4"/>
+</Header>
+  <DataDictionary numberOfFields="5">
+    <DataField dataType="integer" name="clientAnnualRevenue" optype="continuous">
+      <Extension extender="spss" name="storageType" value="numeric"/>
+</DataField>
+    <DataField dataType="integer" name="clientExistenceDuration" optype="continuous">
+      <Extension extender="spss" name="storageType" value="numeric"/>
+</DataField>
+    <DataField dataType="integer" name="clientIndustry" optype="continuous">
+      <Extension extender="spss" name="storageType" value="numeric"/>
+</DataField>
+    <DataField dataType="integer" name="clientEmployeeNumber" optype="continuous">
+      <Extension extender="spss" name="storageType" value="numeric"/>
+</DataField>
+    <DataField dataType="string" name="clientDefaultedPayment" optype="categorical">
+      <Extension extender="spss" name="storageType" value="string"/>
+      <Extension extender="spss" name="flagTypeTrueValue" value="TRUE"/>
+      <Value property="valid" value="FALSE"/>
+      <Value property="valid" value="TRUE"/>
+</DataField>
+</DataDictionary>
+  <RuleSetModel algorithmName="RuleSet" functionName="classification" modelName="clientDefaultedPayment">
+    <MiningSchema>
+      <MiningField importance="0.234146" name="clientAnnualRevenue" usageType="active"/>
+      <MiningField importance="0.269947" name="clientExistenceDuration" usageType="active"/>
+      <MiningField importance="0.249099" name="clientIndustry" usageType="active"/>
+      <MiningField importance="0.246808" name="clientEmployeeNumber" usageType="active"/>
+      <MiningField name="clientDefaultedPayment" usageType="predicted"/>
+</MiningSchema>
+    <RuleSet defaultConfidence="0.5" defaultScore="FALSE" recordCount="123515.0">
+      <RuleSelectionMethod criterion="weightedSum"/>
+      <SimpleRule confidence="0.9959839357429718" id="0" nbCorrect="247.0" recordCount="247" score="TRUE" weight="0.9959839357429718">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="lessOrEqual" value="57849735"/>
+          <SimplePredicate field="clientIndustry" operator="lessOrEqual" value="2.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="lessOrEqual" value="4.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9923076923076923" id="1" nbCorrect="128.0" recordCount="128" score="TRUE" weight="0.9923076923076923">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="lessOrEqual" value="77744441.5"/>
+          <SimplePredicate field="clientIndustry" operator="lessOrEqual" value="2.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="lessOrEqual" value="1.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.99" id="2" nbCorrect="98.0" recordCount="98" score="TRUE" weight="0.99">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="lessOrEqual" value="4474496.5"/>
+          <SimplePredicate field="clientIndustry" operator="lessOrEqual" value="0.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="lessOrEqual" value="19.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9900990099009901" id="3" nbCorrect="99.0" recordCount="99" score="TRUE" weight="0.9900990099009901">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="lessOrEqual" value="90075381.5"/>
+          <SimplePredicate field="clientIndustry" operator="lessOrEqual" value="1.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="lessOrEqual" value="1.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.987460815047022" id="4" nbCorrect="314.0" recordCount="317" score="TRUE" weight="0.987460815047022">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="lessOrEqual" value="11941837"/>
+          <SimplePredicate field="clientIndustry" operator="lessOrEqual" value="1.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="lessOrEqual" value="17.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9866071428571429" id="5" nbCorrect="220.0" recordCount="222" score="TRUE" weight="0.9866071428571429">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="lessOrEqual" value="75041840.5"/>
+          <SimplePredicate field="clientIndustry" operator="lessOrEqual" value="1.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="lessOrEqual" value="5.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9831932773109243" id="6" nbCorrect="116.0" recordCount="117" score="TRUE" weight="0.9831932773109243">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="lessOrEqual" value="82291469"/>
+          <SimplePredicate field="clientIndustry" operator="lessOrEqual" value="0.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="lessOrEqual" value="5.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9655172413793104" id="7" nbCorrect="55.0" recordCount="56" score="TRUE" weight="0.9655172413793104">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="lessOrEqual" value="98766733"/>
+          <SimplePredicate field="clientIndustry" operator="lessOrEqual" value="0.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="lessOrEqual" value="1.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.7531135531135531" id="8" nbCorrect="1027.0" recordCount="1363" score="TRUE" weight="0.7531135531135531">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="lessOrEqual" value="69301578"/>
+          <SimplePredicate field="clientExistenceDuration" operator="lessOrEqual" value="14.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9995682210708118" id="9" nbCorrect="2314.0" recordCount="2314" score="FALSE" weight="0.9995682210708118">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="10795843.5"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="2.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="11.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.999619916381604" id="10" nbCorrect="2629.0" recordCount="2629" score="FALSE" weight="0.999619916381604">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="2.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="13.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.999806314158435" id="11" nbCorrect="5161.0" recordCount="5161" score="FALSE" weight="0.999806314158435">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="38260374.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="11"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9997802197802198" id="12" nbCorrect="4548.0" recordCount="4548" score="FALSE" weight="0.9997802197802198">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="38260374.5"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="0.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="8.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9995711835334476" id="13" nbCorrect="4661.0" recordCount="4662" score="FALSE" weight="0.9995711835334476">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="55951247.5"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="0.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="4.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9996360989810772" id="14" nbCorrect="5493.0" recordCount="5494" score="FALSE" weight="0.9996360989810772">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="55951247.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="6.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9997199663959675" id="15" nbCorrect="3569.0" recordCount="3569" score="FALSE" weight="0.9997199663959675">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="33173203.5"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="1.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="7.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9995559502664298" id="16" nbCorrect="2250.0" recordCount="2250" score="FALSE" weight="0.9995559502664298">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="19894834"/>
+          <SimplePredicate field="clientEmployeeNumber" operator="greaterThan" value="59"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="2.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="6.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9997184684684685" id="17" nbCorrect="3550.0" recordCount="3550" score="FALSE" weight="0.9997184684684685">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="19894834"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="1.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="9.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9996102124342233" id="18" nbCorrect="5128.0" recordCount="5129" score="FALSE" weight="0.9996102124342233">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="4474496.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="17.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9997780736795384" id="19" nbCorrect="4504.0" recordCount="4504" score="FALSE" weight="0.9997780736795384">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="0.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="17.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9998076923076923" id="20" nbCorrect="5198.0" recordCount="5198" score="FALSE" weight="0.9998076923076923">
+        <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="19.5"/>
+</SimpleRule>
+      <SimpleRule confidence="0.9996897300651567" id="21" nbCorrect="3221.0" recordCount="3221" score="FALSE" weight="0.9996897300651567">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="13244424.5"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="1.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="13.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9997636492554951" id="22" nbCorrect="4229.0" recordCount="4229" score="FALSE" weight="0.9997636492554951">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="90075381.5"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="0.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9997104806022004" id="23" nbCorrect="3452.0" recordCount="3452" score="FALSE" weight="0.9997104806022004">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="77744441.5"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="1.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9997745716862038" id="24" nbCorrect="4434.0" recordCount="4434" score="FALSE" weight="0.9997745716862038">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="69301578"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="0.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="3.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9996956786366403" id="25" nbCorrect="3284.0" recordCount="3284" score="FALSE" weight="0.9996956786366403">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="15755841"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="1.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="12"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9997771339425006" id="26" nbCorrect="4485.0" recordCount="4485" score="FALSE" weight="0.9997771339425006">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="75041840.5"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="0.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="1.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9997123130034522" id="27" nbCorrect="3474.0" recordCount="3474" score="FALSE" weight="0.9997123130034522">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="69301578"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="1.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="1.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9996278377372534" id="28" nbCorrect="5371.0" recordCount="5372" score="FALSE" weight="0.9996278377372534">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="82291469"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="1.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9995852343425964" id="29" nbCorrect="2409.0" recordCount="2409" score="FALSE" weight="0.9995852343425964">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="69301578"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="2.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9997998398718975" id="30" nbCorrect="4994.0" recordCount="4994" score="FALSE" weight="0.9997998398718975">
+        <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="98766733"/>
+</SimpleRule>
+      <SimpleRule confidence="0.9998097050428164" id="31" nbCorrect="5253.0" recordCount="5253" score="FALSE" weight="0.9998097050428164">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="69301578"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="5.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.999236641221374" id="32" nbCorrect="1308.0" recordCount="1308" score="FALSE" weight="0.999236641221374">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="53918348"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="3.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9992567818654775" id="33" nbCorrect="5377.0" recordCount="5380" score="FALSE" weight="0.9992567818654775">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="19894834"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="12.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9992178333985139" id="34" nbCorrect="2554.0" recordCount="2555" score="FALSE" weight="0.9992178333985139">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="36249552.5"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="2.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="4.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9988569251285959" id="35" nbCorrect="5242.0" recordCount="5247" score="FALSE" weight="0.9988569251285959">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="11941837"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="14.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.999213217938631" id="36" nbCorrect="3809.0" recordCount="3811" score="FALSE" weight="0.999213217938631">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="1.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="14.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9992836676217765" id="37" nbCorrect="1394.0" recordCount="1394" score="FALSE" weight="0.9992836676217765">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="3.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="11.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9989270386266095" id="38" nbCorrect="3723.0" recordCount="3726" score="FALSE" weight="0.9989270386266095">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="53918348"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="1.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="2.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9992072929052715" id="39" nbCorrect="2520.0" recordCount="2521" score="FALSE" weight="0.9992072929052715">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="53918348"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="2.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="1.5"/>
+</CompoundPredicate>
+</SimpleRule>
+      <SimpleRule confidence="0.9984767707539984" id="40" nbCorrect="1310.0" recordCount="1311" score="FALSE" weight="0.9984767707539984">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate field="clientAnnualRevenue" operator="greaterThan" value="8800138"/>
+          <SimplePredicate field="clientIndustry" operator="greaterThan" value="3.5"/>
+          <SimplePredicate field="clientExistenceDuration" operator="greaterThan" value="8.5"/>
+</CompoundPredicate>
+</SimpleRule>
+</RuleSet>
+</RuleSetModel>
+</PMML>

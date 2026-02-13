@@ -1,0 +1,27 @@
+var autoObject = new tw.object.toolkit.IBMRPA1.OnboardingInformation();
+autoObject.client = new tw.object.toolkit.IBMRPA1.Client();
+autoObject.client.name = "Automation Elite Inc.";
+autoObject.client.primaryContact = new tw.object.toolkit.IBMRPA1.PrimaryContact();
+autoObject.client.primaryContact.firstName = "June Marie";
+autoObject.client.primaryContact.lastName = "Sample";
+autoObject.client.primaryContact.email = "jmarie@example.com";
+autoObject.client.primaryContact.phoneNumber = "517-555-0000";
+autoObject.client.address = new tw.object.toolkit.IBMRPA1.Address();
+autoObject.client.address.street = "3974 Carson St";
+autoObject.client.address.unit = "1A";
+autoObject.client.address.city = "Lansing";
+autoObject.client.address.zipCode = "48911";
+autoObject.client.address.state = "MI";
+autoObject.client.address.country = "United States of America";
+autoObject.client.additionalInformation = new tw.object.toolkit.IBMRPA1.ClientInformation();
+autoObject.client.additionalInformation.annualRevenue = 50000000;
+autoObject.client.additionalInformation.companyAge = 10;
+autoObject.client.additionalInformation.defaultedPayment = true;
+autoObject.client.additionalInformation.numberOfEmployees = 1200;
+autoObject.segment = "Segment 1";
+autoObject.servicesInfo = new tw.object.toolkit.IBMRPA1.ServicesInformation();
+autoObject.servicesInfo.servicesFee = 2500;
+autoObject.servicesInfo.industry = "Telecom";
+autoObject.servicesInfo.servicesRequested = "Fibre Internet";
+autoObject.approvalStatus = "Approved";
+autoObject
