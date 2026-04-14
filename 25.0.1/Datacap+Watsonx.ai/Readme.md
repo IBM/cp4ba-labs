@@ -28,7 +28,7 @@
 >If you're planning to work through the lab exercises and need assistance or have questions, please join us on the Slack channel [#ba-wxo-tech-jam-datacap](https://ibm.enterprise.slack.com/archives/C09N92L6C1Z) for support and guidance.
 >
 ## To reserve your own environment and complete the lab exercises, use the following TechZone links:
->- *Datacap VM* (v9.1.9 IFIX 7): https://techzone.ibm.com/my/reservations/create/66e0561e97f3a6001e7dc86b
+>- *Datacap VM* (v9.1.9.10 ): https://techzone.ibm.com/my/reservations/create/66e0561e97f3a6001e7dc86b
 >- *Watsonx.ai environment*: https://techzone.ibm.com/my/reservations/create/6696a8ada7b42e001ef21b52
 >  
 >All steps for reserving and provisioning the environments are fully documented in the lab guide.
