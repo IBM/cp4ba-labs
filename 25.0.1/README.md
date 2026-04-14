@@ -1,6 +1,6 @@
 # IBM Cloud Pak for Business Automation (CP4BA) 25.0.1
 
-To be able to perform labs listed below, you need to have IBM Cloud Pak for Business Automation 25.0.0 (either Starter or Enterprise deployment) installed and have imported the Client Onboarding scenario as described [here](https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/25.0.0).
+To be able to perform labs listed below, you need to have IBM Cloud Pak for Business Automation 25.0.1 (either Starter or Enterprise deployment) installed and have imported the Client Onboarding scenario as described [here](https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/25.0.0).
 
 The table below lists all capabilities for which currently labs are offered. Not all labs have been updated for CP4BA 25.0.1. A capability may contain one or more labs.
 
