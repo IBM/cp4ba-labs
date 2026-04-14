@@ -16,7 +16,7 @@ The table below lists all capabilities for which currently labs are offered. Not
 | [IBM Datacap+Watsonx.ai](Datacap+Watsonx.ai) |      2      |      4-5 hours       | [Datacap+Watsonx.ai Survey](https://ibm.biz/ba-wxo-tech-jam-datacap-survey)) |
 | [IBM Automation Decision Services](Decisions) |       2       |       3 hours        | [ADS Survey](https://ibm.biz/ba-wxo-tech-jam-decisions-survey) |
 | [IBM Business Automation Workflow](Workflow) |      2      |      5-6 hours       | [BAW Survey](https://ibm.biz/ba-wxo-tech-jam-baw-survey) |
-| <!--IBM CP4BA - Bring-up Lab<br />[Bring-Up Lab-1](../23.0.2/Bring-up) (based on CP4BA 23.0.2)<br /> --> [Bring-Up Lab-2](../24.0.0/Bring-Up) (based on CP4BA 24.0.0) | 3 | 6-14 hours | [Bring-up Survey](https://ibm.biz/ba-wxo-tech-jam-bring-up-survey) |
+| <!--IBM CP4BA - Bring-up Lab<br />[Bring-Up Lab-1](../23.0.2/Bring-up) (based on CP4BA 23.0.2)<br /> --> [Bring-Up Lab-2](Bring-Up)| 3 | 5-10 hours | [Bring-up Survey](https://ibm.biz/ba-wxo-tech-jam-bring-up-survey) |
 
 ## Track descriptions
 

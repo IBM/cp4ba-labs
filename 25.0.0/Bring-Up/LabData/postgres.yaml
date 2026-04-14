@@ -1,0 +1,185 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: postgres
+
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: postgres-secret
+type: Opaque
+stringData:
+  postgres-password: passw0rd
+  postgres-user: pgadmin
+  pguser: pgadmin
+  pgbench-password: passw0rd
+
+---
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: postgres
+spec:
+  storageClassName: nfs-client
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 20Gi
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postgres
+  labels:
+    app: postgres
+spec:
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  replicas: 1
+  selector:
+    matchLabels:
+      app: postgres
+  template:
+    metadata:
+      labels:
+        app: postgres
+    spec:
+      automountServiceAccountToken: false
+      initContainers:
+      - name: copy-certs
+        image: postgres:15.7
+        command:
+          - /bin/sh
+          - '-cx'
+          - >
+            rm -rf /var/lib/postgresql/data/server.*;
+            cp /var/lib/postgresql/cert/server.* /var/lib/postgresql/data/;
+            chmod -R 600 /var/lib/postgresql/data/server.*;
+            echo Copied the certificates to /var/lib/postgresql/data;
+            ls -l /var/lib/postgresql/data;
+        securityContext:
+          privileged: false
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: true
+          runAsNonRoot: true
+        volumeMounts:
+        - mountPath: /var/lib/postgresql/data
+          name: postgres-data-disk
+          subPath: config
+        - mountPath: /var/lib/postgresql/cert
+          name: postgres-certs
+        - mountPath: /mnt
+          name: postgres-data-disk
+          subPath: data
+        - mountPath: /tmp
+          name: tmp1
+        - mountPath: /var/run
+          name: tmp2
+      containers:
+      - name: postgres
+        image: postgres:15.7
+        securityContext:
+          privileged: false
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: true
+          runAsNonRoot: true
+        ports:
+        - containerPort: 5432
+        env:
+        - name: POSTGRES_USER
+          valueFrom:
+            secretKeyRef:
+              name: postgres-secret
+              key: postgres-user
+        - name: PGUSER
+          valueFrom:          
+            secretKeyRef:
+              name: postgres-secret
+              key: pguser
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: postgres-secret
+              key: postgres-password
+        - name: PGBENCH_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: postgres-secret
+              key: pgbench-password
+        - name: PGDATA
+          value: /var/lib/postgresql/data/pgdata
+        volumeMounts:
+        - mountPath: /var/lib/postgresql/data
+          name: postgres-data-disk
+          subPath: config
+        - mountPath: /var/lib/postgresql/cert
+          name: postgres-certs
+        - mountPath: /mnt
+          name: postgres-data-disk
+          subPath: data
+        - mountPath: /tmp
+          name: tmp1
+        - mountPath: /var/run
+          name: tmp2
+        livenessProbe:
+          exec:
+            command:
+              - bash
+              - -ec
+              - 'PGPASSWORD=$POSTGRES_PASSWORD psql -w -U "pgadmin" -d "postgres" -c "SELECT 1 as IsReady" -A'
+          initialDelaySeconds: 180
+          periodSeconds: 10
+          timeoutSeconds: 5
+          successThreshold: 1
+          failureThreshold: 6
+        readinessProbe:
+          exec:
+            command:
+              - bash
+              - -ec
+              - 'PGPASSWORD=$POSTGRES_PASSWORD psql -w -U "pgadmin" -d "postgres" -c "SELECT 1 as IsReady" -A'
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          timeoutSeconds: 5
+          successThreshold: 1
+          failureThreshold: 6        
+      serviceAccount: postgres
+      serviceAccountName: postgres
+      volumes:
+      - name: postgres-data-disk
+        persistentVolumeClaim:
+          claimName: postgres
+      - name: postgres-certs
+        secret:
+          secretName: postgres-tls
+          items:
+          - key: tls.crt
+            path: server.crt
+          - key: tls.key
+            path: server.key
+            mode: 0640
+      - name: tmp1
+        emptyDir: {}
+      - name: tmp2
+        emptyDir: {}
+
+---          
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgres
+  labels:
+    app: postgres
+spec:
+  ports:
+  - port: 5432
+    protocol: TCP
+    targetPort: 5432
+  selector:
+    app: postgres
