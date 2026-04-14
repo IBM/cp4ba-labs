@@ -7,7 +7,7 @@ Version 1.0
 * Thomas Schulze - [ThomasSchulze@de.ibm.com](mailto:ThomasSchulze@de.ibm.com)
 * Matthias Jung - [matthias.jung@de.ibm.com](mailto:matthias.jung@de.ibm.com)
 * Jorge D. Rodriguez - [jorgedr@us.ibm.com](mailto:jorgedr@us.ibm.com)
-* Zhong Tao Gao - [gaozt@cn.ibm.com](mailto:gaozt@cn.ibm.com)
+* Thong Huynh - [Thong.Huynh1@ibm.com](mailto:Thong.Huynh1@ibm.com)
 
 ---
 
