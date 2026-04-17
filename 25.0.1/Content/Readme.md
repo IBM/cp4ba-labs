@@ -55,7 +55,7 @@ IBM FileNet Content Manager is a flexible, full-featured content management solu
 
   The lab begins with an introduction to the IBM Content Assistant user interface, presented as an AI chat window in the lower-right corner of an
   IBM Content Navigator desktop. It also highlights the "Ask the Repository" feature, which enables users to query the AI across all documents
-  in the FileNet repository.
+  in the FileNet repository, and the new Document comparison feature.
   
   The second part of the lab explores the underlying architecture. It explains the components of the IBM Content Assistant add-on and how they
   enable integration with custom applications via the FileNet Content Engine API—such as the Client Onboarding Application.
