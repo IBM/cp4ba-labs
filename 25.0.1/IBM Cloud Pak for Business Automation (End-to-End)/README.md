@@ -19,7 +19,7 @@ IBM Cloud Pak® for Business Automation offers design, build, run, and automatio
 
   **Approximate Duration**: 2 hours
 
-
+------
 
 **Backup** (original, non AI-enhanced version)
 
