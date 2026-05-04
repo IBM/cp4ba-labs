@@ -17,6 +17,8 @@ IBM Cloud Pak® for Business Automation offers design, build, run, and automatio
   - IBM Workflow generative AI capability
   - IBM Workplace Assistant
 
+  This lab requires additional files that can be found in the <a href="https://github.com/IBM/cp4ba-labs/tree/main/25.0.1/IBM%20Cloud%20Pak%20for%20Business%20Automation%20(End-to-End)/Lab%20Data" target="_blank">Lab Data</a> folder.
+
   **Approximate Duration**: 2 hours
 
 ------
@@ -27,4 +29,6 @@ The lab document below allows you to perform the Client Onboarding scenario in i
 
 - **[IBM Cloud Pak for Business Automation: An End-to-End Demonstration](Lab%20Guide%20-%20End-to-End%20Scenario.pdf)**: This lab showcases the art of the possible for the IBM Cloud Pak for Business Automation platform when using the platform. You will assume the role of an end user to step through an integrated Client Onboarding scenario. 
 
+  This lab requires additional files that can be found in the <a href="https://github.com/IBM/cp4ba-labs/tree/main/25.0.1/IBM%20Cloud%20Pak%20for%20Business%20Automation%20(End-to-End)/Lab%20Data" target="_blank">Lab Data</a> folder.
+  
   **Approximate Duration**: 2 hours
