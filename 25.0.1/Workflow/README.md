@@ -16,14 +16,12 @@ IBM Business Automation Workflow is software that combines business process mana
 
   **Approximate Duration**: 2 hours
 
-  **Track 2 - Developer Role / Solution Implementation**
-
 - **[Use Gen AI to Identify and Validate Documents](Use%20Gen%20AI%20to%20Identify%20and%20Validate%20Documents.pdf)**: Attendees will learn how to configure and utilize the GenAI Task within IBM BAW to enrich human task activities. They will gain practical experience designing workflows that leverage GenAI to automate content creation, improve decision-making, and optimize task management. By the end of the lab, participants will understand how to apply GenAI capabilities to real-world business scenarios, enabling more innovative and more efficient process automation. 
 
   **Approximate Duration**: 1-2 hours
 
-- **[Use the IBM Workplace Assistant to Work with Processes and Tasks in IBM Business Automation Workflow](Use%20the%20IBM%20Workplace%20Assistant%20to%20Work%20with%20Processes%20and%20Tasks%20in%20IBM%20Business%20Automation%20Workflow.pdf)**: Gain hands-on experience with IBM Workflow Assistant and learn how it integrates with IBM Workplace to simplify team and task management through conversational AI
- 
+- **[Use the IBM Workplace Assistant to Work with Processes and Tasks in IBM Business Automation Workflow](Use%20the%20IBM%20Workplace%20Assistant%20to%20Work%20with%20Processes%20and%20Tasks%20in%20IBM%20Business%20Automation%20Workflow.pdf)**: Gain hands-on experience with IBM Workplace Assistant and learn how it integrates with IBM Workplace to simplify team and task management through conversational AI.
+
   **Approximate Duration**: 1 hour
 
 
