@@ -10,7 +10,7 @@ Going from simple, back-office task automation to scaled automation to handle ti
 
 - **[Application Automation using IBM RPA](Lab%201%20-%20Application%20Automation)**: In this lab you will learn how to use IBM RPA Studio to develop a bot to automate a Java swing application and a web application. 
 - **[IBM RPA and Workflow Integration](Lab%202%20-%20Workflow%20%26%20RPA%20Integration)**: In this lab you will learn how the bot designed in RPA Studio can easily be integrated into a business process developed with the Workflow capability in IBM Cloud Pak for Business Automation.
-- **[Orchestrating scripts in IBM RPA](Lab%203%20-%20Oschestrating%20Scripts%20in%20IBM%20RPA)**: In this lab you will learn how to create and use the orchestration process, message queues capability of serving messages of multiple customers automating the customer and service registration process divided into three steps.
+- **[Orchestrating scripts in IBM RPA](Lab%203%20-%20Orchestrating%20Scripts%20in%20IBM%20RPA)**: In this lab you will learn how to create and use the orchestration process, message queues capability of serving messages of multiple customers automating the customer and service registration process divided into three steps.
 - **[Exception Handling scripts in IBM RPA](Lab%204%20-%20Exception%20Handling)**: In this lab you will walk through the process of applying exception handling along with best practices. You will automate the sales lead and claims submission process using error handling. The same will be divided into micro scenarios which will cover the business and system exceptions.
 
 
