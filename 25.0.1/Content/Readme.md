@@ -10,7 +10,7 @@ The latest addition to the Content Services portfolio is IBM Content Assistant t
 
 **Track 2 - Developer Role / Solution Implementation**
 
-- **[Setting up FileNet Content Manager for Automation Projects on Cloud Pak for Business Automation](CONTENT%20Lab%201%20-%20CPE.pdf)**
+- **[Setting up FileNet Content Manager for Automation Projects on Cloud Pak for Business Automation](CONTENT%20Lab%201%20-%20CPE.pdf):**
   In this lab, you will create a small hierarchy of Document classes to
   capture different kinds of documents together with custom metadata,
   and will learn about the most important security concepts. You will
@@ -31,7 +31,7 @@ The latest addition to the Content Services portfolio is IBM Content Assistant t
 
   **Approximate Duration**: 4 - 5 hours
 
-- **[Interfacing FileNet Content Platform Engine with GraphQL on Cloud Pak for Business Automation](CONTENT%20Lab%202%20-%20GraphQL.pdf)**
+- **[Interfacing FileNet Content Platform Engine with GraphQL on Cloud Pak for Business Automation](CONTENT%20Lab%202%20-%20GraphQL.pdf):**
   The second lab on GraphQL builds on top of the first one, as the
   searches performed using GraphQL use the documents and document
   classes defined in the first lab.  Here you learn by a series of
@@ -41,7 +41,7 @@ The latest addition to the Content Services portfolio is IBM Content Assistant t
 
   **Approximate Duration**: 1.5 - 2 hours
 
-- **[Introduction to Content Navigator in Cloud Pak for Business Automation](CONTENT%20Lab%203%20-%20ICN.pdf)**
+- **[Introduction to Content Navigator in Cloud Pak for Business Automation](CONTENT%20Lab%203%20-%20ICN.pdf):**
   The third lab on IBM Content Navigator builds on top of the first, but not the second one.
   In it you can learn important concepts which allow you to configure IBM Content Navigator for a business application.
   The administration parts of the lab cannot be performed in the context of the shared lab environment, and are provided as Walkthroughs in the lab guide.
@@ -51,7 +51,7 @@ The latest addition to the Content Services portfolio is IBM Content Assistant t
   **Approximate Duration**: 1.5 - 2 hours
 
 
-- **[Configuration and Usage of IBM Content Assistant with Cloud Pak for Business Automation - AI-Powered Insights from FileNet Documents](CONTENT%20Lab%204%20-%20Content%20Assistant.pdf)**
+- **[Configuration and Usage of IBM Content Assistant with Cloud Pak for Business Automation - AI-Powered Insights from FileNet Documents](CONTENT%20Lab%204%20-%20Content%20Assistant.pdf):**
   The fourth lab demonstrates how IBM Content Assistant leverages Generative AI to extract information and insights from documents stored in an IBM FileNet Content Engine Object Store. It ensures secure access by restricting query results to documents the user is authorized to view.
   
   The lab begins with an introduction to the IBM Content Assistant user interface, presented as an AI chat window in the lower-right corner of an IBM Content Navigator desktop. It also highlights the "Ask the Repository" feature, which enables users to query the AI across all documents in the FileNet repository, and the new Document comparison feature.
