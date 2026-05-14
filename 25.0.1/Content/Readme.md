@@ -2,13 +2,15 @@
 
 ## Overview
 
-IBM FileNet Content Manager is a flexible, full-featured content management solution that provides the foundation for IBM Cloud Pak® for Business Automation. In labs you will get introduced to important core concepts of FileNet Content Platform Engine and Content Services GraphQL and IBM Content Navigator which will enable you to use FileNet Content Platform Engine to build the information architecture for automation projects realized with Cloud Pak for Business Automation. 
+IBM FileNet Content Manager is a flexible, full-featured content management solution that provides the foundation for IBM Cloud Pak® for Business Automation. In labs you will get introduced to important core concepts of FileNet Content Platform Engine, Content Services GraphQL and IBM Content Navigator which will enable you to use FileNet Content Platform Engine to build the information architecture for automation projects realized with Cloud Pak for Business Automation. 
+
+The latest addition to the Content Services portfolio is IBM Content Assistant that provides natural language insights about business content in IBM FileNet Content Manager repositories. This is covered in the fourth lab.
 
 ## Labs
 
 **Track 2 - Developer Role / Solution Implementation**
 
-- **[Setting up FileNet Content Manager for Automation Projects on Cloud Pak for Business Automation](CONTENT%20Lab%201%20-%20CPE.pdf)**:
+- **[Setting up FileNet Content Manager for Automation Projects on Cloud Pak for Business Automation](CONTENT%20Lab%201%20-%20CPE.pdf)**
   In this lab, you will create a small hierarchy of Document classes to
   capture different kinds of documents together with custom metadata,
   and will learn about the most important security concepts. You will
@@ -19,7 +21,7 @@ IBM FileNet Content Manager is a flexible, full-featured content management solu
   i.e. searches for documents based on information contained in the
   documents themselves, not (only) on their metadata.
 
-  On this lab, for triggering the custom actions, a custom JavaScript is
+  In this lab, for triggering the custom actions, a custom JavaScript is
   used to file a newly uploaded document into a folder, those identity
   is derived from a search. The script is available in the [Lab
   Data](Lab%20Data) folder. Be aware that in the script, some
@@ -29,7 +31,7 @@ IBM FileNet Content Manager is a flexible, full-featured content management solu
 
   **Approximate Duration**: 4 - 5 hours
 
-- **[Interfacing FileNet Content Platform Engine with GraphQL on Cloud Pak for Business Automation](CONTENT%20Lab%202%20-%20GraphQL.pdf)**:
+- **[Interfacing FileNet Content Platform Engine with GraphQL on Cloud Pak for Business Automation](CONTENT%20Lab%202%20-%20GraphQL.pdf)**
   The second lab on GraphQL builds on top of the first one, as the
   searches performed using GraphQL use the documents and document
   classes defined in the first lab.  Here you learn by a series of
@@ -39,28 +41,23 @@ IBM FileNet Content Manager is a flexible, full-featured content management solu
 
   **Approximate Duration**: 1.5 - 2 hours
 
-- **[Introduction to Content Navigator in Cloud Pak for Business Automation](CONTENT%20Lab%203%20-%20ICN.pdf)**:
+- **[Introduction to Content Navigator in Cloud Pak for Business Automation](CONTENT%20Lab%203%20-%20ICN.pdf)**
   The third lab on IBM Content Navigator builds on top of the first, but not the second one.
   In it you can learn important concepts which allow you to configure IBM Content Navigator for a business application.
-  The administration parts of the lab cannot be performed in the context of the shared lab environment, and
-  are provided as Walkthroughs in the lab guide.
+  The administration parts of the lab cannot be performed in the context of the shared lab environment, and are provided as Walkthroughs in the lab guide.
+  
+  This lab requires additional files that can be found in the [Lab Data](Lab%20Data) folder.
   
   **Approximate Duration**: 1.5 - 2 hours
 
 
-- **[AI-Powered Insights from FileNet Documents](CONTENT%20Lab%204%20-%20Content%20Assistant.pdf)**:
-  The fourth lab demonstrates how IBM Content Assistant leverages Artificial Intelligence to extract information and insights from documents
-  stored in an IBM FileNet Content Engine Object Store. It ensures secure access by restricting query results to documents the user is authorized
-  to view.
-
-  The lab begins with an introduction to the IBM Content Assistant user interface, presented as an AI chat window in the lower-right corner of an
-  IBM Content Navigator desktop. It also highlights the "Ask the Repository" feature, which enables users to query the AI across all documents
-  in the FileNet repository, and the new Document comparison feature.
+- **[Configuration and Usage of IBM Content Assistant with Cloud Pak for Business Automation - AI-Powered Insights from FileNet Documents](CONTENT%20Lab%204%20-%20Content%20Assistant.pdf)**
+  The fourth lab demonstrates how IBM Content Assistant leverages Generative AI to extract information and insights from documents stored in an IBM FileNet Content Engine Object Store. It ensures secure access by restricting query results to documents the user is authorized to view.
   
-  The second part of the lab explores the underlying architecture. It explains the components of the IBM Content Assistant add-on and how they
-  enable integration with custom applications via the FileNet Content Engine API—such as the Client Onboarding Application.
+  The lab begins with an introduction to the IBM Content Assistant user interface, presented as an AI chat window in the lower-right corner of an IBM Content Navigator desktop. It also highlights the "Ask the Repository" feature, which enables users to query the AI across all documents in the FileNet repository, and the new Document comparison feature.
+
+  The second part of the lab explores the underlying architecture. It explains the components of the IBM Content Assistant add-ons and how they enable integration with custom applications via the FileNet Content Engine API—such as the Client Onboarding Application.
   
   The final section provides GraphQL example mutations and queries, which can be used as blueprints in such integrations.
-
+  
   **Approximate Duration**: 2 - 3 hours
-   
