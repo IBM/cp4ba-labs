@@ -20,7 +20,7 @@ IBM Business Automation Workflow is software that combines business process mana
 
   **Approximate Duration**: 1-2 hours
 
-- **[Use the IBM Workplace Assistant to Work with Processes and Tasks in IBM Business Automation Workflow](Use%20the%20IBM%20Workplace%20Assistant%20to%20Work%20with%20Processes%20and%20Tasks%20in%20IBM%20Business%20Automation%20Workflow.pdf)**: Gain hands-on experience with IBM Workplace Assistant and learn how it integrates with IBM Workplace to simplify team and task management through conversational AI.
+- **[Use the IBM Workplace Assistant to Work with Processes and Tasks in IBM Business Automation Workflow](Lab%20Guide%20-%20Use%20the%20IBM%20Workplace%20Assistant%20to%20Work%20with%20Processes%20and%20Tasks%20in%20IBM%20Business%20Automation%20Workflow.pdf)**: Gain hands-on experience with IBM Workplace Assistant and learn how it integrates with IBM Workplace to simplify team and task management through conversational AI.
 
   **Approximate Duration**: 1 hour
 
